@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ejemplo2.dir/widget.cpp.o CMakeFiles/ejemplo2.dir/ClaseThread.cpp.o CMakeFiles/ejemplo2.dir/main.cpp.o CMakeFiles/ejemplo2.dir/moc_widget.cxx.o CMakeFiles/ejemplo2.dir/moc_ClaseThread.cxx.o  -o ejemplo2 -lQtCore -lQtGui -lpthread 

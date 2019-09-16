@@ -1,0 +1,30 @@
+project(ejemplo2)
+cmake_minimum_required(VERSION 2.6)
+find_package(Qt4 REQUIRED)
+
+include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
+ADD_DEFINITIONS( -std=c++17 -Wextra)
+
+# Sources set
+SET ( SOURCES
+  ${SOURCES}
+  widget.cpp
+  ClaseThread.cpp
+  main.cpp
+ )
+
+# Headers set
+SET ( HEADERS
+  ${HEADERS}
+  widget.h
+  ClaseThread.h
+)
+
+FIND_PACKAGE( Qt4 REQUIRED )
+SET( QT_USE_QTGUI TRUE )
+QT4_WRAP_CPP( MOC_SOURCES ${HEADERS} )
+QT4_WRAP_UI( UI_HEADERS widget.ui )
+
+ADD_EXECUTABLE(ejemplo2 ${SOURCES}  ${MOC_SOURCES} ${UI_HEADERS})
+target_link_libraries(ejemplo2 ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} -lpthread)
+install(TARGETS ejemplo2 RUNTIME DESTINATION bin)
