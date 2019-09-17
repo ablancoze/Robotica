@@ -1,4 +1,0 @@
-# Hashes of file build rules.
-44cac6d1d30d7cb73e12f6738516d594 moc_ClaseThread.cxx
-d78375f1c81d4c1541ea0738242d6e18 moc_widget.cxx
-319cbd52c2d309dcabdf1ac7a4d6ec85 ui_widget.h
