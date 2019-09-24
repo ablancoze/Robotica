@@ -53,3 +53,58 @@ Makefile:126: recipe for target 'cmTC_6b31a/fast' failed
 make: *** [cmTC_6b31a/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e030e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e030e.dir/build.make CMakeFiles/cmTC_e030e.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e030e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e030e.dir/CheckSymbolExists.c.o   -c /home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e030e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e030e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e030e.dir/CheckSymbolExists.c.o  -o cmTC_e030e 
+CMakeFiles/cmTC_e030e.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e030e.dir/build.make:97: recipe for target 'cmTC_e030e' failed
+make[1]: *** [cmTC_e030e] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e030e/fast' failed
+make: *** [cmTC_e030e/fast] Error 2
+
+File /home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40f56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40f56.dir/build.make CMakeFiles/cmTC_40f56.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40f56.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40f56.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40f56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40f56.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_40f56.dir/CheckFunctionExists.c.o  -o cmTC_40f56 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_40f56.dir/build.make:97: recipe for target 'cmTC_40f56' failed
+make[1]: *** [cmTC_40f56] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40f56/fast' failed
+make: *** [cmTC_40f56/fast] Error 2
+
+

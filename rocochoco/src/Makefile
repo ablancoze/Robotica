@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco
+CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/Robotica/rocochoco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco
+CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robotica/rocochoco
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -E cmake_progress_start /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/progress.marks
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles 0
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -E cmake_progress_start /home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles /home/salabeta/robocomp/components/Robotica/rocochoco/src/CMakeFiles/progress.marks
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/rocochoco.dir/rule:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/rocochoco.dir/rule
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/rocochoco.dir/rule
 .PHONY : src/CMakeFiles/rocochoco.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ rocochoco: src/CMakeFiles/rocochoco.dir/rule
 
 # fast build rule for target.
 rocochoco/fast:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/build
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/build
 .PHONY : rocochoco/fast
 
 # Convenience name for target.
 src/CMakeFiles/rocochoco_autogen.dir/rule:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/rocochoco_autogen.dir/rule
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/rocochoco_autogen.dir/rule
 .PHONY : src/CMakeFiles/rocochoco_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ rocochoco_autogen: src/CMakeFiles/rocochoco_autogen.dir/rule
 
 # fast build rule for target.
 rocochoco_autogen/fast:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco_autogen.dir/build.make src/CMakeFiles/rocochoco_autogen.dir/build
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco_autogen.dir/build.make src/CMakeFiles/rocochoco_autogen.dir/build
 .PHONY : rocochoco_autogen/fast
 
 CommonBehavior.o: CommonBehavior.cpp.o
@@ -192,7 +192,7 @@ CommonBehavior.o: CommonBehavior.cpp.o
 
 # target to build an object file
 CommonBehavior.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/CommonBehavior.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/CommonBehavior.cpp.o
 .PHONY : CommonBehavior.cpp.o
 
 CommonBehavior.i: CommonBehavior.cpp.i
@@ -201,7 +201,7 @@ CommonBehavior.i: CommonBehavior.cpp.i
 
 # target to preprocess a source file
 CommonBehavior.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/CommonBehavior.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/CommonBehavior.cpp.i
 .PHONY : CommonBehavior.cpp.i
 
 CommonBehavior.s: CommonBehavior.cpp.s
@@ -210,7 +210,7 @@ CommonBehavior.s: CommonBehavior.cpp.s
 
 # target to generate assembly for a file
 CommonBehavior.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/CommonBehavior.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/CommonBehavior.cpp.s
 .PHONY : CommonBehavior.cpp.s
 
 DifferentialRobot.o: DifferentialRobot.cpp.o
@@ -219,7 +219,7 @@ DifferentialRobot.o: DifferentialRobot.cpp.o
 
 # target to build an object file
 DifferentialRobot.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/DifferentialRobot.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/DifferentialRobot.cpp.o
 .PHONY : DifferentialRobot.cpp.o
 
 DifferentialRobot.i: DifferentialRobot.cpp.i
@@ -228,7 +228,7 @@ DifferentialRobot.i: DifferentialRobot.cpp.i
 
 # target to preprocess a source file
 DifferentialRobot.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/DifferentialRobot.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/DifferentialRobot.cpp.i
 .PHONY : DifferentialRobot.cpp.i
 
 DifferentialRobot.s: DifferentialRobot.cpp.s
@@ -237,7 +237,7 @@ DifferentialRobot.s: DifferentialRobot.cpp.s
 
 # target to generate assembly for a file
 DifferentialRobot.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/DifferentialRobot.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/DifferentialRobot.cpp.s
 .PHONY : DifferentialRobot.cpp.s
 
 GenericBase.o: GenericBase.cpp.o
@@ -246,7 +246,7 @@ GenericBase.o: GenericBase.cpp.o
 
 # target to build an object file
 GenericBase.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/GenericBase.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/GenericBase.cpp.o
 .PHONY : GenericBase.cpp.o
 
 GenericBase.i: GenericBase.cpp.i
@@ -255,7 +255,7 @@ GenericBase.i: GenericBase.cpp.i
 
 # target to preprocess a source file
 GenericBase.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/GenericBase.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/GenericBase.cpp.i
 .PHONY : GenericBase.cpp.i
 
 GenericBase.s: GenericBase.cpp.s
@@ -264,7 +264,7 @@ GenericBase.s: GenericBase.cpp.s
 
 # target to generate assembly for a file
 GenericBase.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/GenericBase.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/GenericBase.cpp.s
 .PHONY : GenericBase.cpp.s
 
 Laser.o: Laser.cpp.o
@@ -273,7 +273,7 @@ Laser.o: Laser.cpp.o
 
 # target to build an object file
 Laser.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/Laser.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/Laser.cpp.o
 .PHONY : Laser.cpp.o
 
 Laser.i: Laser.cpp.i
@@ -282,7 +282,7 @@ Laser.i: Laser.cpp.i
 
 # target to preprocess a source file
 Laser.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/Laser.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/Laser.cpp.i
 .PHONY : Laser.cpp.i
 
 Laser.s: Laser.cpp.s
@@ -291,7 +291,7 @@ Laser.s: Laser.cpp.s
 
 # target to generate assembly for a file
 Laser.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/Laser.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/Laser.cpp.s
 .PHONY : Laser.cpp.s
 
 commonbehaviorI.o: commonbehaviorI.cpp.o
@@ -300,7 +300,7 @@ commonbehaviorI.o: commonbehaviorI.cpp.o
 
 # target to build an object file
 commonbehaviorI.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.o
 .PHONY : commonbehaviorI.cpp.o
 
 commonbehaviorI.i: commonbehaviorI.cpp.i
@@ -309,7 +309,7 @@ commonbehaviorI.i: commonbehaviorI.cpp.i
 
 # target to preprocess a source file
 commonbehaviorI.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.i
 .PHONY : commonbehaviorI.cpp.i
 
 commonbehaviorI.s: commonbehaviorI.cpp.s
@@ -318,7 +318,7 @@ commonbehaviorI.s: commonbehaviorI.cpp.s
 
 # target to generate assembly for a file
 commonbehaviorI.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.s
 .PHONY : commonbehaviorI.cpp.s
 
 genericmonitor.o: genericmonitor.cpp.o
@@ -327,7 +327,7 @@ genericmonitor.o: genericmonitor.cpp.o
 
 # target to build an object file
 genericmonitor.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.o
 .PHONY : genericmonitor.cpp.o
 
 genericmonitor.i: genericmonitor.cpp.i
@@ -336,7 +336,7 @@ genericmonitor.i: genericmonitor.cpp.i
 
 # target to preprocess a source file
 genericmonitor.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.i
 .PHONY : genericmonitor.cpp.i
 
 genericmonitor.s: genericmonitor.cpp.s
@@ -345,7 +345,7 @@ genericmonitor.s: genericmonitor.cpp.s
 
 # target to generate assembly for a file
 genericmonitor.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.s
 .PHONY : genericmonitor.cpp.s
 
 genericworker.o: genericworker.cpp.o
@@ -354,7 +354,7 @@ genericworker.o: genericworker.cpp.o
 
 # target to build an object file
 genericworker.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericworker.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericworker.cpp.o
 .PHONY : genericworker.cpp.o
 
 genericworker.i: genericworker.cpp.i
@@ -363,7 +363,7 @@ genericworker.i: genericworker.cpp.i
 
 # target to preprocess a source file
 genericworker.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericworker.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericworker.cpp.i
 .PHONY : genericworker.cpp.i
 
 genericworker.s: genericworker.cpp.s
@@ -372,89 +372,89 @@ genericworker.s: genericworker.cpp.s
 
 # target to generate assembly for a file
 genericworker.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericworker.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/genericworker.cpp.s
 .PHONY : genericworker.cpp.s
 
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.o: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o
+home/salabeta/robocomp/classes/qlog/qlog.o: home/salabeta/robocomp/classes/qlog/qlog.cpp.o
 
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.o
-
-# target to build an object file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o
-
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.i: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i
-
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.i
-
-# target to preprocess a source file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i
-
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.s: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s
-
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.s
-
-# target to generate assembly for a file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s
-
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.o: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o
-
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.o
+.PHONY : home/salabeta/robocomp/classes/qlog/qlog.o
 
 # target to build an object file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o
+home/salabeta/robocomp/classes/qlog/qlog.cpp.o:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
+.PHONY : home/salabeta/robocomp/classes/qlog/qlog.cpp.o
 
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.i: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i
+home/salabeta/robocomp/classes/qlog/qlog.i: home/salabeta/robocomp/classes/qlog/qlog.cpp.i
 
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.i
+.PHONY : home/salabeta/robocomp/classes/qlog/qlog.i
 
 # target to preprocess a source file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i
+home/salabeta/robocomp/classes/qlog/qlog.cpp.i:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i
+.PHONY : home/salabeta/robocomp/classes/qlog/qlog.cpp.i
 
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.s: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s
+home/salabeta/robocomp/classes/qlog/qlog.s: home/salabeta/robocomp/classes/qlog/qlog.cpp.s
 
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.s
+.PHONY : home/salabeta/robocomp/classes/qlog/qlog.s
 
 # target to generate assembly for a file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s
+home/salabeta/robocomp/classes/qlog/qlog.cpp.s:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s
+.PHONY : home/salabeta/robocomp/classes/qlog/qlog.cpp.s
 
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.o: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o
+home/salabeta/robocomp/classes/rapplication/rapplication.o: home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
 
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.o
+.PHONY : home/salabeta/robocomp/classes/rapplication/rapplication.o
 
 # target to build an object file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o
+home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
+.PHONY : home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
 
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.i: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i
+home/salabeta/robocomp/classes/rapplication/rapplication.i: home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i
 
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.i
+.PHONY : home/salabeta/robocomp/classes/rapplication/rapplication.i
 
 # target to preprocess a source file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i
+home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i
+.PHONY : home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i
 
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.s: home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s
+home/salabeta/robocomp/classes/rapplication/rapplication.s: home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s
 
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.s
+.PHONY : home/salabeta/robocomp/classes/rapplication/rapplication.s
 
 # target to generate assembly for a file
-home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s
-.PHONY : home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s
+home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s
+.PHONY : home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s
+
+home/salabeta/robocomp/classes/sigwatch/sigwatch.o: home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+.PHONY : home/salabeta/robocomp/classes/sigwatch/sigwatch.o
+
+# target to build an object file
+home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
+.PHONY : home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+home/salabeta/robocomp/classes/sigwatch/sigwatch.i: home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i
+
+.PHONY : home/salabeta/robocomp/classes/sigwatch/sigwatch.i
+
+# target to preprocess a source file
+home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i
+.PHONY : home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i
+
+home/salabeta/robocomp/classes/sigwatch/sigwatch.s: home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s
+
+.PHONY : home/salabeta/robocomp/classes/sigwatch/sigwatch.s
+
+# target to generate assembly for a file
+home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s:
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s
+.PHONY : home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s
 
 main.o: main.cpp.o
 
@@ -462,7 +462,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/main.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -471,7 +471,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/main.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -480,7 +480,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/main.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 rocochoco_autogen/mocs_compilation.o: rocochoco_autogen/mocs_compilation.cpp.o
@@ -489,7 +489,7 @@ rocochoco_autogen/mocs_compilation.o: rocochoco_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 rocochoco_autogen/mocs_compilation.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.o
 .PHONY : rocochoco_autogen/mocs_compilation.cpp.o
 
 rocochoco_autogen/mocs_compilation.i: rocochoco_autogen/mocs_compilation.cpp.i
@@ -498,7 +498,7 @@ rocochoco_autogen/mocs_compilation.i: rocochoco_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 rocochoco_autogen/mocs_compilation.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.i
 .PHONY : rocochoco_autogen/mocs_compilation.cpp.i
 
 rocochoco_autogen/mocs_compilation.s: rocochoco_autogen/mocs_compilation.cpp.s
@@ -507,7 +507,7 @@ rocochoco_autogen/mocs_compilation.s: rocochoco_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 rocochoco_autogen/mocs_compilation.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.s
 .PHONY : rocochoco_autogen/mocs_compilation.cpp.s
 
 specificmonitor.o: specificmonitor.cpp.o
@@ -516,7 +516,7 @@ specificmonitor.o: specificmonitor.cpp.o
 
 # target to build an object file
 specificmonitor.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.o
 .PHONY : specificmonitor.cpp.o
 
 specificmonitor.i: specificmonitor.cpp.i
@@ -525,7 +525,7 @@ specificmonitor.i: specificmonitor.cpp.i
 
 # target to preprocess a source file
 specificmonitor.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.i
 .PHONY : specificmonitor.cpp.i
 
 specificmonitor.s: specificmonitor.cpp.s
@@ -534,7 +534,7 @@ specificmonitor.s: specificmonitor.cpp.s
 
 # target to generate assembly for a file
 specificmonitor.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.s
 .PHONY : specificmonitor.cpp.s
 
 specificworker.o: specificworker.cpp.o
@@ -543,7 +543,7 @@ specificworker.o: specificworker.cpp.o
 
 # target to build an object file
 specificworker.cpp.o:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificworker.cpp.o
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificworker.cpp.o
 .PHONY : specificworker.cpp.o
 
 specificworker.i: specificworker.cpp.i
@@ -552,7 +552,7 @@ specificworker.i: specificworker.cpp.i
 
 # target to preprocess a source file
 specificworker.cpp.i:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificworker.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificworker.cpp.i
 .PHONY : specificworker.cpp.i
 
 specificworker.s: specificworker.cpp.s
@@ -561,7 +561,7 @@ specificworker.s: specificworker.cpp.s
 
 # target to generate assembly for a file
 specificworker.cpp.s:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificworker.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(MAKE) -f src/CMakeFiles/rocochoco.dir/build.make src/CMakeFiles/rocochoco.dir/specificworker.cpp.s
 .PHONY : specificworker.cpp.s
 
 # Help Target
@@ -599,15 +599,15 @@ help:
 	@echo "... genericworker.o"
 	@echo "... genericworker.i"
 	@echo "... genericworker.s"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.o"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.i"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.s"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.o"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.i"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.s"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.o"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.i"
-	@echo "... home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.s"
+	@echo "... home/salabeta/robocomp/classes/qlog/qlog.o"
+	@echo "... home/salabeta/robocomp/classes/qlog/qlog.i"
+	@echo "... home/salabeta/robocomp/classes/qlog/qlog.s"
+	@echo "... home/salabeta/robocomp/classes/rapplication/rapplication.o"
+	@echo "... home/salabeta/robocomp/classes/rapplication/rapplication.i"
+	@echo "... home/salabeta/robocomp/classes/rapplication/rapplication.s"
+	@echo "... home/salabeta/robocomp/classes/sigwatch/sigwatch.o"
+	@echo "... home/salabeta/robocomp/classes/sigwatch/sigwatch.i"
+	@echo "... home/salabeta/robocomp/classes/sigwatch/sigwatch.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -631,6 +631,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -23,7 +23,6 @@
 */
 SpecificWorker::SpecificWorker(TuplePrx tprx) : GenericWorker(tprx)
 {
-
 }
 
 /**
@@ -37,21 +36,17 @@ SpecificWorker::~SpecificWorker()
 
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
-//       THE FOLLOWING IS JUST AN EXAMPLE
-//	To use innerModelPath parameter you should uncomment specificmonitor.cpp readConfig method content
-//	try
-//	{
-//		RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
-//		std::string innermodel_path = par.value;
-//		innerModel = new InnerModel(innermodel_path);
-//	}
-//	catch(std::exception e) { qFatal("Error reading config params"); }
-
-
+	//       THE FOLLOWING IS JUST AN EXAMPLE
+	//	To use innerModelPath parameter you should uncomment specificmonitor.cpp readConfig method content
+	//	try
+	//	{
+	//		RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
+	//		std::string innermodel_path = par.value;
+	//		innerModel = new InnerModel(innermodel_path);
+	//	}
+	//	catch(std::exception e) { qFatal("Error reading config params"); }
 
 	defaultMachine.start();
-	
-
 
 	return true;
 }
@@ -62,44 +57,49 @@ void SpecificWorker::initialize(int period)
 	this->Period = period;
 	timer.start(Period);
 	emit this->initializetocompute();
-
 }
 
 void SpecificWorker::compute()
 {
-//computeCODE
-//QMutexLocker locker(mutex);
-//	try
-//	{
-//		camera_proxy->getYImage(0,img, cState, bState);
-//		memcpy(image_gray.data, &img[0], m_width*m_height*sizeof(uchar));
-//		searchTags(image_gray);
-//	}
-//	catch(const Ice::Exception &e)
-//	{
-//		std::cout << "Error reading from Camera" << e << std::endl;
-//	}
-}
+	const float threshold = 200; // millimeters
+	float rot = 0.6;			 // rads per second
 
+	try
+	{
+		// read laser data
+		RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
+		//sort laser data from small to large distances using a lambda function.
+		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+
+		if (ldata.front().dist < threshold)
+		{
+			std::cout << ldata.front().dist << std::endl;
+			differentialrobot_proxy->setSpeedBase(5, rot);
+			usleep(rand() % (1500000 - 100000 + 1) + 100000); // random wait between 1.5s and 0.1sec
+		}
+		else
+		{
+			differentialrobot_proxy->setSpeedBase(200, 0);
+		}
+	}
+	catch (const Ice::Exception &ex)
+	{
+		std::cout << ex << std::endl;
+	}
+}
 
 void SpecificWorker::sm_compute()
 {
-	std::cout<<"Entered state compute"<<std::endl;
+	std::cout << "Entered state compute" << std::endl;
 	compute();
 }
 
 void SpecificWorker::sm_initialize()
 {
-	std::cout<<"Entered initial state initialize"<<std::endl;
+	std::cout << "Entered initial state initialize" << std::endl;
 }
 
 void SpecificWorker::sm_finalize()
 {
-	std::cout<<"Entered final state finalize"<<std::endl;
+	std::cout << "Entered final state finalize" << std::endl;
 }
-
-
-
-
-
-
