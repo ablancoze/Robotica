@@ -1,0 +1,14 @@
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles/install/strip.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles/install.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles/install/local.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles/list_install_components.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles/edit_cache.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/CMakeFiles/rebuild_cache.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/install/strip.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/edit_cache.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/install.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rebuild_cache.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rocochoco.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/list_install_components.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/install/local.dir
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rocochoco_autogen.dir
