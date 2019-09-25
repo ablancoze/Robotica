@@ -1,0 +1,21 @@
+SetSpeedBase( , )
+3 dimensiones, solo las modificamos con dos valores, avance y giro
+2piR + milisegundos = sabemos lo que ha avanzado esa rueda. (En radianes)
+arco(delta) = radio * angulo
+con la diferencia angular sabremos cuánto ha girado.
+Vamos a crear una interfaz, que el robot se mueva sin chocar.
+(Objetivo de una aspiradora Roomba). 
+
+
+getShareData()
+abrir interfaz
+
+void compute() //periodico
+  auto d = ->get  (laser) //ir lo mas rapido posible sin chocarse
+  for(auto a:pepe)
+
+si hay camino libre, avanzo
+else hay obstaculo: iterar con timer
+el robot tiene un sensor de un rango de 400mm. 
+Podemos comprobar obstaculos a 100~200 mm. 
+timer random entre 10ms y 200ms, para girar aleatoriamente.
