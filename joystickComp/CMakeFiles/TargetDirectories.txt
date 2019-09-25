@@ -1,0 +1,14 @@
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/CMakeFiles/install/strip.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/CMakeFiles/install.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/CMakeFiles/install/local.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/CMakeFiles/list_install_components.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/CMakeFiles/edit_cache.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/edit_cache.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/install/strip.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/joystick.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/install.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/list_install_components.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/install/local.dir
+/home/salabeta/robocomp/components/robocomp-robolab/components/joystickComp/src/CMakeFiles/joystick_autogen.dir
