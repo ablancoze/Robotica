@@ -1,0 +1,14 @@
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/install/strip.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/install.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/install/local.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/list_install_components.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/edit_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/install/strip.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/edit_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/aspirador.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/list_install_components.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/install/local.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/install.dir
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/src/CMakeFiles/aspirador_autogen.dir
