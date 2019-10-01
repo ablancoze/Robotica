@@ -1,0 +1,6 @@
+[  4%] Automatic MOC for target aspirador
+[  4%] Built target aspirador_autogen
+[  9%] Linking CXX executable ../bin/aspirador
+src/CMakeFiles/aspirador.dir/build.make:494: recipe for target 'bin/aspirador' failed
+CMakeFiles/Makefile2:86: recipe for target 'src/CMakeFiles/aspirador.dir/all' failed
+Makefile:129: recipe for target 'all' failed
