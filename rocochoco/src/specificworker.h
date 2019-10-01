@@ -46,7 +46,9 @@ public slots:
 	void sm_compute();
 	void sm_initialize();
 	void sm_finalize();
-
+	void movimientoDefault(float threshold, float rot);
+	void movimientoRoco(float threshold, float rot);
+	void maquinaEstados(float threshold, float rot);
 //--------------------
 private:
 	std::shared_ptr<InnerModel> innerModel;

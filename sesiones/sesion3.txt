@@ -1,0 +1,15 @@
+Máquina de estados 
+
+class enum estado{ avanzar, obstaculo, distancia, pared, idle...}
+switch(estado)
+	case idle:
+		estado=idle();
+	break;
+	case avanzar:
+	break;
+	...
+}
+
+Queremos saber el momento de salir del estado o de tomar otro mejor.
+
+
