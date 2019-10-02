@@ -18,6 +18,9 @@
  */
 #include "specificworker.h"
 
+enum Estados {base,pared,obstaculo};
+Estados estado = base;
+
 /**
 * \brief Default constructor
 */
@@ -57,6 +60,7 @@ void SpecificWorker::initialize(int period)
 	this->Period = period;
 	timer.start(Period);
 	emit this->initializetocompute();
+	
 }
 
 void SpecificWorker::compute()
@@ -64,7 +68,7 @@ void SpecificWorker::compute()
 	const float threshold = 200; // millimeters
 	float rot = 0.6;			 // rads per second
 
-	movimientoRoco(threshold,rot);
+	movimientoDefault(threshold,rot);
 
 }
 
@@ -77,21 +81,39 @@ void SpecificWorker::movimientoRoco(float threshold, float rot)
 		//sort laser data from small to large distances using a lambda function.
 		// std::cout << "HEAD: " << ldata.begin().dist << std::endl;
 		// std::cout << "END: " << ldata.end().dis << std::endl;
-		for (const auto &l: ldata)
-			std::cout << l.dist << " " << l.angle << std::endl;
-		std::cout << std::endl;
+		// for (const auto &l: ldata)
+		// 	std::cout << l.dist << " " << l.angle << std::endl;
+		// std::cout << std::endl;
 
-		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });		
+		std::cout << ldata.back().dist << std::endl;
+
+		switch (estado)
+		{
+			case base:
+			differentialrobot_proxy->setSpeedBase(10, rot);
+			differentialrobot_proxy->setSpeedBase(200,0);
+			estado = pared;
+			break;
+
+			case pared:
+			
+			break;
+
+			case obstaculo:
+
+			break;
+		}
 		
 		if (ldata.front().dist < threshold)
 		{
 			std::cout << ldata.front().dist << std::endl;
-			differentialrobot_proxy->setSpeedBase(5, rot);
+			differentialrobot_proxy->setSpeedBase(10, rot);
 			usleep(rand() % (1500000 - 100000 + 1) + 100000); // random wait between 1.5s and 0.1sec
 		}
 		else
 		{
-			differentialrobot_proxy->setSpeedBase(200, 0);
+			differentialrobot_proxy->setSpeedBase(300, 0);
 		}
 	}
 	catch (const Ice::Exception &ex)
@@ -115,7 +137,7 @@ void SpecificWorker::movimientoDefault(float threshold, float rot)
 		if (ldata.front().dist < threshold)
 		{
 			std::cout << ldata.front().dist << std::endl;
-			differentialrobot_proxy->setSpeedBase(5, rot);
+			differentialrobot_proxy->setSpeedBase(5, !rot);
 			usleep(rand() % (1500000 - 100000 + 1) + 100000); // random wait between 1.5s and 0.1sec
 		}
 		else
