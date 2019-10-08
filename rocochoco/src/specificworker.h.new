@@ -22,57 +22,35 @@
        @author authorname
 */
 
+
+
 #ifndef SPECIFICWORKER_H
 #define SPECIFICWORKER_H
 
 #include <genericworker.h>
 #include <innermodel/innermodel.h>
-#include "grid.h"
-#include <QGraphicsScene>
-#include <QGraphicsView>
-#include <QGraphicsEllipseItem>
 
 class SpecificWorker : public GenericWorker
 {
-	Q_OBJECT
+Q_OBJECT
 public:
 	SpecificWorker(TuplePrx tprx);
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
-	QGraphicsScene scene;
-	QGraphicsView view;
-	QGraphicsRectItem *robot;
-	QGraphicsEllipseItem *noserobot;
+
 
 public slots:
 	void compute();
-	void initialize(int period,RoboCompCommonBehavior::ParameterList params);
-	//Specification slot methods State Machine
+	void initialize(int period);
+//Specification slot methods State Machine
 	void sm_compute();
 	void sm_initialize();
 	void sm_finalize();
-	void movimientoDefault(float threshold, float rot);
-	void movimientoRoco(float threshold, float rot);
-	void maquinaEstados(float threshold, float rot);
-	//--------------------
+
+//--------------------
 private:
 	std::shared_ptr<InnerModel> innerModel;
-	RoboCompGenericBase::TBaseState bState;
-	int tilesize;
-	struct TCell
-	{
-		uint id;
-		bool free;
-		bool visited;
-		QGraphicsRectItem *rect;
-		float cost = 1;
 
-		// method to save the value
-		void save(std::ostream &os) const { os << free << " " << visited; };
-		void read(std::istream &is) { is >> free >> visited; };
-	};
-	using TDim = Grid<TCell>::Dimensions;
-	Grid<TCell> grid;
 };
 
 #endif

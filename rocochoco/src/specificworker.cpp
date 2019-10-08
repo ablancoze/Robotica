@@ -18,7 +18,12 @@
  */
 #include "specificworker.h"
 
-enum Estados {base,pared,obstaculo};
+enum Estados
+{
+	base,
+	pared,
+	obstaculo
+};
 Estados estado = base;
 
 /**
@@ -54,13 +59,43 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 	return true;
 }
 
-void SpecificWorker::initialize(int period)
+void SpecificWorker::initialize(int period,RoboCompCommonBehavior::ParameterList params)
 {
 	std::cout << "Initialize worker" << std::endl;
+	RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
+	innerModel = std::make_shared<InnerModel>(par.value);
+	int xmin = std::stoi(params.at("xmin").value);
+	int xmax = std::stoi(params.at("xmax").value);
+	int ymin = std::stoi(params.at("ymin").value);
+	int ymax = std::stoi(params.at("ymax").value);
+	tilesize = std::stoi(params.at("tilesize").value);
+	
+	// Scene
+	scene.setSceneRect(xmin, ymin, fabs(xmin) + fabs(xmax), fabs(ymin) + fabs(ymax));
+	//scene.setSceneRect(-12000, -6000, 38000, 16000);
+	view.setScene(&scene);
+	view.scale(1, -1);
+	view.setParent(scrollArea);
+	//view.setViewport(new QGLWidget(QGLFormat(QGL::SampleBuffers)));
+	view.fitInView(scene.sceneRect(), Qt::KeepAspectRatio);
+
+	//grid.initialize(TDim{tilesize, -12000, 25000, -6000, 10000}, TCell{0, true, false, nullptr, 0.});
+	grid.initialize(TDim{tilesize, xmin, xmax, ymin, ymax}, TCell{0, true, false, nullptr, 0.});
+
+	for (auto &[key, value] : grid)
+	{
+		auto tile = scene.addRect(-tilesize / 2, -tilesize / 2, 100, 100, QPen(Qt::NoPen));
+		tile->setPos(key.x, key.z);
+		value.rect = tile;
+	}
+
+	robot = scene.addRect(QRectF(-200, -200, 400, 400), QPen(), QBrush(Qt::blue));
+	noserobot = new QGraphicsEllipseItem(-50, 100, 100, 100, robot);
+	noserobot->setBrush(Qt::magenta);
+
 	this->Period = period;
 	timer.start(Period);
 	emit this->initializetocompute();
-	
 }
 
 void SpecificWorker::compute()
@@ -68,14 +103,14 @@ void SpecificWorker::compute()
 	const float threshold = 200; // millimeters
 	float rot = 0.6;			 // rads per second
 
-	movimientoDefault(threshold,rot);
-
+	movimientoDefault(threshold, rot);
 }
 
 void SpecificWorker::movimientoRoco(float threshold, float rot)
 {
 	try
 	{
+
 		// read laser data
 		RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
 		//sort laser data from small to large distances using a lambda function.
@@ -85,26 +120,26 @@ void SpecificWorker::movimientoRoco(float threshold, float rot)
 		// 	std::cout << l.dist << " " << l.angle << std::endl;
 		// std::cout << std::endl;
 
-		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });		
+		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
 		std::cout << ldata.back().dist << std::endl;
 
 		switch (estado)
 		{
-			case base:
+		case base:
 			differentialrobot_proxy->setSpeedBase(10, rot);
-			differentialrobot_proxy->setSpeedBase(200,0);
+			differentialrobot_proxy->setSpeedBase(200, 0);
 			estado = pared;
 			break;
 
-			case pared:
-			
+		case pared:
+
 			break;
 
-			case obstaculo:
+		case obstaculo:
 
 			break;
 		}
-		
+
 		if (ldata.front().dist < threshold)
 		{
 			std::cout << ldata.front().dist << std::endl;
@@ -123,8 +158,19 @@ void SpecificWorker::movimientoRoco(float threshold, float rot)
 }
 void SpecificWorker::maquinaEstados(float threshold, float rot)
 {
-	
 }
+
+// bool SpecificWorker::obstacle()
+// {
+// 	//sort laser data from small to large distances using a lambda function.
+// 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+// 	if (ldata.front().dist < threshold)
+// 	{
+// 		return true;
+// 	}
+// 	return false;
+// }
+
 void SpecificWorker::movimientoDefault(float threshold, float rot)
 {
 	try

@@ -9,6 +9,7 @@ Component rocochoco
 
     };
 	language Cpp11;
+	gui Qt(QWidget);		
 	statemachine "statemachine.smdsl";
 };
 

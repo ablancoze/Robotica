@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_SpecificWorker_t {
-    QByteArrayData data[13];
-    char stringdata0[141];
+    QByteArrayData data[15];
+    char stringdata0[186];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,18 +36,21 @@ QT_MOC_LITERAL(1, 15, 7), // "compute"
 QT_MOC_LITERAL(2, 23, 0), // ""
 QT_MOC_LITERAL(3, 24, 10), // "initialize"
 QT_MOC_LITERAL(4, 35, 6), // "period"
-QT_MOC_LITERAL(5, 42, 10), // "sm_compute"
-QT_MOC_LITERAL(6, 53, 13), // "sm_initialize"
-QT_MOC_LITERAL(7, 67, 11), // "sm_finalize"
-QT_MOC_LITERAL(8, 79, 17), // "movimientoDefault"
-QT_MOC_LITERAL(9, 97, 9), // "threshold"
-QT_MOC_LITERAL(10, 107, 3), // "rot"
-QT_MOC_LITERAL(11, 111, 14), // "movimientoRoco"
-QT_MOC_LITERAL(12, 126, 14) // "maquinaEstados"
+QT_MOC_LITERAL(5, 42, 37), // "RoboCompCommonBehavior::Param..."
+QT_MOC_LITERAL(6, 80, 6), // "params"
+QT_MOC_LITERAL(7, 87, 10), // "sm_compute"
+QT_MOC_LITERAL(8, 98, 13), // "sm_initialize"
+QT_MOC_LITERAL(9, 112, 11), // "sm_finalize"
+QT_MOC_LITERAL(10, 124, 17), // "movimientoDefault"
+QT_MOC_LITERAL(11, 142, 9), // "threshold"
+QT_MOC_LITERAL(12, 152, 3), // "rot"
+QT_MOC_LITERAL(13, 156, 14), // "movimientoRoco"
+QT_MOC_LITERAL(14, 171, 14) // "maquinaEstados"
 
     },
     "SpecificWorker\0compute\0\0initialize\0"
-    "period\0sm_compute\0sm_initialize\0"
+    "period\0RoboCompCommonBehavior::ParameterList\0"
+    "params\0sm_compute\0sm_initialize\0"
     "sm_finalize\0movimientoDefault\0threshold\0"
     "rot\0movimientoRoco\0maquinaEstados"
 };
@@ -68,23 +71,23 @@ static const uint qt_meta_data_SpecificWorker[] = {
 
  // slots: name, argc, parameters, tag, flags
        1,    0,   54,    2, 0x0a /* Public */,
-       3,    1,   55,    2, 0x0a /* Public */,
-       5,    0,   58,    2, 0x0a /* Public */,
-       6,    0,   59,    2, 0x0a /* Public */,
+       3,    2,   55,    2, 0x0a /* Public */,
        7,    0,   60,    2, 0x0a /* Public */,
-       8,    2,   61,    2, 0x0a /* Public */,
-      11,    2,   66,    2, 0x0a /* Public */,
-      12,    2,   71,    2, 0x0a /* Public */,
+       8,    0,   61,    2, 0x0a /* Public */,
+       9,    0,   62,    2, 0x0a /* Public */,
+      10,    2,   63,    2, 0x0a /* Public */,
+      13,    2,   68,    2, 0x0a /* Public */,
+      14,    2,   73,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,    4,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 5,    4,    6,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Float, QMetaType::Float,    9,   10,
-    QMetaType::Void, QMetaType::Float, QMetaType::Float,    9,   10,
-    QMetaType::Void, QMetaType::Float, QMetaType::Float,    9,   10,
+    QMetaType::Void, QMetaType::Float, QMetaType::Float,   11,   12,
+    QMetaType::Void, QMetaType::Float, QMetaType::Float,   11,   12,
+    QMetaType::Void, QMetaType::Float, QMetaType::Float,   11,   12,
 
        0        // eod
 };
@@ -96,7 +99,7 @@ void SpecificWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->compute(); break;
-        case 1: _t->initialize((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->initialize((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< RoboCompCommonBehavior::ParameterList(*)>(_a[2]))); break;
         case 2: _t->sm_compute(); break;
         case 3: _t->sm_initialize(); break;
         case 4: _t->sm_finalize(); break;

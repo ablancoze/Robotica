@@ -145,7 +145,7 @@ void GenericWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
 }
 
 const QMetaObject GenericWorker::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_GenericWorker.data,
+    { &QWidget::staticMetaObject, qt_meta_stringdata_GenericWorker.data,
       qt_meta_data_GenericWorker,  qt_static_metacall, nullptr, nullptr}
 };
 
@@ -160,12 +160,14 @@ void *GenericWorker::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_GenericWorker.stringdata0))
         return static_cast<void*>(this);
-    return QObject::qt_metacast(_clname);
+    if (!strcmp(_clname, "Ui_guiDlg"))
+        return static_cast< Ui_guiDlg*>(this);
+    return QWidget::qt_metacast(_clname);
 }
 
 int GenericWorker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QObject::qt_metacall(_c, _id, _a);
+    _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {

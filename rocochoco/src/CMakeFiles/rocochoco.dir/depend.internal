@@ -16,11 +16,21 @@ src/CMakeFiles/rocochoco.dir/Laser.cpp.o
  src/GenericBase.h
  src/Laser.h
 src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.o
+ /home/salabeta/anaconda3/include/qt/QtCore/QEvent
+ /home/salabeta/anaconda3/include/qt/QtCore/QList
+ /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
+ /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSize
+ /home/salabeta/anaconda3/include/qt/QtCore/QSizeF
  /home/salabeta/anaconda3/include/qt/QtCore/QState
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -173,6 +183,7 @@ src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+ /home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
@@ -201,6 +212,268 @@ src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
  /home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
  /home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+ /home/salabeta/anaconda3/include/qt/QtGui/QImage
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+ /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+ /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+ /home/salabeta/anaconda3/include/qt/QtGui/QWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGui
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+ /home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/commonbehaviorI.cpp
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/commonbehaviorI.h
@@ -211,12 +484,23 @@ src/CMakeFiles/rocochoco.dir/commonbehaviorI.cpp.o
  src/GenericBase.h
  src/Laser.h
  src/config.h
+ src/rocochoco_autogen/include/ui_mainUI.h
 src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.o
+ /home/salabeta/anaconda3/include/qt/QtCore/QEvent
+ /home/salabeta/anaconda3/include/qt/QtCore/QList
+ /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
+ /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSize
+ /home/salabeta/anaconda3/include/qt/QtCore/QSizeF
  /home/salabeta/anaconda3/include/qt/QtCore/QState
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -369,6 +653,7 @@ src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+ /home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
@@ -397,6 +682,268 @@ src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
  /home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
  /home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+ /home/salabeta/anaconda3/include/qt/QtGui/QImage
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+ /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+ /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+ /home/salabeta/anaconda3/include/qt/QtGui/QWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGui
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+ /home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/config.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericmonitor.cpp
@@ -406,12 +953,23 @@ src/CMakeFiles/rocochoco.dir/genericmonitor.cpp.o
  src/DifferentialRobot.h
  src/GenericBase.h
  src/Laser.h
+ src/rocochoco_autogen/include/ui_mainUI.h
 src/CMakeFiles/rocochoco.dir/genericworker.cpp.o
+ /home/salabeta/anaconda3/include/qt/QtCore/QEvent
+ /home/salabeta/anaconda3/include/qt/QtCore/QList
+ /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
+ /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSize
+ /home/salabeta/anaconda3/include/qt/QtCore/QSizeF
  /home/salabeta/anaconda3/include/qt/QtCore/QState
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -564,6 +1122,7 @@ src/CMakeFiles/rocochoco.dir/genericworker.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+ /home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
@@ -592,6 +1151,268 @@ src/CMakeFiles/rocochoco.dir/genericworker.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
  /home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
  /home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+ /home/salabeta/anaconda3/include/qt/QtGui/QImage
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+ /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+ /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+ /home/salabeta/anaconda3/include/qt/QtGui/QWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGui
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+ /home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/config.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericworker.cpp
@@ -600,6 +1421,7 @@ src/CMakeFiles/rocochoco.dir/genericworker.cpp.o
  src/DifferentialRobot.h
  src/GenericBase.h
  src/Laser.h
+ src/rocochoco_autogen/include/ui_mainUI.h
 src/CMakeFiles/rocochoco.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
@@ -1048,7 +1870,9 @@ src/CMakeFiles/rocochoco.dir/main.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/QHash
  /home/salabeta/anaconda3/include/qt/QtCore/QList
  /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
  /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
  /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
@@ -1058,6 +1882,7 @@ src/CMakeFiles/rocochoco.dir/main.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QString
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -1247,6 +2072,7 @@ src/CMakeFiles/rocochoco.dir/main.cpp.o
  /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
  /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
  /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
  /home/salabeta/anaconda3/include/qt/QtGui/QWindow
  /home/salabeta/anaconda3/include/qt/QtGui/QtGui
  /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
@@ -1357,6 +2183,152 @@ src/CMakeFiles/rocochoco.dir/main.cpp.o
  /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
  /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
  /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsEllipseItem
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsScene
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/classes/rapplication/rapplication.h
  /home/salabeta/robocomp/classes/sigwatch/sigwatch.h
@@ -1364,6 +2336,7 @@ src/CMakeFiles/rocochoco.dir/main.cpp.o
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/config.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericmonitor.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericworker.h
+ /home/salabeta/robocomp/components/Robotica/rocochoco/src/grid.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/main.cpp
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/specificmonitor.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/specificworker.h
@@ -1402,14 +2375,25 @@ src/CMakeFiles/rocochoco.dir/main.cpp.o
  src/DifferentialRobot.h
  src/GenericBase.h
  src/Laser.h
+ src/rocochoco_autogen/include/ui_mainUI.h
 src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.o
+ /home/salabeta/anaconda3/include/qt/QtCore/QEvent
  /home/salabeta/anaconda3/include/qt/QtCore/QHash
+ /home/salabeta/anaconda3/include/qt/QtCore/QList
+ /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
+ /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSize
+ /home/salabeta/anaconda3/include/qt/QtCore/QSizeF
  /home/salabeta/anaconda3/include/qt/QtCore/QState
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QString
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -1562,6 +2546,7 @@ src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+ /home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
@@ -1590,10 +2575,276 @@ src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
  /home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
  /home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+ /home/salabeta/anaconda3/include/qt/QtGui/QImage
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+ /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+ /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+ /home/salabeta/anaconda3/include/qt/QtGui/QWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGui
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+ /home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsEllipseItem
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsScene
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/config.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericmonitor.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericworker.h
+ /home/salabeta/robocomp/components/Robotica/rocochoco/src/grid.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/rocochoco_autogen/EWIEGA46WW/moc_genericmonitor.cpp
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/rocochoco_autogen/EWIEGA46WW/moc_genericworker.cpp
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/rocochoco_autogen/EWIEGA46WW/moc_specificmonitor.cpp
@@ -1636,12 +2887,23 @@ src/CMakeFiles/rocochoco.dir/rocochoco_autogen/mocs_compilation.cpp.o
  src/DifferentialRobot.h
  src/GenericBase.h
  src/Laser.h
+ src/rocochoco_autogen/include/ui_mainUI.h
 src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.o
+ /home/salabeta/anaconda3/include/qt/QtCore/QEvent
+ /home/salabeta/anaconda3/include/qt/QtCore/QList
+ /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
+ /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSize
+ /home/salabeta/anaconda3/include/qt/QtCore/QSizeF
  /home/salabeta/anaconda3/include/qt/QtCore/QState
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -1794,6 +3056,7 @@ src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+ /home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
@@ -1822,6 +3085,268 @@ src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
  /home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
  /home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+ /home/salabeta/anaconda3/include/qt/QtGui/QImage
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+ /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+ /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+ /home/salabeta/anaconda3/include/qt/QtGui/QWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGui
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+ /home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/config.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/genericmonitor.h
@@ -1832,14 +3357,25 @@ src/CMakeFiles/rocochoco.dir/specificmonitor.cpp.o
  src/DifferentialRobot.h
  src/GenericBase.h
  src/Laser.h
+ src/rocochoco_autogen/include/ui_mainUI.h
 src/CMakeFiles/rocochoco.dir/specificworker.cpp.o
+ /home/salabeta/anaconda3/include/qt/QtCore/QEvent
  /home/salabeta/anaconda3/include/qt/QtCore/QHash
+ /home/salabeta/anaconda3/include/qt/QtCore/QList
+ /home/salabeta/anaconda3/include/qt/QtCore/QMargins
+ /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
+ /home/salabeta/anaconda3/include/qt/QtCore/QPointF
+ /home/salabeta/anaconda3/include/qt/QtCore/QRect
  /home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+ /home/salabeta/anaconda3/include/qt/QtCore/QSize
+ /home/salabeta/anaconda3/include/qt/QtCore/QSizeF
  /home/salabeta/anaconda3/include/qt/QtCore/QState
  /home/salabeta/anaconda3/include/qt/QtCore/QStateMachine
  /home/salabeta/anaconda3/include/qt/QtCore/QString
  /home/salabeta/anaconda3/include/qt/QtCore/QStringList
+ /home/salabeta/anaconda3/include/qt/QtCore/QVariant
  /home/salabeta/anaconda3/include/qt/QtCore/QtCore
  /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
  /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -1992,6 +3528,7 @@ src/CMakeFiles/rocochoco.dir/specificworker.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
  /home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+ /home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
  /home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
@@ -2020,7 +3557,273 @@ src/CMakeFiles/rocochoco.dir/specificworker.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
  /home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
  /home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+ /home/salabeta/anaconda3/include/qt/QtGui/QImage
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+ /home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+ /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+ /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+ /home/salabeta/anaconda3/include/qt/QtGui/QTransform
+ /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+ /home/salabeta/anaconda3/include/qt/QtGui/QWindow
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGui
+ /home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+ /home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsEllipseItem
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsScene
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QGraphicsView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QPushButton
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollArea
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QVBoxLayout
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+ /home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+ /home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
  /home/salabeta/robocomp/classes/qlog/qlog.h
+ /home/salabeta/robocomp/components/Robotica/rocochoco/src/grid.h
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/specificworker.cpp
  /home/salabeta/robocomp/components/Robotica/rocochoco/src/specificworker.h
  /opt/robocomp/include/innermodel/innermodel.h
@@ -2060,3 +3863,4 @@ src/CMakeFiles/rocochoco.dir/specificworker.cpp.o
  src/Laser.h
  src/config.h
  src/genericworker.h
+ src/rocochoco_autogen/include/ui_mainUI.h
