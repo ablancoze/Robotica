@@ -18,6 +18,15 @@
  */
 #include "specificworker.h"
 
+enum Estados
+{
+	base,
+	pared,
+	obstaculo
+};
+Estados estado = base;
+const float threshold = 200; // millimeters
+float rot = 0.6;
 /**
 * \brief Default constructor
 */
@@ -82,6 +91,29 @@ void SpecificWorker::compute()
 	readRobotState();
 
 	/// AQUI LA MAQUINA DE ESTADOS
+	switch (estado)
+	{
+		case base://Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos. 
+			std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+			differentialrobot_proxy->setSpeedBase(5, ldata.end().angle);			
+			if (ldata.front().dist < threshold)
+			{
+				std::cout << ldata.front().dist << std::endl;
+				differentialrobot_proxy->setSpeedBase(5, !rot);
+				usleep(rand() % (1500000 - 100000 + 1) + 100000); // random wait between 1.5s and 0.1sec
+			}
+			else
+			{
+				differentialrobot_proxy->setSpeedBase(200, 0);
+			}
+			break;
+
+		case pared:
+			break;
+
+		case obstaculo:
+			break;
+	}
 }
 	
 
