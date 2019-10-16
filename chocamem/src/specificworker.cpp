@@ -20,11 +20,13 @@
 
 enum Estados
 {
-	base,
-	pared,
-	obstaculo
+	buscoPared,
+	obstaculo,
+	manoDerecha,
+	giroIzquierda,
+	giroDerecha
 };
-Estados estado = base;
+Estados estado = buscoPared;
 const float threshold = 200; // millimeters
 float rot = 0.6;
 /**
@@ -88,34 +90,70 @@ void SpecificWorker::initialize(int period)
 
 void SpecificWorker::compute()
 {
-	readRobotState();
-
+	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
 	/// AQUI LA MAQUINA DE ESTADOS
 	switch (estado)
 	{
-		case base://Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos. 
+		case buscoPared://Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos. 
+		{
 			std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
-			differentialrobot_proxy->setSpeedBase(5, ldata.end().angle);			
+			differentialrobot_proxy->setSpeedBase(5, ldata.back().angle);			
 			if (ldata.front().dist < threshold)
 			{
-				std::cout << ldata.front().dist << std::endl;
-				differentialrobot_proxy->setSpeedBase(5, !rot);
-				usleep(rand() % (1500000 - 100000 + 1) + 100000); // random wait between 1.5s and 0.1sec
+				estado=obstaculo;
 			}
 			else
 			{
 				differentialrobot_proxy->setSpeedBase(200, 0);
 			}
+		}
 			break;
-
-		case pared:
-			break;
-
+		
 		case obstaculo:
+		{
+			differentialrobot_proxy->setSpeedBase(5, !rot);//Rotamos el robot a la izquierda
+			if (ldata.back().dist <= threshold)
+			{
+				estado=manoDerecha;
+			}
+			break;
+		}
+		case manoDerecha:
+		{
+			readRobotState();//Comenzamos a actualizar el estado
+			RoboCompLaser::TLaserData ldataAux = ordenarLaser(ldata);
+			if (ldata.back().dist < threshold)//si tengo algo a la derecha y tengo camino delante avanzo
+			{
+				if (ldataAux.front().dist < threshold)
+				{
+					differentialrobot_proxy->setSpeedBase(200, 0);
+				}
+				else
+				{
+					estado=giroIzquierda;
+				}
+			}
+			else
+			{
+				estado=giroDerecha;
+			}
+			break;
+		}
+		case giroIzquierda:
+			break;
+		
+		case giroDerecha:
 			break;
 	}
 }
 	
+TLaserData SpecificWorker::ordenarLaser(TLaserData ldata)
+{
+	TLaserData ldataAux;
+	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+	ldataAux=ldata;
+	return ldataAux;
+}
 
 void SpecificWorker::readRobotState()
 {
