@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/Robotica/rocochoco
+CMAKE_SOURCE_DIR = /home/borja/robocomp/components/Robotica/rocochoco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robotica/rocochoco
+CMAKE_BINARY_DIR = /home/borja/robocomp/components/Robotica/rocochoco
 
 # Utility rule file for rocochoco_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robotica/rocochoco
 include src/CMakeFiles/rocochoco_autogen.dir/progress.make
 
 src/CMakeFiles/rocochoco_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/rocochoco/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target rocochoco"
-	cd /home/salabeta/robocomp/components/Robotica/rocochoco/src && /usr/bin/cmake -E cmake_autogen /home/salabeta/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rocochoco_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/borja/robocomp/components/Robotica/rocochoco/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target rocochoco"
+	cd /home/borja/robocomp/components/Robotica/rocochoco/src && /usr/bin/cmake -E cmake_autogen /home/borja/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rocochoco_autogen.dir ""
 
 rocochoco_autogen: src/CMakeFiles/rocochoco_autogen
 rocochoco_autogen: src/CMakeFiles/rocochoco_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/rocochoco_autogen.dir/build: rocochoco_autogen
 .PHONY : src/CMakeFiles/rocochoco_autogen.dir/build
 
 src/CMakeFiles/rocochoco_autogen.dir/clean:
-	cd /home/salabeta/robocomp/components/Robotica/rocochoco/src && $(CMAKE_COMMAND) -P CMakeFiles/rocochoco_autogen.dir/cmake_clean.cmake
+	cd /home/borja/robocomp/components/Robotica/rocochoco/src && $(CMAKE_COMMAND) -P CMakeFiles/rocochoco_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/rocochoco_autogen.dir/clean
 
 src/CMakeFiles/rocochoco_autogen.dir/depend:
-	cd /home/salabeta/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/Robotica/rocochoco /home/salabeta/robocomp/components/Robotica/rocochoco/src /home/salabeta/robocomp/components/Robotica/rocochoco /home/salabeta/robocomp/components/Robotica/rocochoco/src /home/salabeta/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rocochoco_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/borja/robocomp/components/Robotica/rocochoco && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/borja/robocomp/components/Robotica/rocochoco /home/borja/robocomp/components/Robotica/rocochoco/src /home/borja/robocomp/components/Robotica/rocochoco /home/borja/robocomp/components/Robotica/rocochoco/src /home/borja/robocomp/components/Robotica/rocochoco/src/CMakeFiles/rocochoco_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/rocochoco_autogen.dir/depend
 

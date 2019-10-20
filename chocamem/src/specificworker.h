@@ -80,7 +80,7 @@ private:
 
 	void updateOccupiedCells(const RoboCompGenericBase::TBaseState &bState, const RoboCompLaser::TLaserData &ldata);
 	void readRobotState();
-	TLaserData ordenarLaser(TLaserData ldata);
+	void ordenarLaser(TLaserData &ldata);
 };
 
 #endif

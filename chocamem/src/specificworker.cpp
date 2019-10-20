@@ -22,18 +22,18 @@ enum Estados
 {
 	buscoPared,
 	obstaculo,
-	manoDerecha,
-	giroIzquierda,
-	giroDerecha
+	avanzar
+	
 };
 Estados estado = buscoPared;
 const float threshold = 200; // millimeters
-float rot = 0.6;
+//float rot = 0.6;			 // no nos vale
 /**
 * \brief Default constructor
 */
-SpecificWorker::SpecificWorker(MapPrx& mprx) : GenericWorker(mprx)
-{}
+SpecificWorker::SpecificWorker(MapPrx &mprx) : GenericWorker(mprx)
+{
+}
 
 /**
 * \brief Default destructor
@@ -45,7 +45,7 @@ SpecificWorker::~SpecificWorker()
 
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
-	
+
 	RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
 	innerModel = std::make_shared<InnerModel>(par.value);
 	xmin = std::stoi(params.at("xmin").value);
@@ -55,24 +55,24 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 	tilesize = std::stoi(params.at("tilesize").value);
 
 	// Scene
- 	scene.setSceneRect(xmin, ymin, fabs(xmin)+fabs(xmax), fabs(ymin)+fabs(ymax));
- 	view.setScene(&scene);
- 	view.scale(1, -1);
- 	view.setParent(scrollArea);
- 	view.fitInView(scene.sceneRect(), Qt::KeepAspectRatio );
-	grid.initialize( TDim{ tilesize, xmin, xmax, ymin, ymax}, TCell{true, false, nullptr} );
+	scene.setSceneRect(xmin, ymin, fabs(xmin) + fabs(xmax), fabs(ymin) + fabs(ymax));
+	view.setScene(&scene);
+	view.scale(1, -1);
+	view.setParent(scrollArea);
+	view.fitInView(scene.sceneRect(), Qt::KeepAspectRatio);
+	grid.initialize(TDim{tilesize, xmin, xmax, ymin, ymax}, TCell{true, false, nullptr});
 
 	qDebug() << "Grid initialize ok";
 
-	for(auto &[key, value] : grid)
- 	{
-	 	value.rect = scene.addRect(-tilesize/2,-tilesize/2, 100,100, QPen(Qt::NoPen));			
-		value.rect->setPos(key.x,key.z);
+	for (auto &[key, value] : grid)
+	{
+		value.rect = scene.addRect(-tilesize / 2, -tilesize / 2, 100, 100, QPen(Qt::NoPen));
+		value.rect->setPos(key.x, key.z);
 	}
 
- 	robot = scene.addRect(QRectF(-200, -200, 400, 400), QPen(), QBrush(Qt::blue));
- 	noserobot = new QGraphicsEllipseItem(-50,100, 100,100, robot);
- 	noserobot->setBrush(Qt::magenta);
+	robot = scene.addRect(QRectF(-200, -200, 400, 400), QPen(), QBrush(Qt::blue));
+	noserobot = new QGraphicsEllipseItem(-50, 100, 100, 100, robot);
+	noserobot->setBrush(Qt::magenta);
 
 	view.show();
 	return true;
@@ -81,78 +81,66 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 void SpecificWorker::initialize(int period)
 {
 	std::cout << "Initialize worker" << std::endl;
-
 	this->Period = period;
 	timer.start(Period);
 	qDebug() << "End initialize";
-
 }
 
+//MAQUINA DE ESTADOS
 void SpecificWorker::compute()
 {
-	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
-	/// AQUI LA MAQUINA DE ESTADOS
+	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
+	RoboCompLaser::TLaserData ldata_def;
 	switch (estado)
 	{
-		case buscoPared://Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos. 
+	case buscoPared: //Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos.
+		ordenarLaser(ldata);
+		differentialrobot_proxy->setSpeedBase(5, ldata.back().angle);
+
+		if (ldata.front().dist < threshold) // si llego a un obstaculo
 		{
-			std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
-			differentialrobot_proxy->setSpeedBase(5, ldata.back().angle);			
-			if (ldata.front().dist < threshold)
-			{
-				estado=obstaculo;
-			}
-			else
-			{
-				differentialrobot_proxy->setSpeedBase(200, 0);
-			}
+			estado = obstaculo;
 		}
-			break;
+		else
+		{
+			estado = avanzar;
+		}
+		break;
+
+	case obstaculo:
+
+		//std::cout << "[-] Hay pared a " << ldata.front().dist << " unidades." << std::endl;
+		//ordenarLaser(ldata);
+		std::cout << "[+] Giro derecha a " << ldata.front().angle << " radianes." <<std::endl;
+		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle); 
 		
-		case obstaculo:
-		{
-			differentialrobot_proxy->setSpeedBase(5, !rot);//Rotamos el robot a la izquierda
-			if (ldata.back().dist <= threshold)
-			{
-				estado=manoDerecha;
-			}
-			break;
+		std::cout << "[+] Avanzo: " << ldata.front().dist << " unidades." << std::endl;
+		estado = avanzar;
+		break;
+
+	case avanzar:
+
+		readRobotState(); 					//Comenzamos a actualizar el estado
+		ldata_def = ldata;
+		ordenarLaser(ldata);
+		if (ldata.front().dist < threshold) // si llego a un obstaculo
+		{			
+			estado = obstaculo;
 		}
-		case manoDerecha:
+		else
 		{
-			readRobotState();//Comenzamos a actualizar el estado
-			RoboCompLaser::TLaserData ldataAux = ordenarLaser(ldata);
-			if (ldata.back().dist < threshold)//si tengo algo a la derecha y tengo camino delante avanzo
-			{
-				if (ldataAux.front().dist < threshold)
-				{
-					differentialrobot_proxy->setSpeedBase(200, 0);
-				}
-				else
-				{
-					estado=giroIzquierda;
-				}
-			}
-			else
-			{
-				estado=giroDerecha;
-			}
-			break;
+			differentialrobot_proxy->setSpeedBase(200, 0);
 		}
-		case giroIzquierda:
-			break;
-		
-		case giroDerecha:
-			break;
+		break;
+
+
+	
 	}
 }
-	
-TLaserData SpecificWorker::ordenarLaser(TLaserData ldata)
+
+void SpecificWorker::ordenarLaser(TLaserData &ldata)
 {
-	TLaserData ldataAux;
 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
-	ldataAux=ldata;
-	return ldataAux;
 }
 
 void SpecificWorker::readRobotState()
@@ -162,33 +150,32 @@ void SpecificWorker::readRobotState()
 		differentialrobot_proxy->getBaseState(bState);
 		innerModel->updateTransformValues("base", bState.x, 0, bState.z, 0, bState.alpha, 0);
 		RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
-		
+
 		//draw robot
 		robot->setPos(bState.x, bState.z);
-		robot->setRotation(-180.*bState.alpha/M_PI);
+		robot->setRotation(-180. * bState.alpha / M_PI);
 
 		//update  occupied cells
 		updateOccupiedCells(bState, ldata);
 	}
-	catch(const Ice::Exception &e)
+	catch (const Ice::Exception &e)
 	{
 		std::cout << "Error reading from Laser" << e << std::endl;
 	}
 	//Resize world widget if necessary, and render the world
 	if (view.size() != scrollArea->size())
-	 		view.setFixedSize(scrollArea->width(), scrollArea->height());
-	
+		view.setFixedSize(scrollArea->width(), scrollArea->height());
 }
 
 void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &bState, const RoboCompLaser::TLaserData &ldata)
 {
 	InnerModelLaser *n = innerModel->getNode<InnerModelLaser>(QString("laser"));
-	for(auto l: ldata)
+	for (auto l : ldata)
 	{
-		auto r = n->laserTo(QString("world"), l.dist, l.angle);	// r is in world reference system
-		// we set the cell corresponding to r as occupied 
-		auto [valid, cell] = grid.getCell(r.x(), r.z()); 
-		if(valid)
+		auto r = n->laserTo(QString("world"), l.dist, l.angle); // r is in world reference system
+		// we set the cell corresponding to r as occupied
+		auto [valid, cell] = grid.getCell(r.x(), r.z());
+		if (valid)
 		{
 			cell.free = false;
 			cell.rect->setBrush(Qt::darkRed);
@@ -196,16 +183,11 @@ void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &
 	}
 }
 
-
 ///////////////////////////////////////////////////////////////////77
 ////  SUBSCRIPTION
 /////////////////////////////////////////////////////////////////////
 
 void SpecificWorker::RCISMousePicker_setPick(const Pick &myPick)
 {
-//subscribesToCODE
-
+	//subscribesToCODE
 }
-
-
-
