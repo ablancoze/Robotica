@@ -22,12 +22,16 @@ enum Estados
 {
 	buscoPared,
 	obstaculo,
-	avanzar
+	avanzar,
+	manoPared,
+	manoIzquierda,
+	giroIzquierda,
+	giroDerecha
 	
 };
 Estados estado = buscoPared;
 const float threshold = 200; // millimeters
-//float rot = 0.6;			 // no nos vale
+float rot = 0.6;			 // no nos vale
 /**
 * \brief Default constructor
 */
@@ -97,32 +101,19 @@ void SpecificWorker::compute()
 	case buscoPared: //Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos.
 		ordenarLaser(ldata);
 		differentialrobot_proxy->setSpeedBase(5, ldata.back().angle);
-		usleep(1500000);
+		usleep(2000000);
 		if (ldata.front().dist < threshold) // si llego a un obstaculo
 		{
 			estado = obstaculo;
 		}
 		else
 		{
-			estado = avanzar;
+			// std::cout << "[+] Avanzo: " << ldata.front().dist << " unidades." << std::endl;
+			estado = avanzar;//avanzamos al camino mas largo
 		}
 		break;
 
-	case obstaculo:
-
-		std::cout << "[-] Hay pared a " << ldata.front().dist << " unidades." << std::endl;
-		//ordenarLaser(ldata);
-		std::cout << "[+] Giro derecha a " << ldata.front().angle << " radianes." <<std::endl;
-		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle); 
-		
-		std::cout << "[+] Avanzo: " << ldata.front().dist << " unidades." << std::endl;
-		estado = avanzar;
-		break;
-
 	case avanzar:
-
-		readRobotState(); 					//Comenzamos a actualizar el estado
-		// ldata_def = ldata;
 		ordenarLaser(ldata);
 		if (ldata.front().dist < threshold) // si llego a un obstaculo
 		{			
@@ -134,7 +125,52 @@ void SpecificWorker::compute()
 		}
 		break;
 
+	case obstaculo:
+		readRobotState();
+		//std::cout << "[-] Hay pared a " << ldata.front().dist << " unidades." << std::endl;
+		//ordenarLaser(ldata);
+		std::cout << "[+] Giro derecha a " << ldata.front().angle << " radianes." <<std::endl;
+		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle);
 
+		std::cout << "[-] Estado manoPared +++ " << std::endl;
+		estado=manoPared;
+		
+		
+		break;
+
+	case manoPared:
+		readRobotState();//actualizamos el estdo
+		ordenarLaser(ldata);
+		if (ldata.front().dist<threshold)
+		{
+			estado=giroDerecha;
+		}
+		else
+		{
+			differentialrobot_proxy->setSpeedBase(200, 0);
+		}
+		break;
+	case manoIzquierda:
+		readRobotState();//actualizamos el estdo
+		ldata_def = ldata;
+		ordenarLaser(ldata);
+		if (ldata_def.back().dist<threshold)
+		{
+			if (ldata.front().dist<threshold)
+			{
+				differentialrobot_proxy->setSpeedBase(200, 0);
+			}
+		}
+		break;	
+	
+	case giroIzquierda:
+		break;
+
+	case giroDerecha:
+
+		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle);
+		estado=manoPared;
+		break;
 	
 	}
 }
