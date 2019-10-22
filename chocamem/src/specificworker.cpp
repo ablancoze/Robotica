@@ -89,6 +89,7 @@ void SpecificWorker::initialize(int period)
 //MAQUINA DE ESTADOS
 void SpecificWorker::compute()
 {
+	
 	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	RoboCompLaser::TLaserData ldata_def;
 	switch (estado)
@@ -96,7 +97,7 @@ void SpecificWorker::compute()
 	case buscoPared: //Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos.
 		ordenarLaser(ldata);
 		differentialrobot_proxy->setSpeedBase(5, ldata.back().angle);
-
+		usleep(1500000);
 		if (ldata.front().dist < threshold) // si llego a un obstaculo
 		{
 			estado = obstaculo;
@@ -109,7 +110,7 @@ void SpecificWorker::compute()
 
 	case obstaculo:
 
-		//std::cout << "[-] Hay pared a " << ldata.front().dist << " unidades." << std::endl;
+		std::cout << "[-] Hay pared a " << ldata.front().dist << " unidades." << std::endl;
 		//ordenarLaser(ldata);
 		std::cout << "[+] Giro derecha a " << ldata.front().angle << " radianes." <<std::endl;
 		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle); 
@@ -121,7 +122,7 @@ void SpecificWorker::compute()
 	case avanzar:
 
 		readRobotState(); 					//Comenzamos a actualizar el estado
-		ldata_def = ldata;
+		// ldata_def = ldata;
 		ordenarLaser(ldata);
 		if (ldata.front().dist < threshold) // si llego a un obstaculo
 		{			
@@ -148,6 +149,13 @@ void SpecificWorker::readRobotState()
 	try
 	{
 		differentialrobot_proxy->getBaseState(bState);
+		auto [valid, cell] = grid.getCell(bState.x, bState.z);
+		if(valid)
+		{
+			cell.visited = true;
+			cell.rect->setBrush(Qt::green);
+		}
+
 		innerModel->updateTransformValues("base", bState.x, 0, bState.z, 0, bState.alpha, 0);
 		RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
 
