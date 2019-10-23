@@ -135,21 +135,21 @@ class Grid
 			std::cout << fmap.size() << " elements written to " << fich << std::endl;
 		}
 		
-		
- 		std::vector<std::pair<Key,T>> neighbours(const Key &k) const
-		{
-			using Cell = std::pair<Key,T>;
-			std::vector<Cell> neigh;
-			
-			for (auto itx = this->xincs.begin(), itz = this->zincs.begin(); itx != this->xincs.end(); ++itx, ++itz)
-			{
-				Key lk{k.x + *itx, k.z + *itz}; 
-				typename FMap::const_iterator it = fmap.find(lk);
-				if( it != fmap.end() )
-					neigh.push_back({lk,it->second});
-			};
-			return neigh;
-		}	
+		std::vector<std::pair<Key,T>> neighbours(const Key &k) const
+        {
+            using Cell = std::pair<Key,T>;
+            std::vector<Cell> neigh;
+            
+            for (auto itx = this->xincs.begin(), itz = this->zincs.begin(); itx != this->xincs.end(); ++itx, ++itz)
+            {
+                Key lk{k.x + *itx, k.z + *itz};
+                qDebug() << __FUNCTION__ << lk.x << lk.z;  
+                typename FMap::const_iterator it = fmap.find(pointToGrid(lk.x,lk.z));
+                if( it != fmap.end() )
+                    neigh.push_back({lk,it->second});
+            };
+            return neigh;
+        } 
      
      
 	private:
