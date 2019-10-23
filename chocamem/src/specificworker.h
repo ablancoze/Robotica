@@ -74,13 +74,15 @@ private:
 	
 	int tilesize = 70;
 	int xmin, xmax, ymin, ymax;
-
+	std::vector<QVec> puntos;
+	std::vector<bool> salida;
 	RoboCompGenericBase::TBaseState bState;
 	RoboCompLaser::TLaserData ldata;
 
 	void updateOccupiedCells(const RoboCompGenericBase::TBaseState &bState, const RoboCompLaser::TLaserData &ldata);
 	void readRobotState();
 	void ordenarLaser(TLaserData &ldata);
+	void casillasOcupadas();
 };
 
 #endif

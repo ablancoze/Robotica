@@ -85,6 +85,13 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 void SpecificWorker::initialize(int period)
 {
 	std::cout << "Initialize worker" << std::endl;
+	salida.resize(5);
+	puntos.resize(5);
+	puntos[0] = QVec::vec3(-300,0,250);
+	puntos[1] = QVec::vec3(-150,0,250);
+	puntos[2] = QVec::vec3(0,0,250);
+	puntos[3] = QVec::vec3(150,0,250);
+	puntos[4] = QVec::vec3(300,0,250);
 	this->Period = period;
 	timer.start(Period);
 	qDebug() << "End initialize";
@@ -93,7 +100,6 @@ void SpecificWorker::initialize(int period)
 //MAQUINA DE ESTADOS
 void SpecificWorker::compute()
 {
-	
 	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	RoboCompLaser::TLaserData ldata_def;
 	switch (estado)
@@ -174,7 +180,15 @@ void SpecificWorker::compute()
 	
 	}
 }
-
+void SpecificWorker::casillasOcupadas()
+{
+	for (auto p : puntos)
+	{
+		auto r = innerModel->transform("world", p ,"base");
+		auto [succese, c] = grid.getCell(r.x(), r.z());
+		salida.push_back(c.free);
+	}
+}
 void SpecificWorker::ordenarLaser(TLaserData &ldata)
 {
 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
