@@ -20,18 +20,17 @@
 
 enum Estados
 {
-	buscoPared,
 	obstaculo,
-	avanzar,
-	manoPared,
-	manoIzquierda,
-	giroIzquierda,
-	giroDerecha
-	
+	avanzarDerecha,
+	avanzarIzquierda
+
 };
-Estados estado = buscoPared;
-const float threshold = 200; // millimeters
-float rot = 0.6;			 // no nos vale
+Estados estado = avanzarDerecha;
+const float threshold = 250; // millimeters
+float cont = 0;
+float angleDer = 0.1;
+float angleIzq = 0.1;
+float contStadoObstaculo = 0;
 /**
 * \brief Default constructor
 */
@@ -87,11 +86,11 @@ void SpecificWorker::initialize(int period)
 	std::cout << "Initialize worker" << std::endl;
 	salida.resize(5);
 	puntos.resize(5);
-	puntos[0] = QVec::vec3(-300,0,250);
-	puntos[1] = QVec::vec3(-150,0,250);
-	puntos[2] = QVec::vec3(0,0,250);
-	puntos[3] = QVec::vec3(150,0,250);
-	puntos[4] = QVec::vec3(300,0,250);
+	puntos[0] = QVec::vec3(-300, 0, 250);
+	puntos[1] = QVec::vec3(-150, 0, 250);
+	puntos[2] = QVec::vec3(0, 0, 250);
+	puntos[3] = QVec::vec3(150, 0, 250);
+	puntos[4] = QVec::vec3(300, 0, 250);
 	this->Period = period;
 	timer.start(Period);
 	qDebug() << "End initialize";
@@ -102,89 +101,77 @@ void SpecificWorker::compute()
 {
 	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	RoboCompLaser::TLaserData ldata_def;
+	readRobotState();
 	switch (estado)
 	{
-	case buscoPared: //Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos.
-		ordenarLaser(ldata);
-		differentialrobot_proxy->setSpeedBase(5, ldata.back().angle);
-		usleep(2000000);
-		if (ldata.front().dist < threshold) // si llego a un obstaculo
+	case avanzarIzquierda: //Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos.
+		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+		if (ldata.front().dist < threshold)
 		{
 			estado = obstaculo;
 		}
+
 		else
 		{
-			// std::cout << "[+] Avanzo: " << ldata.front().dist << " unidades." << std::endl;
-			estado = avanzar;//avanzamos al camino mas largo
+			angleIzq = angleIzq + 0.001;
+			differentialrobot_proxy->setSpeedBase(600, -(angleIzq + 0.01));
 		}
 		break;
 
-	case avanzar:
-		ordenarLaser(ldata);
-		if (ldata.front().dist < threshold) // si llego a un obstaculo
-		{			
+	case avanzarDerecha:
+		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
+		if (ldata.front().dist < threshold)
+		{
 			estado = obstaculo;
 		}
+
 		else
 		{
-			differentialrobot_proxy->setSpeedBase(200, 0);
+			angleDer = angleDer + 0.001;
+			differentialrobot_proxy->setSpeedBase(600, angleDer);
 		}
 		break;
 
 	case obstaculo:
-		readRobotState();
-		//std::cout << "[-] Hay pared a " << ldata.front().dist << " unidades." << std::endl;
-		//ordenarLaser(ldata);
-		std::cout << "[+] Giro derecha a " << ldata.front().angle << " radianes." <<std::endl;
-		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle);
-
-		std::cout << "[-] Estado manoPared +++ " << std::endl;
-		estado=manoPared;
-		
-		
-		break;
-
-	case manoPared:
-		readRobotState();//actualizamos el estdo
-		ordenarLaser(ldata);
-		if (ldata.front().dist<threshold)
+		contStadoObstaculo++;
+		if (contStadoObstaculo > 50)
 		{
-			estado=giroDerecha;
+			differentialrobot_proxy->setSpeedBase(6, 0.6);
+			usleep(400000);
+			estado = avanzarDerecha;
+			angleDer = 0.1;
+			contStadoObstaculo = 0;
 		}
 		else
 		{
-			differentialrobot_proxy->setSpeedBase(200, 0);
-		}
-		break;
-	case manoIzquierda:
-		readRobotState();//actualizamos el estdo
-		ldata_def = ldata;
-		ordenarLaser(ldata);
-		if (ldata_def.back().dist<threshold)
-		{
-			if (ldata.front().dist<threshold)
+			cont++;
+			if (cont > 30 && cont < 60)
 			{
-				differentialrobot_proxy->setSpeedBase(200, 0);
+				std::cout << "girando izquierda" << cont << std::endl;
+				differentialrobot_proxy->setSpeedBase(6, -0.6);
+				usleep(200000);
+				estado = avanzarIzquierda;
+				angleDer = 0.1;
+			}
+			else
+			{
+				differentialrobot_proxy->setSpeedBase(6, 0.6);
+				usleep(200000);
+				estado = avanzarDerecha;
+				angleIzq = 0.1;
+				if (cont > 60)
+					cont = 0;
 			}
 		}
-		break;	
-	
-	case giroIzquierda:
-		break;
 
-	case giroDerecha:
-
-		differentialrobot_proxy->setSpeedBase(5, ldata.front().angle);
-		estado=manoPared;
 		break;
-	
 	}
 }
 void SpecificWorker::casillasOcupadas()
 {
 	for (auto p : puntos)
 	{
-		auto r = innerModel->transform("world", p ,"base");
+		auto r = innerModel->transform("world", p, "base");
 		auto [succese, c] = grid.getCell(r.x(), r.z());
 		salida.push_back(c.free);
 	}
@@ -200,7 +187,7 @@ void SpecificWorker::readRobotState()
 	{
 		differentialrobot_proxy->getBaseState(bState);
 		auto [valid, cell] = grid.getCell(bState.x, bState.z);
-		if(valid)
+		if (valid)
 		{
 			cell.visited = true;
 			cell.rect->setBrush(Qt::green);
