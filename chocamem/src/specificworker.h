@@ -83,6 +83,7 @@ private:
 	void readRobotState();
 	void ordenarLaser(TLaserData &ldata);
 	void casillasOcupadas();
+	float obtenerRot(float angulo);
 };
 
 #endif

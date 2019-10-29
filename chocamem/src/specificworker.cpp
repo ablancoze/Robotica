@@ -20,17 +20,25 @@
 
 enum Estados
 {
-	obstaculo,
-	avanzarDerecha,
-	avanzarIzquierda
+	base,
+	avanzando,
+	manoPared,
+	avanzoHaciaPared,
+	manoDer,
+	manoIzq,
+	algoritmoMano,
+	algoritmoManoIzq,
+	mismoPunto,
+	obstaculo
 
 };
-Estados estado = avanzarDerecha;
-const float threshold = 250; // millimeters
-float cont = 0;
-float angleDer = 0.1;
-float angleIzq = 0.1;
-float contStadoObstaculo = 0;
+Estados estado = base;
+float threshold = 200; // millimeters
+float anguloGiro = 0;
+int contaxu = 0;
+float posicionX=0;
+float posicionZ=0;
+
 /**
 * \brief Default constructor
 */
@@ -99,72 +107,244 @@ void SpecificWorker::initialize(int period)
 //MAQUINA DE ESTADOS
 void SpecificWorker::compute()
 {
-	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
-	RoboCompLaser::TLaserData ldata_def;
-	readRobotState();
-	switch (estado)
+	try
 	{
-	case avanzarIzquierda: //Avanzamos a la distancia mas larga, que me devuelva el laser siempre y no guardamos las casillas que recorremos.
-		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
-		if (ldata.front().dist < threshold)
+		RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); // leo el laser tiene desde la posicion [1] hasta la [99] posiciones desde angulos positivos a negativos lee de izquerda a derecha
+		//readRobotState();
+		switch (estado)
 		{
-			estado = obstaculo;
-		}
-
-		else
-		{
-			angleIzq = angleIzq + 0.001;
-			differentialrobot_proxy->setSpeedBase(600, -(angleIzq + 0.01));
-		}
-		break;
-
-	case avanzarDerecha:
-		std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
-		if (ldata.front().dist < threshold)
-		{
-			estado = obstaculo;
-		}
-
-		else
-		{
-			angleDer = angleDer + 0.001;
-			differentialrobot_proxy->setSpeedBase(600, angleDer);
-		}
-		break;
-
-	case obstaculo:
-		contStadoObstaculo++;
-		if (contStadoObstaculo > 50)
-		{
-			differentialrobot_proxy->setSpeedBase(6, 0.6);
-			usleep(400000);
-			estado = avanzarDerecha;
-			angleDer = 0.1;
-			contStadoObstaculo = 0;
-		}
-		else
-		{
-			cont++;
-			if (cont > 30 && cont < 60)
+			case base:
 			{
-				std::cout << "girando izquierda" << cont << std::endl;
-				differentialrobot_proxy->setSpeedBase(6, -0.6);
-				usleep(200000);
-				estado = avanzarIzquierda;
-				angleDer = 0.1;
+				std::cout << "estado base" << std::endl;
+				std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+				std::cout << "estado base angulo=" <<ldata.back().angle<< std::endl;
+				differentialrobot_proxy->setSpeedBase(0, ldata.back().angle);														   //Roto el robot hacia esa direccion
+				usleep(1000000);																								   // Duermo el hilo para que al robot le tiempo a girar
+				anguloGiro = ldata.back().angle;																					   // guardo el angulo de giro, para luego saber cuanto tengo que girar de mas para ponerme correctamente
+				estado = avanzando;
+				break;
 			}
-			else
+
+			case avanzando:
 			{
-				differentialrobot_proxy->setSpeedBase(6, 0.6);
-				usleep(200000);
-				estado = avanzarDerecha;
-				angleIzq = 0.1;
-				if (cont > 60)
-					cont = 0;
+				std::cout << " estado avanzando" << std::endl;
+				std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+
+				//Cuando llege al obstaculo me alineo 90 grados, poniendo la mano sobre el
+				if (ldata.front().dist < threshold)
+				{
+					std::cout << " estado avanzando--> if (ldata.front().dist < threshold)" << std::endl;
+					estado = manoPared;
+				}
+				else // avanzo siempre que no me choche
+				{
+					std::cout << " estado avanzando--> else del if (ldata.front().dist < threshold)" << std::endl;
+					differentialrobot_proxy->setSpeedBase(400, 0);
+				}
+				break;
+			}
+
+			case manoPared: //Alineo el robot con lo que se gaya topado
+			{
+				std::cout << " estado manoPared" << std::endl;
+				std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+				if (anguloGiro >= 0.0)																								   // mi mano sera la izquierda
+				{
+					std::cout << " estado manoPared--->if(anguloGiro >= 0.0)" << std::endl;
+					//Calculo de los 90º
+					differentialrobot_proxy->setSpeedBase(0, obtenerRot(anguloGiro)); //Roto el robot hacia esa direccion
+					usleep(1000000);											   // Duermo el hilo para que al robot le tiempo a girar
+
+					if (ldata.front().dist < threshold) // Probabmente sea una pared o lo mismo son dos obstaculos muy juntos... de ilusiones vive el hombre
+					{
+						std::cout << " estado manoPared--->if(anguloGiro >= 0.0)-->if(ldata.front().dist < threshold)" << std::endl;
+						estado = manoIzq;
+					}
+					else // avanzo hasta que me choque XD
+					{
+						std::cout << " estado manoPared--->if(anguloGiro >= 0.0)-->else del if(ldata.front().dist < threshold)" << std::endl;
+						estado = avanzoHaciaPared;
+					}
+				}
+				else // mi mano sera la derecha
+				{
+					std::cout << " estado manoPared--->else del if(anguloGiro >= 0.0)" << std::endl;
+					differentialrobot_proxy->setSpeedBase(0, obtenerRot(anguloGiro)); //Roto el robot hacia esa direccion
+					usleep(1000000);											   // Duermo el hilo para que al robot le tiempo a girar
+
+					if (ldata.front().dist < threshold) // Probabmente sea una pared o lo mismo son dos obstaculos muy juntos... de ilusiones vive el hombre
+					{
+						std::cout << " estado manoPared--->else del if(anguloGiro >= 0.0)-->if(ldata.front().dist < threshold)" << std::endl;
+						estado = manoDer;
+					}
+					else
+					{
+						std::cout << " estado manoPared--->else del if(anguloGiro >= 0.0)-->else del if(ldata.front().dist < threshold)" << std::endl;
+						estado = avanzoHaciaPared;
+					}
+				}
+
+				break;
+			}
+			case avanzoHaciaPared:
+			{
+				std::cout << " estado avanzoHaciaPared" << std::endl;
+				std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+				//Avanzo hasta dar con la pared, ojala y sea una pared.
+				if (ldata.front().dist < threshold)
+				{
+					std::cout << " estado avanzoHaciaPared-->if(ldata.front().dist < threshold)" << std::endl;
+					if (anguloGiro >= 0) // mi mano sera la izquierda
+					{
+						std::cout << " estado avanzoHaciaPared-->if(ldata.front().dist < threshold)-->if(anguloGiro >= 0)" << std::endl;
+						estado = manoIzq;
+					}
+					else
+					{
+						std::cout << " estado avanzoHaciaPared-->if(ldata.front().dist < threshold)-->else del if(anguloGiro >= 0)" << std::endl;
+						estado = manoDer;
+					}
+				}
+				else
+				{
+					std::cout << " estado avanzoHaciaPared-->else del if(ldata.front().dist < threshold)" << std::endl;
+					differentialrobot_proxy->setSpeedBase(400, 0);
+				}
+
+				break;
+			}
+
+			case manoDer:
+			{
+				std::cout << "estado manoDer" << std::endl;
+				//giro el robot otros 90 grado... Tenemos en cuenta que ya viene con un giro de 90 grados
+				differentialrobot_proxy->setSpeedBase(0, -1.57);
+				usleep(1000000);
+				//Si las distancia de mi laser a la izquierda son menores que mi threshold entonces es porque tengo la pared a mi lado.
+				if (ldata[99].dist < threshold && ldata[98].dist < threshold && ldata[97].dist < threshold && ldata[96].dist)
+				{
+				}
+				else //Si no se da el caso anterior es porque quizas estaba en un obstaculo entonces avanzo y vuelvo a girar -90º grados.
+				{
+					differentialrobot_proxy->setSpeedBase(0, 1.57);
+					usleep(1000000);
+					estado = avanzoHaciaPared;
+				}
+				break;
+			}
+
+			case manoIzq:
+			{
+				std::cout << "estado manoIzq" << std::endl;
+				//giro el robot otros 90 grado... Tenemos en cuenta que ya viene con un giro de 90 grados
+				usleep(1000000);
+				differentialrobot_proxy->setSpeedBase(0, 1.57);
+				usleep(1000000);
+				//Si las distancia de mi laser a la izquierda son menores que mi threshold entonces es porque tengo la pared a mi lado.
+				if (ldata[1].dist <= (threshold + 1500) && ldata[2].dist <= (threshold + 1700))
+				{
+					std::cout << "estado manoIzq-->if(ldata[1].dist <= (threshold + 1500) && ldata[2].dist...)" << std::endl;
+					estado = algoritmoMano;
+					differentialrobot_proxy->getBaseState(bState);				
+					posicionX=bState.x;
+					posicionZ=bState.z;
+					
+				}
+				else //Si no se da el caso anterior es porque quizas estaba en un obstaculo entonces avanzo y vuelvo a girar -90º grados.
+				{
+					std::cout << "estado manoIzq--> else del if(ldata[1].dist <= (threshold + 1500) && ldata[2].dist...)" << std::endl;
+					differentialrobot_proxy->setSpeedBase(400, 0);
+					usleep(1000000);
+					differentialrobot_proxy->setSpeedBase(0, -1.57);
+					usleep(1000000);
+
+					estado = avanzoHaciaPared;
+					
+				}
+				break;
+			}
+
+			case algoritmoMano:
+			{
+				std::cout << "estado algoritmoMano" << std::endl;
+				differentialrobot_proxy->getBaseState(bState);
+				std::cout << "posicion del robot en el punto util: X="<<posicionX<<" Z="<<posicionZ<<" posicion del robot actual: X="<<bState.x<<" Z="<<bState.z << std::endl;
+				if (bState.x >= 2100 && bState.z >= 570 && bState.x <= 2500 && bState.z <= 600 && contaxu > 0)// Compruebo si he vuelto al mismo punto
+				{
+					std::cout << "estado algoritmoMano-->if(bState.x == posicionX && bState.z == posicionZ && contaxu > 0)" << std::endl;
+					estado=mismoPunto;
+				}
+				else // si vuelvo al mismo punto roto -90 avanzo 500 roto otros +90 y aumento mi threashold.
+				{
+					std::cout << "estado algoritmoMano-->else del if(bState.x == posicionX && bState.z == posicionZ && contaxu > 0)" << std::endl;
+					std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+					if (ldata.front().dist<threshold)
+					{
+						std::cout << "estado algoritmoMano-->else del if(bState.x == posicionX && bState.z == posicionZ && contaxu > 0)-->if(ldata.front().dist<threshold)" << std::endl;
+						estado=algoritmoManoIzq;
+					}
+					else
+					{
+						std::cout << "estado algoritmoMano-->if(bState.x == posicionX && bState.z == posicionZ && contaxu > 0)-->else del if(ldata.front().dist<threshold)" << std::endl;;
+						differentialrobot_proxy->setSpeedBase(400, 0);
+					}
+				}
+				contaxu=1;
+				break;
+			}
+
+			case algoritmoManoIzq:
+			{
+				std::cout << "estado algoritmoManoIzq" << std::endl;
+				//giro el robot otros 90 grado... Tenemos en cuenta que ya viene con un giro de 90 grados
+				differentialrobot_proxy->setSpeedBase(0, 1.57);
+				usleep(1000000);
+				//Si las distancia de mi laser a la izquierda son menores que mi threshold entonces es porque tengo la pared a mi lado.
+				if (ldata[1].dist <= (threshold + 1500) && ldata[2].dist <= (threshold + 1700))
+				{
+					std::cout << "estado algoritmoManoIzq-->if(ldata[1].dist <= (threshold + 1500) && ldata[2].dist...)" << std::endl;
+					estado = algoritmoMano;			
+				}
+				else //Si no se da el caso anterior es porque quizas estaba en un obstaculo entonces avanzo y vuelvo a girar -90º grados.
+				{
+					std::cout << "estado algoritmoManoIzq--> else del if(ldata[1].dist <= (threshold + 1500) && ldata[2].dist...)" << std::endl;
+					differentialrobot_proxy->setSpeedBase(400, 0);
+					usleep(1000000);
+					differentialrobot_proxy->setSpeedBase(0, -1.57);
+					usleep(1000000);
+					estado = avanzoHaciaPared;
+				}
+				break;
+			}
+			
+			case mismoPunto:
+			{
+				//Roto -90 grados
+				differentialrobot_proxy->setSpeedBase(0, -1.57);
+				usleep(1000000);
+				//Avanzo una minima distancia
+				differentialrobot_proxy->setSpeedBase(400, 0);
+				usleep(99999);
+				threshold = threshold+700;
+				//Roto +90 grados
+				differentialrobot_proxy->setSpeedBase(0, 1.57);
+				usleep(1000000);
+				//actualizo mi punto incial.
+				differentialrobot_proxy->getBaseState(bState);				
+				posicionX=bState.x;
+				posicionZ=bState.z;
+				estado=algoritmoMano;
+				break;
+			}
+			case obstaculo:
+			{
+				break;
 			}
 		}
-
-		break;
+	}
+	catch (const Ice::Exception &ex)
+	{
+		std::cout << ex << std::endl; //If there is any error/exception display the same.
 	}
 }
 void SpecificWorker::casillasOcupadas()
@@ -176,6 +356,18 @@ void SpecificWorker::casillasOcupadas()
 		salida.push_back(c.free);
 	}
 }
+
+float SpecificWorker::obtenerRot(float angulo)
+{
+	float rot = 0;
+	if (angulo >= 0)
+		rot = 1.57 - angulo;
+	else
+		rot = -1.57 - (angulo);
+
+	return rot;
+}
+
 void SpecificWorker::ordenarLaser(TLaserData &ldata)
 {
 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; });
