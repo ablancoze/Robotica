@@ -1,9 +1,6 @@
 # Robotica
-Proyecto de robotica
+Proyecto de robótica
+Álvaro Blanco Mangut.
+Borja Alberto Tirado Galán.
 
-git checkout sesion-1 /
-cd proyectoX          /
-mkdir build           /
-cmake ..              /
-make                  /
-./ejemploX
+https://es.overleaf.com/read/zgpdthymwmdz
