@@ -34,6 +34,7 @@
 #include <GenericBase.h>
 #include <DifferentialRobot.h>
 #include <Laser.h>
+#include <RCISMousePicker.h>
 
 #define CHECK_PERIOD 5000
 #define BASIC_PERIOD 100
@@ -42,8 +43,9 @@ using namespace std;
 using namespace RoboCompGenericBase;
 using namespace RoboCompDifferentialRobot;
 using namespace RoboCompLaser;
+using namespace RoboCompRCISMousePicker;
 
-typedef map <string,::IceProxy::Ice::Object*> MapPrx;
+using TuplePrx = std::tuple<RoboCompDifferentialRobot::DifferentialRobotPrxPtr,RoboCompLaser::LaserPrxPtr>;
 
 
 class GenericWorker :
@@ -55,7 +57,7 @@ class GenericWorker :
 {
 Q_OBJECT
 public:
-	GenericWorker(MapPrx& mprx);
+	GenericWorker(TuplePrx tprx);
 	virtual ~GenericWorker();
 	virtual void killYourSelf();
 	virtual void setPeriod(int p);
@@ -64,9 +66,10 @@ public:
 	QMutex *mutex;
 
 
-	DifferentialRobotPrx differentialrobot_proxy;
-	LaserPrx laser_proxy;
+	DifferentialRobotPrxPtr differentialrobot_proxy;
+	LaserPrxPtr laser_proxy;
 
+	virtual void RCISMousePicker_setPick(Pick myPick) = 0;
 
 protected:
 

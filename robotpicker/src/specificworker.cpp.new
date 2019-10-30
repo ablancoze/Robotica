@@ -67,20 +67,20 @@ void SpecificWorker::compute()
 	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	switch (estado)
 	{
-		case IDLE:
+		case idle:
 		{
-			idle();
+			differentialrobot_proxy->setSpeedBase(0,0);
 			break;
 		}
-		case GOTO:
+		case goTo:
 		{
-			goTo();
+			goToPick();
 			break;
 		}
 
-		case OBSTACULO:
+		case obstaculo:
 		{
-			obstaculo();
+			esquivar();
 			break;
 		}
 	}
@@ -88,41 +88,20 @@ void SpecificWorker::compute()
 
 
 
-void SpecificWorker::goTo()
+void SpecificWorker::goToPick()
 {
 
 }
 
-void SpecificWorker::obstaculo()
+void SpecificWorker::esquivar()
 {
 
 }
 
-void SpecificWorker::idle()
-{
-	differentialrobot_proxy->setSpeedBase(0,0);
-	if (target.active)
-	{
-		calculoRecta();
-		estado=GOTO;
-	}	
-}
-
-float calculoRecta(float xBase, float zBase, float xTarget, float zTarget)
-{
-
-	return angulo;
-}
-
-
-/////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////
 void SpecificWorker::RCISMousePicker_setPick(Pick myPick)
 {
-	qDebug()<<"x="<<myPick.x;
-	target.x = myPick.x;
-	target.z = myPick.z;
-	target.active = true;
+//subscribesToCODE
+
 }
 
 
