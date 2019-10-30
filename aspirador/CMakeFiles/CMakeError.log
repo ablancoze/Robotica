@@ -1,0 +1,276 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_792b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_792b3.dir/build.make CMakeFiles/cmTC_792b3.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_792b3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_792b3.dir/CheckSymbolExists.c.o   -c /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_792b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_792b3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_792b3.dir/CheckSymbolExists.c.o  -o cmTC_792b3 
+CMakeFiles/cmTC_792b3.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_792b3.dir/build.make:97: recipe for target 'cmTC_792b3' failed
+make[1]: *** [cmTC_792b3] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_792b3/fast' failed
+make: *** [cmTC_792b3/fast] Error 2
+
+File /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36f5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36f5a.dir/build.make CMakeFiles/cmTC_36f5a.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36f5a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_36f5a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36f5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36f5a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_36f5a.dir/CheckFunctionExists.c.o  -o cmTC_36f5a -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_36f5a.dir/build.make:97: recipe for target 'cmTC_36f5a' failed
+make[1]: *** [cmTC_36f5a] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_36f5a/fast' failed
+make: *** [cmTC_36f5a/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_620d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_620d7.dir/build.make CMakeFiles/cmTC_620d7.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_620d7.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_620d7.dir/CheckSymbolExists.cxx.o -c /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_620d7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_620d7.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_620d7.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_620d7/fast' failed
+make: *** [cmTC_620d7/fast] Error 2
+
+File /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fc94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fc94.dir/build.make CMakeFiles/cmTC_1fc94.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fc94.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_1fc94.dir/CheckSymbolExists.cxx.o -c /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_1fc94.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1fc94.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1fc94.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1fc94/fast' failed
+make: *** [cmTC_1fc94/fast] Error 2
+
+File /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74d76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74d76.dir/build.make CMakeFiles/cmTC_74d76.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74d76.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_74d76.dir/CheckSymbolExists.cxx.o -c /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_74d76.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_74d76.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_74d76.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74d76/fast' failed
+make: *** [cmTC_74d76/fast] Error 2
+
+File /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65db7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65db7.dir/build.make CMakeFiles/cmTC_65db7.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65db7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_65db7.dir/CheckSymbolExists.c.o   -c /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_65db7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65db7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_65db7.dir/CheckSymbolExists.c.o  -o cmTC_65db7 
+CMakeFiles/cmTC_65db7.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_65db7.dir/build.make:97: recipe for target 'cmTC_65db7' failed
+make[1]: *** [cmTC_65db7] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_65db7/fast' failed
+make: *** [cmTC_65db7/fast] Error 2
+
+File /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18f16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18f16.dir/build.make CMakeFiles/cmTC_18f16.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18f16.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_18f16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18f16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18f16.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_18f16.dir/CheckFunctionExists.c.o  -o cmTC_18f16 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_18f16.dir/build.make:97: recipe for target 'cmTC_18f16' failed
+make[1]: *** [cmTC_18f16] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18f16/fast' failed
+make: *** [cmTC_18f16/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06866/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06866.dir/build.make CMakeFiles/cmTC_06866.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06866.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_06866.dir/CheckSymbolExists.c.o   -c /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_06866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06866.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_06866.dir/CheckSymbolExists.c.o  -o cmTC_06866 
+CMakeFiles/cmTC_06866.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_06866.dir/build.make:97: recipe for target 'cmTC_06866' failed
+make[1]: *** [cmTC_06866] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_06866/fast' failed
+make: *** [cmTC_06866/fast] Error 2
+
+File /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74d65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74d65.dir/build.make CMakeFiles/cmTC_74d65.dir/build
+make[1]: se entra en el directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74d65.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_74d65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74d65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74d65.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_74d65.dir/CheckFunctionExists.c.o  -o cmTC_74d65 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_74d65.dir/build.make:97: recipe for target 'cmTC_74d65' failed
+make[1]: *** [cmTC_74d65] Error 1
+make[1]: se sale del directorio '/home/salabeta/robocomp/components/beta-robotica-class/aspirador/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74d65/fast' failed
+make: *** [cmTC_74d65/fast] Error 2
+
+
