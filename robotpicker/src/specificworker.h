@@ -37,6 +37,8 @@ public:
 	SpecificWorker(TuplePrx tprx);
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
+	float rot;
+	TBaseState initialBstate;
 	struct Target
 	{
 		bool active;
@@ -57,6 +59,7 @@ public:
 	enum Estados
 	{
 		IDLE,
+		TURN,
 		GOTO,
 		OBSTACULO
 	};
@@ -72,6 +75,7 @@ private:
 	void obstaculo();
 	void goTo();
 	void idle();
+	void turn();
 };
 
 #endif

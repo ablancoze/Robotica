@@ -64,12 +64,18 @@ void SpecificWorker::initialize(int period)
 
 void SpecificWorker::compute()
 {
+	differentialrobot_proxy->getBaseState(bState);
 	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	switch (estado)
 	{
 		case IDLE:
 		{
 			idle();
+			break;
+		}
+		case TURN:
+		{
+			turn();	
 			break;
 		}
 		case GOTO:
@@ -103,9 +109,36 @@ void SpecificWorker::idle()
 	differentialrobot_proxy->setSpeedBase(0,0);
 	if (target.active)
 	{
-		calculoRecta();
-		estado=GOTO;
+		initialBstate=bState;
+		
+		estado=TURN;
 	}	
+}
+
+void SpecificWorker::turn()
+{
+	Qvec tr = innermodel->transform("base",QVec::vec3(target.x,0,target.z),"world")
+	float rot = atan2(tr.x, tr.z);
+	float distancia = tr.norm2();
+	if (distancia<100)
+	{
+		estado = idle;
+		return;
+	}
+	
+	if (fabs(rot) < 0.1)
+	{
+		estado=GOTO;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	if (rot>1)
+		rot=1;
+	
+	if (rot<-1)
+		rot=-1;
+
+	differentialrobot_proxy->setSpeedBase(0,rot);
 }
 
 float calculoRecta(float xBase, float zBase, float xTarget, float zTarget)
