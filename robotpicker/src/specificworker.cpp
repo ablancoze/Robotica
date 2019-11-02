@@ -65,7 +65,7 @@ void SpecificWorker::initialize(int period)
 void SpecificWorker::compute()
 {
 	differentialrobot_proxy->getBaseState(bState);
-	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
+	ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	switch (estado)
 	{
 		case IDLE:
@@ -96,33 +96,49 @@ void SpecificWorker::compute()
 
 void SpecificWorker::goTo()
 {
-
+	float threshold = 200; // millimeters
+	qDebug()<<"ESTADO GOTO";
+	
+	//El robot ya esta girado solo tenemos que avanzar hata que nos encontremos con un obstaculo
+	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+	if (ldata.front().dist < threshold)
+	{
+		estado=OBSTACULO;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	differentialrobot_proxy->setSpeedBase(200,0);
 }
 
 void SpecificWorker::obstaculo()
 {
+	qDebug()<<"ESTADO OBSTACULO";
+	// si el angulo es negativo es mas facil hacer mano izquierda, si el angulo es positivo es mas facil hacer mano derecha
+	float angulo = bState.alpha; // guardamos el angulo que forma el robot con el eje central del mapa??? o algo asi
+	float rot = angulo - 1.57;
 
 }
 
 void SpecificWorker::idle()
 {
+	qDebug()<<"ESTADO IDLE";
 	differentialrobot_proxy->setSpeedBase(0,0);
 	if (target.active)
 	{
 		initialBstate=bState;
-		
 		estado=TURN;
 	}	
 }
 
 void SpecificWorker::turn()
 {
-	Qvec tr = innermodel->transform("base",QVec::vec3(target.x,0,target.z),"world")
-	float rot = atan2(tr.x, tr.z);
+	qDebug()<<"ESTADO TURN";
+	QVec tr = innermodel->transform("robot", QVec::vec3(target.x, 0, target.z), "world");
+	float rot = atan2(tr.x(), tr.z());
 	float distancia = tr.norm2();
 	if (distancia<100)
 	{
-		estado = idle;
+		estado = IDLE;
 		return;
 	}
 	
@@ -141,18 +157,12 @@ void SpecificWorker::turn()
 	differentialrobot_proxy->setSpeedBase(0,rot);
 }
 
-float calculoRecta(float xBase, float zBase, float xTarget, float zTarget)
-{
-
-	return angulo;
-}
-
 
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 void SpecificWorker::RCISMousePicker_setPick(Pick myPick)
 {
-	qDebug()<<"x="<<myPick.x;
+	qDebug()<<"x="<<myPick.x<<"z="<<myPick.z;
 	target.x = myPick.x;
 	target.z = myPick.z;
 	target.active = true;

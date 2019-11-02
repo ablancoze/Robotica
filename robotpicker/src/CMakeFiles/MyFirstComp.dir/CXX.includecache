@@ -12,429 +12,429 @@ QObject
 signal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/QDebug
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QDebug
 qdebug.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdebug.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdebug.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QEvent
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QEvent
 qcoreevent.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcoreevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcoreevent.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QHash
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QHash
 qhash.h
-/home/salabeta/anaconda3/include/qt/QtCore/qhash.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhash.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QList
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QList
 qlist.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlist.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QMap
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QMap
 qmap.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmap.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QMargins
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QMargins
 qmargins.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmargins.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmargins.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QMetaType
 qmetatype.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmetatype.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmetatype.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QObject
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QObject
 qobject.h
-/home/salabeta/anaconda3/include/qt/QtCore/qobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobject.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QPointF
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QPointF
 qpoint.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpoint.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpoint.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QRect
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QRect
 qrect.h
-/home/salabeta/anaconda3/include/qt/QtCore/qrect.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrect.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QScopedPointer
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QScopedPointer
 qscopedpointer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qscopedpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qscopedpointer.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QSharedDataPointer
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QSharedDataPointer
 qshareddata.h
-/home/salabeta/anaconda3/include/qt/QtCore/qshareddata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qshareddata.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QSize
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QSize
 qsize.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsize.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsize.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QSizeF
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QSizeF
 qsize.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsize.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsize.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QSocketNotifier
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QSocketNotifier
 qsocketnotifier.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsocketnotifier.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsocketnotifier.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QString
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QString
 qstring.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstring.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstring.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QStringList
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QStringList
 qstringlist.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstringlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringlist.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QVariant
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QVariant
 qvariant.h
-/home/salabeta/anaconda3/include/qt/QtCore/qvariant.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvariant.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QtCore
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QtCore
 QtCore/QtCoreDepends
 -
 qglobal.h
-/home/salabeta/anaconda3/include/qt/QtCore/qglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qglobal.h
 qabstractanimation.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractanimation.h
 qabstracteventdispatcher.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstracteventdispatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstracteventdispatcher.h
 qabstractitemmodel.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractitemmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractitemmodel.h
 qabstractnativeeventfilter.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractnativeeventfilter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractnativeeventfilter.h
 qabstractproxymodel.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractproxymodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractproxymodel.h
 qabstractstate.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractstate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractstate.h
 qabstracttransition.h
-/home/salabeta/anaconda3/include/qt/QtCore/qabstracttransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstracttransition.h
 qalgorithms.h
-/home/salabeta/anaconda3/include/qt/QtCore/qalgorithms.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qalgorithms.h
 qanimationgroup.h
-/home/salabeta/anaconda3/include/qt/QtCore/qanimationgroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qanimationgroup.h
 qarraydata.h
-/home/salabeta/anaconda3/include/qt/QtCore/qarraydata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qarraydata.h
 qarraydataops.h
-/home/salabeta/anaconda3/include/qt/QtCore/qarraydataops.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qarraydataops.h
 qarraydatapointer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qarraydatapointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qarraydatapointer.h
 qatomic.h
-/home/salabeta/anaconda3/include/qt/QtCore/qatomic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qatomic.h
 qbasictimer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qbasictimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbasictimer.h
 qbitarray.h
-/home/salabeta/anaconda3/include/qt/QtCore/qbitarray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbitarray.h
 qbuffer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qbuffer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbuffer.h
 qbytearray.h
-/home/salabeta/anaconda3/include/qt/QtCore/qbytearray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbytearray.h
 qbytearraylist.h
-/home/salabeta/anaconda3/include/qt/QtCore/qbytearraylist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbytearraylist.h
 qbytearraymatcher.h
-/home/salabeta/anaconda3/include/qt/QtCore/qbytearraymatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbytearraymatcher.h
 qcache.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcache.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcache.h
 qchar.h
-/home/salabeta/anaconda3/include/qt/QtCore/qchar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qchar.h
 qcollator.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcollator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcollator.h
 qcommandlineoption.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcommandlineoption.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcommandlineoption.h
 qcommandlineparser.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcommandlineparser.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcommandlineparser.h
 qcompilerdetection.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcompilerdetection.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcompilerdetection.h
 qcontainerfwd.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcontainerfwd.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcontainerfwd.h
 qcontiguouscache.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcontiguouscache.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcontiguouscache.h
 qcoreapplication.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcoreapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcoreapplication.h
 qcoreevent.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcoreevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcoreevent.h
 qcryptographichash.h
-/home/salabeta/anaconda3/include/qt/QtCore/qcryptographichash.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcryptographichash.h
 qdatastream.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdatastream.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdatastream.h
 qdatetime.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdatetime.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdatetime.h
 qdeadlinetimer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdeadlinetimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdeadlinetimer.h
 qdebug.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdebug.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdebug.h
 qdir.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdir.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdir.h
 qdiriterator.h
-/home/salabeta/anaconda3/include/qt/QtCore/qdiriterator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdiriterator.h
 qeasingcurve.h
-/home/salabeta/anaconda3/include/qt/QtCore/qeasingcurve.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qeasingcurve.h
 qelapsedtimer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qelapsedtimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qelapsedtimer.h
 qendian.h
-/home/salabeta/anaconda3/include/qt/QtCore/qendian.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qendian.h
 qeventloop.h
-/home/salabeta/anaconda3/include/qt/QtCore/qeventloop.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qeventloop.h
 qeventtransition.h
-/home/salabeta/anaconda3/include/qt/QtCore/qeventtransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qeventtransition.h
 qexception.h
-/home/salabeta/anaconda3/include/qt/QtCore/qexception.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qexception.h
 qfactoryinterface.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfactoryinterface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfactoryinterface.h
 qfile.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfile.h
 qfiledevice.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfiledevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfiledevice.h
 qfileinfo.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfileinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfileinfo.h
 qfileselector.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfileselector.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfileselector.h
 qfilesystemwatcher.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfilesystemwatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfilesystemwatcher.h
 qfinalstate.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfinalstate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfinalstate.h
 qflags.h
-/home/salabeta/anaconda3/include/qt/QtCore/qflags.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qflags.h
 qfuture.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfuture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfuture.h
 qfutureinterface.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfutureinterface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfutureinterface.h
 qfuturesynchronizer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfuturesynchronizer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfuturesynchronizer.h
 qfuturewatcher.h
-/home/salabeta/anaconda3/include/qt/QtCore/qfuturewatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfuturewatcher.h
 qgenericatomic.h
-/home/salabeta/anaconda3/include/qt/QtCore/qgenericatomic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qgenericatomic.h
 qglobalstatic.h
-/home/salabeta/anaconda3/include/qt/QtCore/qglobalstatic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qglobalstatic.h
 qhash.h
-/home/salabeta/anaconda3/include/qt/QtCore/qhash.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhash.h
 qhashfunctions.h
-/home/salabeta/anaconda3/include/qt/QtCore/qhashfunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhashfunctions.h
 qhistorystate.h
-/home/salabeta/anaconda3/include/qt/QtCore/qhistorystate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhistorystate.h
 qidentityproxymodel.h
-/home/salabeta/anaconda3/include/qt/QtCore/qidentityproxymodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qidentityproxymodel.h
 qiodevice.h
-/home/salabeta/anaconda3/include/qt/QtCore/qiodevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qiodevice.h
 qisenum.h
-/home/salabeta/anaconda3/include/qt/QtCore/qisenum.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qisenum.h
 qitemselectionmodel.h
-/home/salabeta/anaconda3/include/qt/QtCore/qitemselectionmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qitemselectionmodel.h
 qiterator.h
-/home/salabeta/anaconda3/include/qt/QtCore/qiterator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qiterator.h
 qjsonarray.h
-/home/salabeta/anaconda3/include/qt/QtCore/qjsonarray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsonarray.h
 qjsondocument.h
-/home/salabeta/anaconda3/include/qt/QtCore/qjsondocument.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsondocument.h
 qjsonobject.h
-/home/salabeta/anaconda3/include/qt/QtCore/qjsonobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsonobject.h
 qjsonvalue.h
-/home/salabeta/anaconda3/include/qt/QtCore/qjsonvalue.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsonvalue.h
 qlibrary.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlibrary.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlibrary.h
 qlibraryinfo.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlibraryinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlibraryinfo.h
 qline.h
-/home/salabeta/anaconda3/include/qt/QtCore/qline.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qline.h
 qlinkedlist.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlinkedlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlinkedlist.h
 qlist.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlist.h
 qlocale.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlocale.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlocale.h
 qlockfile.h
-/home/salabeta/anaconda3/include/qt/QtCore/qlockfile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlockfile.h
 qloggingcategory.h
-/home/salabeta/anaconda3/include/qt/QtCore/qloggingcategory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qloggingcategory.h
 qmap.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmap.h
 qmargins.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmargins.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmargins.h
 qmath.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmath.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmath.h
 qmessageauthenticationcode.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmessageauthenticationcode.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmessageauthenticationcode.h
 qmetaobject.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmetaobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmetaobject.h
 qmetatype.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmetatype.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmetatype.h
 qmimedata.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmimedata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmimedata.h
 qmimedatabase.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmimedatabase.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmimedatabase.h
 qmimetype.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmimetype.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmimetype.h
 qmutex.h
-/home/salabeta/anaconda3/include/qt/QtCore/qmutex.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmutex.h
 qnamespace.h
-/home/salabeta/anaconda3/include/qt/QtCore/qnamespace.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qnamespace.h
 qnumeric.h
-/home/salabeta/anaconda3/include/qt/QtCore/qnumeric.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qnumeric.h
 qobject.h
-/home/salabeta/anaconda3/include/qt/QtCore/qobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobject.h
 qobjectcleanuphandler.h
-/home/salabeta/anaconda3/include/qt/QtCore/qobjectcleanuphandler.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobjectcleanuphandler.h
 qobjectdefs.h
-/home/salabeta/anaconda3/include/qt/QtCore/qobjectdefs.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobjectdefs.h
 qoperatingsystemversion.h
-/home/salabeta/anaconda3/include/qt/QtCore/qoperatingsystemversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qoperatingsystemversion.h
 qpair.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpair.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpair.h
 qparallelanimationgroup.h
-/home/salabeta/anaconda3/include/qt/QtCore/qparallelanimationgroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qparallelanimationgroup.h
 qpauseanimation.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpauseanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpauseanimation.h
 qplugin.h
-/home/salabeta/anaconda3/include/qt/QtCore/qplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qplugin.h
 qpluginloader.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpluginloader.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpluginloader.h
 qpoint.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpoint.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpoint.h
 qpointer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpointer.h
 qprocess.h
-/home/salabeta/anaconda3/include/qt/QtCore/qprocess.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qprocess.h
 qprocessordetection.h
-/home/salabeta/anaconda3/include/qt/QtCore/qprocessordetection.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qprocessordetection.h
 qpropertyanimation.h
-/home/salabeta/anaconda3/include/qt/QtCore/qpropertyanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpropertyanimation.h
 qqueue.h
-/home/salabeta/anaconda3/include/qt/QtCore/qqueue.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qqueue.h
 qreadwritelock.h
-/home/salabeta/anaconda3/include/qt/QtCore/qreadwritelock.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qreadwritelock.h
 qrect.h
-/home/salabeta/anaconda3/include/qt/QtCore/qrect.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrect.h
 qrefcount.h
-/home/salabeta/anaconda3/include/qt/QtCore/qrefcount.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrefcount.h
 qregexp.h
-/home/salabeta/anaconda3/include/qt/QtCore/qregexp.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qregexp.h
 qregularexpression.h
-/home/salabeta/anaconda3/include/qt/QtCore/qregularexpression.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qregularexpression.h
 qresource.h
-/home/salabeta/anaconda3/include/qt/QtCore/qresource.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qresource.h
 qresultstore.h
-/home/salabeta/anaconda3/include/qt/QtCore/qresultstore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qresultstore.h
 qrunnable.h
-/home/salabeta/anaconda3/include/qt/QtCore/qrunnable.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrunnable.h
 qsavefile.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsavefile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsavefile.h
 qscopedpointer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qscopedpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qscopedpointer.h
 qscopedvaluerollback.h
-/home/salabeta/anaconda3/include/qt/QtCore/qscopedvaluerollback.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qscopedvaluerollback.h
 qsemaphore.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsemaphore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsemaphore.h
 qsequentialanimationgroup.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsequentialanimationgroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsequentialanimationgroup.h
 qset.h
-/home/salabeta/anaconda3/include/qt/QtCore/qset.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qset.h
 qsettings.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsettings.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsettings.h
 qshareddata.h
-/home/salabeta/anaconda3/include/qt/QtCore/qshareddata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qshareddata.h
 qsharedmemory.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsharedmemory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsharedmemory.h
 qsharedpointer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsharedpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsharedpointer.h
 qsignalmapper.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsignalmapper.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsignalmapper.h
 qsignaltransition.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsignaltransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsignaltransition.h
 qsize.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsize.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsize.h
 qsocketnotifier.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsocketnotifier.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsocketnotifier.h
 qsortfilterproxymodel.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsortfilterproxymodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsortfilterproxymodel.h
 qstack.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstack.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstack.h
 qstandardpaths.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstandardpaths.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstandardpaths.h
 qstate.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstate.h
 qstatemachine.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstatemachine.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstatemachine.h
 qstorageinfo.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstorageinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstorageinfo.h
 qstring.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstring.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstring.h
 qstringbuilder.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstringbuilder.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringbuilder.h
 qstringlist.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstringlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringlist.h
 qstringlistmodel.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstringlistmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringlistmodel.h
 qstringmatcher.h
-/home/salabeta/anaconda3/include/qt/QtCore/qstringmatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringmatcher.h
 qsysinfo.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsysinfo.h
 qsystemdetection.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsystemdetection.h
 qsystemsemaphore.h
-/home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsystemsemaphore.h
 qtemporarydir.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtemporarydir.h
 qtemporaryfile.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtemporaryfile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtemporaryfile.h
 qtextboundaryfinder.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtextboundaryfinder.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtextboundaryfinder.h
 qtextcodec.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtextcodec.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtextcodec.h
 qtextstream.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtextstream.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtextstream.h
 qthread.h
-/home/salabeta/anaconda3/include/qt/QtCore/qthread.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qthread.h
 qthreadpool.h
-/home/salabeta/anaconda3/include/qt/QtCore/qthreadpool.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qthreadpool.h
 qthreadstorage.h
-/home/salabeta/anaconda3/include/qt/QtCore/qthreadstorage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qthreadstorage.h
 qtimeline.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtimeline.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtimeline.h
 qtimer.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtimer.h
 qtimezone.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtimezone.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtimezone.h
 qtranslator.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtranslator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtranslator.h
 qtypeinfo.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtypeinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtypeinfo.h
 qtypetraits.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtypetraits.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtypetraits.h
 qurl.h
-/home/salabeta/anaconda3/include/qt/QtCore/qurl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qurl.h
 qurlquery.h
-/home/salabeta/anaconda3/include/qt/QtCore/qurlquery.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qurlquery.h
 quuid.h
-/home/salabeta/anaconda3/include/qt/QtCore/quuid.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/quuid.h
 qvariant.h
-/home/salabeta/anaconda3/include/qt/QtCore/qvariant.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvariant.h
 qvariantanimation.h
-/home/salabeta/anaconda3/include/qt/QtCore/qvariantanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvariantanimation.h
 qvarlengtharray.h
-/home/salabeta/anaconda3/include/qt/QtCore/qvarlengtharray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvarlengtharray.h
 qvector.h
-/home/salabeta/anaconda3/include/qt/QtCore/qvector.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvector.h
 qversionnumber.h
-/home/salabeta/anaconda3/include/qt/QtCore/qversionnumber.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qversionnumber.h
 qversiontagging.h
-/home/salabeta/anaconda3/include/qt/QtCore/qversiontagging.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qversiontagging.h
 qwaitcondition.h
-/home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qwaitcondition.h
 qwineventnotifier.h
-/home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qwineventnotifier.h
 qxmlstream.h
-/home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qxmlstream.h
 qtcoreversion.h
-/home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtcoreversion.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QtCoreDepends
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractanimation.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstracteventdispatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstracteventdispatcher.h
 QtCore/qobject.h
 -
 QtCore/qeventloop.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractitemmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
 -
 QtCore/qobject.h
@@ -444,41 +444,41 @@ QtCore/qhash.h
 QtCore/qvector.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractnativeeventfilter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractnativeeventfilter.h
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractproxymodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractproxymodel.h
 QtCore/qabstractitemmodel.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstractstate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstractstate.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qabstracttransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qabstracttransition.h
 QtCore/qobject.h
 -
 QtCore/qlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qalgorithms.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
 intrin.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qanimationgroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qanimationgroup.h
 QtCore/qabstractanimation.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qarraydata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qarraydata.h
 QtCore/qrefcount.h
 -
 string.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qarraydataops.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qarraydataops.h
 QtCore/qarraydata.h
 -
 new
@@ -486,31 +486,31 @@ new
 string.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qarraydatapointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qarraydatapointer.h
 QtCore/qarraydataops.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qatomic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qatomic.h
 QtCore/qglobal.h
 -
 QtCore/qbasicatomic.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qatomic_bootstrap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qatomic_bootstrap.h
 QtCore/qgenericatomic.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qatomic_cxx11.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qatomic_cxx11.h
 QtCore/qgenericatomic.h
 -
 atomic
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qatomic_msvc.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qatomic_msvc.h
 QtCore/qgenericatomic.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbasicatomic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbasicatomic.h
 QtCore/qatomic.h
 -
 QtCore/qatomic_bootstrap.h
@@ -520,23 +520,23 @@ QtCore/qatomic_cxx11.h
 QtCore/qatomic_msvc.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbasictimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbasictimer.h
 QtCore/qglobal.h
 -
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbitarray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbitarray.h
 QtCore/qbytearray.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbuffer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbuffer.h
 QtCore/qiodevice.h
 -
 QtCore/qbytearray.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbytearray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbytearray.h
 QtCore/qrefcount.h
 -
 QtCore/qnamespace.h
@@ -556,25 +556,25 @@ iterator
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbytearraylist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbytearraylist.h
 QtCore/qlist.h
 -
 QtCore/qbytearray.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qbytearraymatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qbytearraymatcher.h
 QtCore/qbytearray.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcache.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcache.h
 QtCore/qhash.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qchar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qchar.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcollator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcollator.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
@@ -582,13 +582,13 @@ QtCore/qstringlist.h
 QtCore/qlocale.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcommandlineoption.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcommandlineoption.h
 QtCore/qstringlist.h
 -
 QtCore/qshareddata.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcommandlineparser.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcommandlineparser.h
 QtCore/qstringlist.h
 -
 QtCore/qcoreapplication.h
@@ -596,21 +596,21 @@ QtCore/qcoreapplication.h
 QtCore/qcommandlineoption.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcompilerdetection.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcompilerdetection.h
 QtCore/qglobal.h
 -
 utility
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qconfig-bootstrapped.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qconfig-bootstrapped.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qconfig.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qconfig.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcontainerfwd.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcontainerfwd.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcontiguouscache.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcontiguouscache.h
 QtCore/qatomic.h
 -
 limits.h
@@ -618,7 +618,7 @@ limits.h
 new
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcoreapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcoreapplication.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
@@ -632,7 +632,7 @@ QtCore/qeventloop.h
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcoreevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
 QtCore/qbytearray.h
@@ -640,13 +640,13 @@ QtCore/qbytearray.h
 QtCore/qobjectdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qcryptographichash.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qcryptographichash.h
 QtCore/qbytearray.h
 -
 QtCore/qobjectdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qdatastream.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
 -
 QtCore/qiodevice.h
@@ -654,7 +654,7 @@ QtCore/qiodevice.h
 QtCore/qpair.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qdatetime.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdatetime.h
 QtCore/qstring.h
 -
 QtCore/qnamespace.h
@@ -664,7 +664,7 @@ QtCore/qshareddata.h
 limits
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qdeadlinetimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdeadlinetimer.h
 QtCore/qelapsedtimer.h
 -
 QtCore/qmetatype.h
@@ -676,7 +676,7 @@ limits
 chrono
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qdebug.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -708,7 +708,7 @@ map
 utility
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qdir.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdir.h
 QtCore/qstring.h
 -
 QtCore/qfileinfo.h
@@ -718,11 +718,11 @@ QtCore/qstringlist.h
 QtCore/qshareddata.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qdiriterator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qdiriterator.h
 QtCore/qdir.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qeasingcurve.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qeasingcurve.h
 QtCore/qglobal.h
 -
 QtCore/qobjectdefs.h
@@ -734,11 +734,11 @@ QtCore/qlist.h
 QtCore/qpoint.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qelapsedtimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qelapsedtimer.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qendian.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qendian.h
 QtCore/qglobal.h
 -
 stdlib.h
@@ -746,17 +746,17 @@ stdlib.h
 string.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qeventloop.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qeventloop.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qeventtransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qeventtransition.h
 QtCore/qabstracttransition.h
 -
 QtCore/qcoreevent.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qexception.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qexception.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -766,13 +766,13 @@ QtCore/qshareddata.h
 exception
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfactoryinterface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfactoryinterface.h
 QtCore/qobject.h
 -
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfile.h
 QtCore/qfiledevice.h
 -
 QtCore/qstring.h
@@ -780,13 +780,13 @@ QtCore/qstring.h
 stdio.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfiledevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfiledevice.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfileinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfileinfo.h
 QtCore/qfile.h
 -
 QtCore/qlist.h
@@ -796,27 +796,27 @@ QtCore/qshareddata.h
 QtCore/qmetatype.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfileselector.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfileselector.h
 QtCore/QObject
 -
 QtCore/QStringList
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfilesystemwatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfilesystemwatcher.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfinalstate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfinalstate.h
 QtCore/qabstractstate.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qflags.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qflags.h
 QtCore/qglobal.h
 -
 initializer_list
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfuture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfuture.h
 QtCore/qglobal.h
 -
 QtCore/qfutureinterface.h
@@ -824,7 +824,7 @@ QtCore/qfutureinterface.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfutureinterface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfutureinterface.h
 QtCore/qrunnable.h
 -
 QtCore/qmutex.h
@@ -834,23 +834,23 @@ QtCore/qexception.h
 QtCore/qresultstore.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfuturesynchronizer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfuturesynchronizer.h
 QtCore/qfuture.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qfuturewatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qfuturewatcher.h
 QtCore/qfuture.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qgenericatomic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qgenericatomic.h
 QtCore/qglobal.h
 -
 QtCore/qtypeinfo.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qglobal.h
 type_traits
 -
 cstddef
@@ -890,7 +890,7 @@ QtCore/qnumeric.h
 QtCore/qversiontagging.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qglobalstatic.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qglobalstatic.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -898,7 +898,7 @@ QtCore/qatomic.h
 QtCore/qmutex.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qhash.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhash.h
 QtCore/qchar.h
 -
 QtCore/qiterator.h
@@ -914,7 +914,7 @@ initializer_list
 algorithm
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qhashfunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhashfunctions.h
 QtCore/qchar.h
 -
 QtCore/qpair.h
@@ -922,15 +922,15 @@ QtCore/qpair.h
 numeric
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qhistorystate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qhistorystate.h
 QtCore/qabstractstate.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qidentityproxymodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qidentityproxymodel.h
 QtCore/qabstractproxymodel.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qiodevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qiodevice.h
 QtCore/qglobal.h
 -
 QtCore/qobject.h
@@ -942,11 +942,11 @@ QtCore/qscopedpointer.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qisenum.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qisenum.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qitemselectionmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qitemselectionmodel.h
 QtCore/qglobal.h
 -
 QtCore/qset.h
@@ -958,11 +958,11 @@ QtCore/qlist.h
 QtCore/qabstractitemmodel.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qiterator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qiterator.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qjsonarray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsonarray.h
 QtCore/qjsonvalue.h
 -
 QtCore/qiterator.h
@@ -970,11 +970,11 @@ QtCore/qiterator.h
 initializer_list
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qjsondocument.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsondocument.h
 QtCore/qjsonvalue.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qjsonobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsonobject.h
 QtCore/qjsonvalue.h
 -
 QtCore/qiterator.h
@@ -984,17 +984,17 @@ QtCore/qpair.h
 initializer_list
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qjsonvalue.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qjsonvalue.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlibrary.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlibrary.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlibraryinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlibraryinfo.h
 QtCore/qstring.h
 -
 QtCore/qdatetime.h
@@ -1002,11 +1002,11 @@ QtCore/qdatetime.h
 QtCore/qversionnumber.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qline.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qline.h
 QtCore/qpoint.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlinkedlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlinkedlist.h
 QtCore/qiterator.h
 -
 QtCore/qrefcount.h
@@ -1020,7 +1020,7 @@ algorithm
 initializer_list
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlist.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -1052,7 +1052,7 @@ QtCore/qbytearraylist.h
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlocale.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlocale.h
 QtCore/qvariant.h
 -
 QtCore/qstring.h
@@ -1062,23 +1062,23 @@ QtCore/qobjectdefs.h
 QtCore/qshareddata.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlockfile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlockfile.h
 QtCore/qstring.h
 -
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qlogging.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qlogging.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qloggingcategory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qloggingcategory.h
 QtCore/qglobal.h
 -
 QtCore/qdebug.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmap.h
 QtCore/qiterator.h
 -
 QtCore/qlist.h
@@ -1098,11 +1098,11 @@ functional
 initializer_list
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmargins.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmargins.h
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmath.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmath.h
 QtCore/qglobal.h
 -
 QtCore/qalgorithms.h
@@ -1110,17 +1110,17 @@ QtCore/qalgorithms.h
 cmath
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmessageauthenticationcode.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmessageauthenticationcode.h
 QtCore/qcryptographichash.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmetaobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmetaobject.h
 QtCore/qobjectdefs.h
 -
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmetatype.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmetatype.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -1140,19 +1140,19 @@ list
 map
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmimedata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmimedata.h
 QtCore/qvariant.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmimedatabase.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmimedatabase.h
 QtCore/qmimetype.h
 -
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmimetype.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmimetype.h
 QtCore/qglobal.h
 -
 QtCore/qshareddata.h
@@ -1160,7 +1160,7 @@ QtCore/qshareddata.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qmutex.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qmutex.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -1172,15 +1172,15 @@ chrono
 limits
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qnamespace.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qnamespace.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qnumeric.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qnumeric.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobject.h
 QtCore/qobjectdefs.h
 -
 QtCore/qstring.h
@@ -1200,39 +1200,39 @@ QtCore/qobject_impl.h
 chrono
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qobject_impl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobject_impl.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qobjectcleanuphandler.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobjectcleanuphandler.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qobjectdefs.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobjectdefs.h
 QtCore/qnamespace.h
 -
 QtCore/qobjectdefs_impl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qobjectdefs_impl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qobjectdefs_impl.h
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qoperatingsystemversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qoperatingsystemversion.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qpair.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpair.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qparallelanimationgroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qparallelanimationgroup.h
 QtCore/qanimationgroup.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qpauseanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpauseanimation.h
 QtCore/qanimationgroup.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qplugin.h
 QtCore/qobject.h
 -
 QtCore/qpointer.h
@@ -1240,7 +1240,7 @@ QtCore/qpointer.h
 QtCore/qjsonobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qpluginloader.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpluginloader.h
 QtCore/qglobal.h
 -
 QtCore/qlibrary.h
@@ -1248,17 +1248,17 @@ QtCore/qlibrary.h
 QtCore/qplugin.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qpoint.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpoint.h
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpointer.h
 QtCore/qsharedpointer.h
 -
 QtCore/qtypeinfo.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qprocess.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qprocess.h
 QtCore/qiodevice.h
 -
 QtCore/qstringlist.h
@@ -1268,23 +1268,23 @@ QtCore/qshareddata.h
 functional
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qprocessordetection.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qprocessordetection.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qpropertyanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qpropertyanimation.h
 QtCore/qvariantanimation.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qqueue.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qqueue.h
 QtCore/qlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qreadwritelock.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qreadwritelock.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qrect.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrect.h
 QtCore/qmargins.h
 -
 QtCore/qsize.h
@@ -1292,17 +1292,17 @@ QtCore/qsize.h
 QtCore/qpoint.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qrefcount.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrefcount.h
 QtCore/qatomic.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qregexp.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qregexp.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qregularexpression.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qregularexpression.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
@@ -1314,7 +1314,7 @@ QtCore/qshareddata.h
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qresource.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qresource.h
 QtCore/qstring.h
 -
 QtCore/qlocale.h
@@ -1326,7 +1326,7 @@ QtCore/qlist.h
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qresultstore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qresultstore.h
 QtCore/qglobal.h
 -
 QtCore/qmap.h
@@ -1334,11 +1334,11 @@ QtCore/qmap.h
 QtCore/qdebug.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qrunnable.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qrunnable.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsavefile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsavefile.h
 QtCore/qglobal.h
 -
 QtCore/qfiledevice.h
@@ -1346,25 +1346,25 @@ QtCore/qfiledevice.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qscopedpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
 stdlib.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qscopedvaluerollback.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qscopedvaluerollback.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsemaphore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsemaphore.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsequentialanimationgroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsequentialanimationgroup.h
 QtCore/qanimationgroup.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qset.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qset.h
 QtCore/qhash.h
 -
 initializer_list
@@ -1372,7 +1372,7 @@ initializer_list
 iterator
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsettings.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsettings.h
 QtCore/qobject.h
 -
 QtCore/qvariant.h
@@ -1384,7 +1384,7 @@ QtCore/qscopedpointer.h
 ctype.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qshareddata.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qshareddata.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -1394,11 +1394,11 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsharedmemory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsharedmemory.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsharedpointer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsharedpointer.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -1408,7 +1408,7 @@ QtCore/qshareddata.h
 QtCore/qsharedpointer_impl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsharedpointer_impl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsharedpointer_impl.h
 new
 -
 QtCore/qatomic.h
@@ -1420,41 +1420,41 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsignalmapper.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsignalmapper.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsignaltransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsignaltransition.h
 QtCore/qabstracttransition.h
 -
 QtCore/qmetaobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsize.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsize.h
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsocketnotifier.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsocketnotifier.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsortfilterproxymodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsortfilterproxymodel.h
 QtCore/qabstractproxymodel.h
 -
 QtCore/qregexp.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstack.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstack.h
 QtCore/qvector.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstandardpaths.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstandardpaths.h
 QtCore/qstringlist.h
 -
 QtCore/qobjectdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstate.h
 QtCore/qabstractstate.h
 -
 QtCore/qlist.h
@@ -1462,7 +1462,7 @@ QtCore/qlist.h
 QtCore/qmetaobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstatemachine.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstatemachine.h
 QtCore/qstate.h
 -
 QtCore/qcoreevent.h
@@ -1476,7 +1476,7 @@ QtCore/qset.h
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstorageinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstorageinfo.h
 QtCore/qbytearray.h
 -
 QtCore/qdir.h
@@ -1490,7 +1490,7 @@ QtCore/qstring.h
 QtCore/qshareddata.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstring.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -1508,7 +1508,7 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstringbuilder.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringbuilder.h
 QtCore/qstring.h
 -
 QtCore/qbytearray.h
@@ -1516,7 +1516,7 @@ QtCore/qbytearray.h
 string.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstringlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringlist.h
 QtCore/qlist.h
 -
 QtCore/qalgorithms.h
@@ -1528,21 +1528,21 @@ QtCore/qstring.h
 QtCore/qstringmatcher.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstringlistmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringlistmodel.h
 QtCore/qabstractitemmodel.h
 -
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qstringmatcher.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qstringmatcher.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsysinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsysinfo.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsystemdetection.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsystemdetection.h
 QtCore/qglobal.h
 -
 TargetConditionals.h
@@ -1552,45 +1552,45 @@ Availability.h
 AvailabilityMacros.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qsystemsemaphore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qsystemsemaphore.h
 QtCore/qstring.h
 -
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qt_windows.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qt_windows.h
 windows.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtcore-config.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtcore-config.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtcoreversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtcoreversion.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtemporarydir.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtemporarydir.h
 QtCore/qdir.h
 -
 QtCore/QScopedPointer
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtemporaryfile.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtemporaryfile.h
 QtCore/qiodevice.h
 -
 QtCore/qfile.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtextboundaryfinder.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtextboundaryfinder.h
 QtCore/qchar.h
 -
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtextcodec.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtextcodec.h
 QtCore/qstring.h
 -
 QtCore/qlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtextstream.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtextstream.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
@@ -1604,13 +1604,13 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qthread.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qthread.h
 QtCore/qobject.h
 -
 limits.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qthreadpool.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qthreadpool.h
 QtCore/qglobal.h
 -
 QtCore/qthread.h
@@ -1618,17 +1618,17 @@ QtCore/qthread.h
 QtCore/qrunnable.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qthreadstorage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qthreadstorage.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtimeline.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtimeline.h
 QtCore/qeasingcurve.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtimer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtimer.h
 QtCore/qglobal.h
 -
 QtCore/qbasictimer.h
@@ -1638,7 +1638,7 @@ QtCore/qobject.h
 chrono
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtimezone.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtimezone.h
 QtCore/qshareddata.h
 -
 QtCore/qlocale.h
@@ -1646,21 +1646,21 @@ QtCore/qlocale.h
 QtCore/qdatetime.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtranslator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtranslator.h
 QtCore/qobject.h
 -
 QtCore/qbytearray.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtypeinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtypeinfo.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qtypetraits.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qtypetraits.h
 QtCore/qglobal.h
-/home/salabeta/anaconda3/include/qt/QtCore/QtCore/qglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QtCore/qglobal.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qurl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qurl.h
 QtCore/qbytearray.h
 -
 QtCore/qobjectdefs.h
@@ -1676,7 +1676,7 @@ QtCore/qglobal.h
 QtCore/qurlquery.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qurlquery.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qurlquery.h
 QtCore/qpair.h
 -
 QtCore/qshareddata.h
@@ -1686,11 +1686,11 @@ QtCore/qurl.h
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/quuid.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/quuid.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qvariant.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvariant.h
 QtCore/qatomic.h
 -
 QtCore/qbytearray.h
@@ -1712,7 +1712,7 @@ QtCore/qobject.h
 QtCore/qbytearraylist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qvariantanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvariantanimation.h
 QtCore/qeasingcurve.h
 -
 QtCore/qabstractanimation.h
@@ -1724,7 +1724,7 @@ QtCore/qvariant.h
 QtCore/qpair.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qvarlengtharray.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvarlengtharray.h
 QtCore/qcontainerfwd.h
 -
 QtCore/qglobal.h
@@ -1744,7 +1744,7 @@ initializer_list
 iterator
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qvector.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qvector.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -1772,7 +1772,7 @@ algorithm
 QtCore/qpoint.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qversionnumber.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qversionnumber.h
 QtCore/qnamespace.h
 -
 QtCore/qstring.h
@@ -1784,21 +1784,21 @@ QtCore/qmetatype.h
 QtCore/qtypeinfo.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qversiontagging.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qwaitcondition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qwaitcondition.h
 QtCore/qglobal.h
 -
 limits.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtCore/qwineventnotifier.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qwineventnotifier.h
 QtCore/qobject.h
-/home/salabeta/anaconda3/include/qt/QtCore/QtCore/qobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/QtCore/qobject.h
 
-/home/salabeta/anaconda3/include/qt/QtCore/qxmlstream.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtCore/qxmlstream.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
@@ -1808,261 +1808,261 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/QImage
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QImage
 qimage.h
-/home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimage.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QMatrix3x3
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QMatrix3x3
 qgenericmatrix.h
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericmatrix.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QMatrix4x4
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QMatrix4x4
 qmatrix4x4.h
-/home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmatrix4x4.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QOpenGLContext
 qopenglcontext.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglcontext.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QPaintDevice
 qpaintdevice.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintdevice.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QPaintDeviceWindow
 qpaintdevicewindow.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QSurfaceFormat
 qsurfaceformat.h
-/home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsurfaceformat.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QTransform
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QTransform
 qtransform.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtransform.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QVector3D
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QVector3D
 qvector3d.h
-/home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector3d.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QWindow
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QWindow
 qwindow.h
-/home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qwindow.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QtGui
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QtGui
 QtGui/QtGuiDepends
 -
 qtguiglobal.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtguiglobal.h
 qabstracttextdocumentlayout.h
-/home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
 qaccessible.h
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessible.h
 qaccessiblebridge.h
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessiblebridge.h
 qaccessibleobject.h
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessibleobject.h
 qaccessibleplugin.h
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessibleplugin.h
 qbackingstore.h
-/home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qbackingstore.h
 qbitmap.h
-/home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qbitmap.h
 qbrush.h
-/home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qbrush.h
 qclipboard.h
-/home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qclipboard.h
 qcolor.h
-/home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qcolor.h
 qcursor.h
-/home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qcursor.h
 qdesktopservices.h
-/home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qdesktopservices.h
 qdrag.h
-/home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qdrag.h
 qevent.h
-/home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qevent.h
 qfont.h
-/home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfont.h
 qfontdatabase.h
-/home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfontdatabase.h
 qfontinfo.h
-/home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfontinfo.h
 qfontmetrics.h
-/home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfontmetrics.h
 qgenericmatrix.h
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericmatrix.h
 qgenericplugin.h
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericplugin.h
 qgenericpluginfactory.h
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
 qglyphrun.h
-/home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qglyphrun.h
 qguiapplication.h
-/home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qguiapplication.h
 qicon.h
-/home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qicon.h
 qiconengine.h
-/home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qiconengine.h
 qiconengineplugin.h
-/home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qiconengineplugin.h
 qimage.h
-/home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimage.h
 qimageiohandler.h
-/home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimageiohandler.h
 qimagereader.h
-/home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimagereader.h
 qimagewriter.h
-/home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimagewriter.h
 qinputmethod.h
-/home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qinputmethod.h
 qkeysequence.h
-/home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qkeysequence.h
 qmatrix.h
-/home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmatrix.h
 qmatrix4x4.h
-/home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmatrix4x4.h
 qmovie.h
-/home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmovie.h
 qoffscreensurface.h
-/home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qoffscreensurface.h
 qopengl.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengl.h
 qopenglbuffer.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglbuffer.h
 qopenglcontext.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglcontext.h
 qopengldebug.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengldebug.h
 qopenglextrafunctions.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
 qopenglframebufferobject.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
 qopenglfunctions.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglfunctions.h
 qopenglpaintdevice.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
 qopenglpixeltransferoptions.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
 qopenglshaderprogram.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
 qopengltexture.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengltexture.h
 qopengltextureblitter.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengltextureblitter.h
 qopengltimerquery.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengltimerquery.h
 qopenglversionfunctions.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
 qopenglvertexarrayobject.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
 qopenglwindow.h
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglwindow.h
 qpagedpaintdevice.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
 qpagelayout.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpagelayout.h
 qpagesize.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpagesize.h
 qpaintdevice.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintdevice.h
 qpaintdevicewindow.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
 qpaintengine.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintengine.h
 qpainter.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpainter.h
 qpainterpath.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpainterpath.h
 qpalette.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpalette.h
 qpdfwriter.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpdfwriter.h
 qpen.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpen.h
 qpicture.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpicture.h
 qpictureformatplugin.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpictureformatplugin.h
 qpixelformat.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpixelformat.h
 qpixmap.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpixmap.h
 qpixmapcache.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpixmapcache.h
 qpolygon.h
-/home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpolygon.h
 qquaternion.h
-/home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qquaternion.h
 qrasterwindow.h
-/home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrasterwindow.h
 qrawfont.h
-/home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrawfont.h
 qregion.h
-/home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qregion.h
 qrgb.h
-/home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrgb.h
 qrgba64.h
-/home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrgba64.h
 qscreen.h
-/home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qscreen.h
 qsessionmanager.h
-/home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsessionmanager.h
 qstandarditemmodel.h
-/home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qstandarditemmodel.h
 qstatictext.h
-/home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qstatictext.h
 qstylehints.h
-/home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qstylehints.h
 qsurface.h
-/home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsurface.h
 qsurfaceformat.h
-/home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsurfaceformat.h
 qsyntaxhighlighter.h
-/home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
 qtextcursor.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextcursor.h
 qtextdocument.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextdocument.h
 qtextdocumentfragment.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
 qtextdocumentwriter.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
 qtextformat.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextformat.h
 qtextlayout.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextlayout.h
 qtextlist.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextlist.h
 qtextobject.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextobject.h
 qtextoption.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextoption.h
 qtexttable.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtexttable.h
 qtouchdevice.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtouchdevice.h
 qtransform.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtransform.h
 qvalidator.h
-/home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvalidator.h
 qvector2d.h
-/home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector2d.h
 qvector3d.h
-/home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector3d.h
 qvector4d.h
-/home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector4d.h
 qwindow.h
-/home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qwindow.h
 qwindowdefs.h
-/home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qwindowdefs.h
 qtguiversion.h
-/home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtguiversion.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/QtGuiDepends
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/QtGuiDepends
 QtCore/QtCore
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qabstracttextdocumentlayout.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -2076,7 +2076,7 @@ QtGui/qtextcursor.h
 QtGui/qpalette.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessible.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessible.h
 QtGui/qtguiglobal.h
 -
 QtCore/qcoreapplication.h
@@ -2102,7 +2102,7 @@ QtGui/qevent.h
 stdlib.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessiblebridge.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessiblebridge.h
 QtGui/qtguiglobal.h
 -
 QtCore/qplugin.h
@@ -2110,13 +2110,13 @@ QtCore/qplugin.h
 QtCore/qfactoryinterface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessibleobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessibleobject.h
 QtGui/qtguiglobal.h
 -
 QtGui/qaccessible.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qaccessibleplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qaccessibleplugin.h
 QtGui/qtguiglobal.h
 -
 QtGui/qaccessible.h
@@ -2124,7 +2124,7 @@ QtGui/qaccessible.h
 QtCore/qfactoryinterface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qbackingstore.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qbackingstore.h
 QtGui/qtguiglobal.h
 -
 QtCore/qrect.h
@@ -2134,13 +2134,13 @@ QtGui/qwindow.h
 QtGui/qregion.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qbitmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qbitmap.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpixmap.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qbrush.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpair.h
@@ -2162,13 +2162,13 @@ QtGui/qimage.h
 QtGui/qpixmap.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qclipboard.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qclipboard.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qcolor.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qcolor.h
 QtGui/qtguiglobal.h
 -
 QtGui/qrgb.h
@@ -2180,7 +2180,7 @@ QtCore/qstringlist.h
 QtGui/qrgba64.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qcursor.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qcursor.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -2188,7 +2188,7 @@ QtCore/qpoint.h
 QtGui/qwindowdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qdesktopservices.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qdesktopservices.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -2196,13 +2196,13 @@ QtCore/qstring.h
 QtCore/qstandardpaths.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qdrag.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qdrag.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qevent.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -2234,7 +2234,7 @@ QtGui/qvector2d.h
 QtGui/qtouchdevice.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qfont.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfont.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -2244,7 +2244,7 @@ QtCore/qstring.h
 QtCore/qsharedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qfontdatabase.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfontdatabase.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -2254,7 +2254,7 @@ QtCore/qstring.h
 QtGui/qfont.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qfontinfo.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfontinfo.h
 QtGui/qtguiglobal.h
 -
 QtGui/qfont.h
@@ -2262,7 +2262,7 @@ QtGui/qfont.h
 QtCore/qsharedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qfontmetrics.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qfontmetrics.h
 QtGui/qtguiglobal.h
 -
 QtGui/qfont.h
@@ -2272,7 +2272,7 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericmatrix.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericmatrix.h
 QtGui/qtguiglobal.h
 -
 QtCore/qmetatype.h
@@ -2282,7 +2282,7 @@ QtCore/qdebug.h
 QtCore/qdatastream.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericplugin.h
 QtGui/qtguiglobal.h
 -
 QtCore/qplugin.h
@@ -2290,13 +2290,13 @@ QtCore/qplugin.h
 QtCore/qfactoryinterface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qgenericpluginfactory.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qglyphrun.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qglyphrun.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsharedpointer.h
@@ -2308,7 +2308,7 @@ QtCore/qpoint.h
 QtGui/qrawfont.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qguiapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qguiapplication.h
 QtGui/qtguiglobal.h
 -
 QtCore/qcoreapplication.h
@@ -2324,7 +2324,7 @@ QtCore/qpoint.h
 QtCore/qsize.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qicon.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsize.h
@@ -2334,7 +2334,7 @@ QtCore/qlist.h
 QtGui/qpixmap.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qiconengine.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qiconengine.h
 QtGui/qtguiglobal.h
 -
 QtCore/qlist.h
@@ -2342,7 +2342,7 @@ QtCore/qlist.h
 QtGui/qicon.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qiconengineplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qiconengineplugin.h
 QtGui/qtguiglobal.h
 -
 QtCore/qplugin.h
@@ -2350,7 +2350,7 @@ QtCore/qplugin.h
 QtCore/qfactoryinterface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qimage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
@@ -2372,7 +2372,7 @@ QtCore/qstring.h
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qimageiohandler.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimageiohandler.h
 QtGui/qtguiglobal.h
 -
 QtCore/qiodevice.h
@@ -2384,7 +2384,7 @@ QtCore/qfactoryinterface.h
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qimagereader.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimagereader.h
 QtGui/qtguiglobal.h
 -
 QtCore/qbytearray.h
@@ -2396,7 +2396,7 @@ QtGui/qimage.h
 QtGui/qimageiohandler.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qimagewriter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qimagewriter.h
 QtGui/qtguiglobal.h
 -
 QtCore/qbytearray.h
@@ -2408,13 +2408,13 @@ QtCore/qlist.h
 QtGui/qimageiohandler.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qinputmethod.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qinputmethod.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qkeysequence.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qkeysequence.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -2422,7 +2422,7 @@ QtCore/qstring.h
 QtCore/qobjectdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qmatrix.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmatrix.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpolygon.h
@@ -2438,7 +2438,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qmatrix4x4.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmatrix4x4.h
 QtGui/qtguiglobal.h
 -
 QtGui/qvector3d.h
@@ -2452,7 +2452,7 @@ QtGui/qgenericmatrix.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qmovie.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qmovie.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -2464,7 +2464,7 @@ QtCore/qlist.h
 QtGui/qimagereader.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qoffscreensurface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qoffscreensurface.h
 QtGui/qtguiglobal.h
 -
 QtCore/QObject
@@ -2472,7 +2472,7 @@ QtCore/QObject
 QtGui/qsurface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopengl.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengl.h
 QtGui/qtguiglobal.h
 -
 QtCore/qt_windows.h
@@ -2520,7 +2520,7 @@ stdint.h
 inttypes.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglbuffer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglbuffer.h
 QtGui/qtguiglobal.h
 -
 QtCore/qscopedpointer.h
@@ -2528,7 +2528,7 @@ QtCore/qscopedpointer.h
 QtGui/qopengl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglcontext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglcontext.h
 QtGui/qtguiglobal.h
 -
 QtCore/qnamespace.h
@@ -2552,7 +2552,7 @@ QtCore/qpair.h
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopengldebug.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengldebug.h
 QtGui/qtguiglobal.h
 -
 QtCore/qshareddata.h
@@ -2570,9 +2570,9 @@ QtCore/qdebug.h
 QtGui/qopenglcontext.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopengles2ext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengles2ext.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglext.h
 windows.h
 -
 stddef.h
@@ -2590,13 +2590,13 @@ stdint.h
 inttypes.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglextrafunctions.h
 QtGui/qtguiglobal.h
 -
 QtGui/qopenglfunctions.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglframebufferobject.h
 QtGui/qtguiglobal.h
 -
 QtGui/qopengl.h
@@ -2606,7 +2606,7 @@ QtGui/qpaintdevice.h
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglfunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglfunctions.h
 QtGui/qtguiglobal.h
 -
 QtGui/qopengl.h
@@ -2616,7 +2616,7 @@ QtGui/qopenglcontext.h
 stdio.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglpaintdevice.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpaintdevice.h
@@ -2626,13 +2626,13 @@ QtGui/qopengl.h
 QtGui/qopenglcontext.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglpixeltransferoptions.h
 QtGui/qtguiglobal.h
 -
 QtCore/QSharedDataPointer
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglshaderprogram.h
 QtGui/qtguiglobal.h
 -
 QtGui/qopengl.h
@@ -2646,7 +2646,7 @@ QtGui/qvector4d.h
 QtGui/qmatrix4x4.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopengltexture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengltexture.h
 QtGui/qtguiglobal.h
 -
 QtGui/qopengl.h
@@ -2656,7 +2656,7 @@ QtGui/qimage.h
 QtCore/QScopedPointer
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopengltextureblitter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengltextureblitter.h
 QtGui/qtguiglobal.h
 -
 QtGui/qopengl.h
@@ -2666,7 +2666,7 @@ QtGui/QMatrix3x3
 QtGui/QMatrix4x4
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopengltimerquery.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopengltimerquery.h
 QtGui/qtguiglobal.h
 -
 QtCore/QObject
@@ -2674,7 +2674,7 @@ QtCore/QObject
 QtGui/qopengl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglversionfunctions.h
 QtGui/qtguiglobal.h
 -
 QtCore/qhash.h
@@ -2686,7 +2686,7 @@ QtCore/qpair.h
 QtGui/qopengl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglvertexarrayobject.h
 QtGui/qtguiglobal.h
 -
 QtCore/QObject
@@ -2694,7 +2694,7 @@ QtCore/QObject
 QtGui/qopengl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qopenglwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qopenglwindow.h
 QtGui/qtguiglobal.h
 -
 QtGui/QPaintDeviceWindow
@@ -2704,7 +2704,7 @@ QtGui/QOpenGLContext
 QtGui/QImage
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpagedpaintdevice.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpaintdevice.h
@@ -2712,7 +2712,7 @@ QtGui/qpaintdevice.h
 QtGui/qpagelayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpagelayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpagelayout.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsharedpointer.h
@@ -2724,13 +2724,13 @@ QtCore/qmargins.h
 QtGui/qpagesize.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpagesize.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpagesize.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsharedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintdevice.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -2738,7 +2738,7 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
 QtGui/qtguiglobal.h
 -
 QtGui/QWindow
@@ -2746,7 +2746,7 @@ QtGui/QWindow
 QtGui/QPaintDevice
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpaintengine.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpaintengine.h
 QtGui/qtguiglobal.h
 -
 QtCore/qnamespace.h
@@ -2758,7 +2758,7 @@ QtCore/qscopedpointer.h
 QtGui/qpainter.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpainter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpainter.h
 QtGui/qtguiglobal.h
 -
 QtCore/qnamespace.h
@@ -2790,7 +2790,7 @@ QtGui/qfontinfo.h
 QtGui/qfontmetrics.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpainterpath.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpainterpath.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -2806,7 +2806,7 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpalette.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpalette.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -2816,7 +2816,7 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpdfwriter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpdfwriter.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -2826,7 +2826,7 @@ QtGui/qpagedpaintdevice.h
 QtGui/qpagelayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpen.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpen.h
 QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
@@ -2834,7 +2834,7 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpicture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpicture.h
 QtGui/qtguiglobal.h
 -
 QtCore/qiodevice.h
@@ -2846,7 +2846,7 @@ QtCore/qsharedpointer.h
 QtGui/qpaintdevice.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpictureformatplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpictureformatplugin.h
 QtGui/qtguiglobal.h
 -
 QtCore/qplugin.h
@@ -2854,11 +2854,11 @@ QtCore/qplugin.h
 QtCore/qfactoryinterface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpixelformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpixmap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpixmap.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpaintdevice.h
@@ -2876,13 +2876,13 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpixmapcache.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpixmapcache.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpixmap.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qpolygon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qvector.h
@@ -2892,7 +2892,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qquaternion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qquaternion.h
 QtGui/qtguiglobal.h
 -
 QtGui/qgenericmatrix.h
@@ -2902,13 +2902,13 @@ QtGui/qvector3d.h
 QtGui/qvector4d.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qrasterwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrasterwindow.h
 QtGui/qtguiglobal.h
 -
 QtGui/QPaintDeviceWindow
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qrawfont.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrawfont.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -2928,7 +2928,7 @@ QtGui/qtransform.h
 QtGui/qfontdatabase.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qregion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qregion.h
 QtGui/qtguiglobal.h
 -
 QtCore/qatomic.h
@@ -2940,19 +2940,19 @@ QtGui/qwindowdefs.h
 QtCore/qdatastream.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qrgb.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrgb.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qrgba64.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qrgba64.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qscreen.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qscreen.h
 QtGui/qtguiglobal.h
 -
 QtCore/QList
@@ -2970,7 +2970,7 @@ QtGui/QTransform
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qsessionmanager.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsessionmanager.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -2982,7 +2982,7 @@ QtCore/qstring.h
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qstandarditemmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qstandarditemmodel.h
 QtGui/qtguiglobal.h
 -
 QtCore/qabstractitemmodel.h
@@ -2996,7 +2996,7 @@ QtGui/qicon.h
 QtCore/qdatastream.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qstatictext.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qstatictext.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsize.h
@@ -3012,13 +3012,13 @@ QtGui/qfont.h
 QtGui/qtextoption.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qstylehints.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qstylehints.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qsurface.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsurface.h
 QtGui/qtguiglobal.h
 -
 QtCore/qnamespace.h
@@ -3030,7 +3030,7 @@ QtCore/qmetatype.h
 QtCore/qsize.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qsurfaceformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsurfaceformat.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpair.h
@@ -3038,7 +3038,7 @@ QtCore/qpair.h
 QtCore/qobjectdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -3046,7 +3046,7 @@ QtCore/qobject.h
 QtGui/qtextobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextcursor.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextcursor.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -3056,7 +3056,7 @@ QtCore/qshareddata.h
 QtGui/qtextformat.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextdocument.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextdocument.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -3072,19 +3072,19 @@ QtGui/qfont.h
 QtCore/qurl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextdocumentfragment.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextdocumentwriter.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextformat.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextformat.h
 QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
@@ -3104,7 +3104,7 @@ QtGui/qbrush.h
 QtGui/qtextoption.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextlayout.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -3128,7 +3128,7 @@ QtGui/qglyphrun.h
 QtGui/qtextcursor.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextlist.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextlist.h
 QtGui/qtguiglobal.h
 -
 QtGui/qtextobject.h
@@ -3136,7 +3136,7 @@ QtGui/qtextobject.h
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextobject.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -3148,7 +3148,7 @@ QtGui/qtextlayout.h
 QtGui/qglyphrun.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtextoption.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtextoption.h
 QtGui/qtguiglobal.h
 -
 QtCore/qnamespace.h
@@ -3158,7 +3158,7 @@ QtCore/qchar.h
 QtCore/qmetatype.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtexttable.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtexttable.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -3166,23 +3166,23 @@ QtCore/qobject.h
 QtGui/qtextobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtgui-config.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtgui-config.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtguiglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtguiglobal.h
 QtCore/qglobal.h
 -
 QtGui/qtgui-config.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtguiversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtguiversion.h
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtouchdevice.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtouchdevice.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qtransform.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qtransform.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -3202,7 +3202,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qvalidator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvalidator.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -3216,7 +3216,7 @@ QtCore/qregularexpression.h
 QtCore/qlocale.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qvector2d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector2d.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -3224,7 +3224,7 @@ QtCore/qpoint.h
 QtCore/qmetatype.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qvector3d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector3d.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -3232,7 +3232,7 @@ QtCore/qpoint.h
 QtCore/qmetatype.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qvector4d.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qvector4d.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -3240,7 +3240,7 @@ QtCore/qpoint.h
 QtCore/qmetatype.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qwindow.h
 QtGui/qtguiglobal.h
 -
 QtCore/QObject
@@ -3264,7 +3264,7 @@ QtGui/qicon.h
 QtGui/qcursor.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qwindowdefs.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobjectdefs.h
@@ -3274,309 +3274,321 @@ QtCore/qnamespace.h
 QtGui/qwindowdefs_win.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QAction
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QAction
 qaction.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qaction.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QApplication
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QApplication
 qapplication.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qapplication.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QButtonGroup
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QButtonGroup
 qbuttongroup.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qbuttongroup.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QCommonStyle
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QCommonStyle
 qcommonstyle.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcommonstyle.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QHeaderView
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QGraphicsEllipseItem
+qgraphicsitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QGraphicsScene
+qgraphicsscene.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QGraphicsView
+qgraphicsview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QHeaderView
 qheaderview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qheaderview.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QLayout
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QLayout
 qlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlayout.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QScrollerProperties
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QScrollerProperties
 qscrollerproperties.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QWidget
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QWidget
 qwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwidget.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgets
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QtWidgets
 QtWidgets/QtWidgetsDepends
 -
 qtwidgetsglobal.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
 qabstractbutton.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractbutton.h
 qabstractitemdelegate.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
 qabstractitemview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractitemview.h
 qabstractscrollarea.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
 qabstractslider.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractslider.h
 qabstractspinbox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
 qaccessiblewidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
 qaction.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qaction.h
 qactiongroup.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qactiongroup.h
 qapplication.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qapplication.h
 qboxlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qboxlayout.h
 qbuttongroup.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qbuttongroup.h
 qcalendarwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
 qcheckbox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcheckbox.h
 qcolordialog.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcolordialog.h
 qcolormap.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcolormap.h
 qcolumnview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcolumnview.h
 qcombobox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcombobox.h
 qcommandlinkbutton.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
 qcommonstyle.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcommonstyle.h
 qcompleter.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcompleter.h
 qdatawidgetmapper.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
 qdatetimeedit.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
 qdesktopwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
 qdial.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdial.h
 qdialog.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdialog.h
 qdialogbuttonbox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
 qdirmodel.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdirmodel.h
 qdockwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdockwidget.h
 qdrawutil.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdrawutil.h
 qerrormessage.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qerrormessage.h
 qfiledialog.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfiledialog.h
 qfileiconprovider.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
 qfilesystemmodel.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
 qfocusframe.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfocusframe.h
 qfontcombobox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfontcombobox.h
 qfontdialog.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfontdialog.h
 qformlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qformlayout.h
 qframe.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qframe.h
 qgesture.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgesture.h
 qgesturerecognizer.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
 qgraphicsanchorlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
 qgraphicseffect.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
 qgraphicsgridlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
 qgraphicsitem.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
 qgraphicsitemanimation.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
 qgraphicslayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
 qgraphicslayoutitem.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
 qgraphicslinearlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
 qgraphicsproxywidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
 qgraphicsscene.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
 qgraphicssceneevent.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
 qgraphicstransform.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
 qgraphicsview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsview.h
 qgraphicswidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
 qgridlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgridlayout.h
 qgroupbox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgroupbox.h
 qheaderview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qheaderview.h
 qinputdialog.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qinputdialog.h
 qitemdelegate.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qitemdelegate.h
 qitemeditorfactory.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
 qkeyeventtransition.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
 qkeysequenceedit.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
 qlabel.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlabel.h
 qlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlayout.h
 qlayoutitem.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlayoutitem.h
 qlcdnumber.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlcdnumber.h
 qlineedit.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlineedit.h
 qlistview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlistview.h
 qlistwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlistwidget.h
 qmainwindow.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmainwindow.h
 qmdiarea.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmdiarea.h
 qmdisubwindow.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
 qmenu.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmenu.h
 qmenubar.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmenubar.h
 qmessagebox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmessagebox.h
 qmouseeventtransition.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
 qopenglwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qopenglwidget.h
 qplaintextedit.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qplaintextedit.h
 qprogressbar.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qprogressbar.h
 qprogressdialog.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qprogressdialog.h
 qproxystyle.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qproxystyle.h
 qpushbutton.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qpushbutton.h
 qradiobutton.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qradiobutton.h
 qrubberband.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qrubberband.h
 qscrollarea.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollarea.h
 qscrollbar.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollbar.h
 qscroller.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscroller.h
 qscrollerproperties.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
 qshortcut.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qshortcut.h
 qsizegrip.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsizegrip.h
 qsizepolicy.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsizepolicy.h
 qslider.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qslider.h
 qspinbox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qspinbox.h
 qsplashscreen.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsplashscreen.h
 qsplitter.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsplitter.h
 qstackedlayout.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstackedlayout.h
 qstackedwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstackedwidget.h
 qstatusbar.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstatusbar.h
 qstyle.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyle.h
 qstyleditemdelegate.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
 qstylefactory.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstylefactory.h
 qstyleoption.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyleoption.h
 qstylepainter.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstylepainter.h
 qstyleplugin.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyleplugin.h
 qsystemtrayicon.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
 qtabbar.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtabbar.h
 qtableview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtableview.h
 qtablewidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtablewidget.h
 qtabwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtabwidget.h
 qtextbrowser.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtextbrowser.h
 qtextedit.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtextedit.h
 qtoolbar.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtoolbar.h
 qtoolbox.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtoolbox.h
 qtoolbutton.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtoolbutton.h
 qtooltip.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtooltip.h
 qtreeview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtreeview.h
 qtreewidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtreewidget.h
 qtreewidgetitemiterator.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
 qundogroup.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qundogroup.h
 qundostack.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qundostack.h
 qundoview.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qundoview.h
 qwhatsthis.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwhatsthis.h
 qwidget.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwidget.h
 qwidgetaction.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwidgetaction.h
 qwizard.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwizard.h
 qtwidgetsversion.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QtWidgetsDepends
 QtCore/QtCore
 -
 QtGui/QtGui
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qicon.h
@@ -3586,7 +3598,7 @@ QtGui/qkeysequence.h
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -3594,7 +3606,7 @@ QtCore/qobject.h
 QtWidgets/qstyleoption.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractitemview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractitemview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractscrollarea.h
@@ -3606,19 +3618,19 @@ QtCore/qitemselectionmodel.h
 QtWidgets/qabstractitemdelegate.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractslider.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractslider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qabstractspinbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -3626,13 +3638,13 @@ QtWidgets/qwidget.h
 QtGui/qvalidator.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qaccessiblewidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qaccessibleobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qaction.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qkeysequence.h
@@ -3648,13 +3660,13 @@ QtGui/qicon.h
 QtWidgets/qactiongroup.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qactiongroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qactiongroup.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qaction.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qapplication.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qcoreapplication.h
@@ -3672,7 +3684,7 @@ QtWidgets/qdesktopwidget.h
 QtGui/qguiapplication.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qboxlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
@@ -3682,13 +3694,13 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qbuttongroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qbuttongroup.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcalendarwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -3696,19 +3708,19 @@ QtWidgets/qwidget.h
 QtCore/qdatetime.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcheckbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcheckbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcolordialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcolordialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcolormap.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcolormap.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qatomic.h
@@ -3720,13 +3732,13 @@ QtCore/qvector.h
 QtGui/qwindowdefs.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcolumnview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcolumnview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcombobox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcombobox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -3740,19 +3752,19 @@ QtCore/qvariant.h
 QtGui/qvalidator.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcommandlinkbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qpushbutton.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcommonstyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcommonstyle.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qstyle.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qcompleter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qcompleter.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -3766,13 +3778,13 @@ QtCore/qabstractitemmodel.h
 QtCore/qrect.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdatawidgetmapper.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
-/home/salabeta/anaconda3/include/qt/QtWidgets/QtCore/qobject.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/QtCore/qobject.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdatetimeedit.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qdatetime.h
@@ -3782,31 +3794,31 @@ QtCore/qvariant.h
 QtWidgets/qabstractspinbox.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdial.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdial.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractslider.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdialogbuttonbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdirmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdirmodel.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qabstractitemmodel.h
@@ -3816,13 +3828,13 @@ QtCore/qdir.h
 QtWidgets/qfileiconprovider.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdockwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdockwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qdrawutil.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qdrawutil.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qnamespace.h
@@ -3834,13 +3846,13 @@ QtCore/qmargins.h
 QtGui/qpixmap.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qerrormessage.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qerrormessage.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfiledialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfiledialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qdir.h
@@ -3852,7 +3864,7 @@ QtCore/qurl.h
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfileiconprovider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qfileinfo.h
@@ -3862,7 +3874,7 @@ QtCore/qscopedpointer.h
 QtGui/qicon.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfilesystemmodel.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qabstractitemmodel.h
@@ -3876,13 +3888,13 @@ QtGui/qicon.h
 QtCore/qdiriterator.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfocusframe.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfocusframe.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfontcombobox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfontcombobox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qcombobox.h
@@ -3890,7 +3902,7 @@ QtWidgets/qcombobox.h
 QtGui/qfontdatabase.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qfontdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qfontdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
@@ -3900,19 +3912,19 @@ QtGui/qfont.h
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qformlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qformlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/QLayout
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qframe.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgesture.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgesture.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -3930,13 +3942,13 @@ QtCore/qmetatype.h
 QtGui/qevent.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgesturerecognizer.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qnamespace.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsanchorlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qgraphicsitem.h
@@ -3944,7 +3956,7 @@ QtWidgets/qgraphicsitem.h
 QtWidgets/qgraphicslayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicseffect.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -3958,7 +3970,7 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsgridlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qgraphicsitem.h
@@ -3966,7 +3978,7 @@ QtWidgets/qgraphicsitem.h
 QtWidgets/qgraphicslayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsitem.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -3982,19 +3994,19 @@ QtGui/qpainterpath.h
 QtGui/qpixmap.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsitemanimation.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicslayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qgraphicslayoutitem.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qscopedpointer.h
@@ -4004,7 +4016,7 @@ QtWidgets/qsizepolicy.h
 QtGui/qevent.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicslinearlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qgraphicsitem.h
@@ -4012,13 +4024,13 @@ QtWidgets/qgraphicsitem.h
 QtWidgets/qgraphicslayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsproxywidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qgraphicswidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsscene.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4038,7 +4050,7 @@ QtGui/qmatrix.h
 QtGui/qpen.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicssceneevent.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qcoreevent.h
@@ -4056,7 +4068,7 @@ QtCore/qset.h
 QtCore/qhash.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicstransform.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/QObject
@@ -4068,7 +4080,7 @@ QtGui/QTransform
 QtGui/QMatrix4x4
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicsview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicsview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qmetatype.h
@@ -4080,7 +4092,7 @@ QtWidgets/qscrollarea.h
 QtWidgets/qgraphicsscene.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgraphicswidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qfont.h
@@ -4092,7 +4104,7 @@ QtWidgets/qgraphicsitem.h
 QtGui/qpalette.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgridlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgridlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
@@ -4102,19 +4114,19 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qgroupbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qgroupbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qheaderview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qheaderview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qinputdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qinputdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qstring.h
@@ -4124,7 +4136,7 @@ QtWidgets/qlineedit.h
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qitemdelegate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemdelegate.h
@@ -4136,7 +4148,7 @@ QtGui/qpixmap.h
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qitemeditorfactory.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qmetaobject.h
@@ -4148,25 +4160,25 @@ QtCore/qhash.h
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qkeyeventtransition.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qeventtransition.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qkeysequenceedit.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlabel.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlabel.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4186,7 +4198,7 @@ QtWidgets/qboxlayout.h
 QtWidgets/qgridlayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlayoutitem.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qsizepolicy.h
@@ -4196,13 +4208,13 @@ QtCore/qrect.h
 limits.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlcdnumber.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlcdnumber.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlineedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlineedit.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
@@ -4214,13 +4226,13 @@ QtCore/qstring.h
 QtCore/qmargins.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlistview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlistview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qlistwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qlistwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlistview.h
@@ -4232,7 +4244,7 @@ QtCore/qvector.h
 QtCore/qitemselectionmodel.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmainwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmainwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -4240,7 +4252,7 @@ QtWidgets/qwidget.h
 QtWidgets/qtabwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmdiarea.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmdiarea.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractscrollarea.h
@@ -4248,13 +4260,13 @@ QtWidgets/qabstractscrollarea.h
 QtWidgets/qtabwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmdisubwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmenu.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmenu.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -4266,25 +4278,25 @@ QtGui/qicon.h
 QtWidgets/qaction.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmenubar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmenubar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qmenu.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmessagebox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmessagebox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qmouseeventtransition.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qeventtransition.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qopenglwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qopenglwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/QWidget
@@ -4294,7 +4306,7 @@ QtGui/QSurfaceFormat
 QtGui/qopengl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qplaintextedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qplaintextedit.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qtextedit.h
@@ -4312,49 +4324,49 @@ QtGui/qtextformat.h
 QtGui/qabstracttextdocumentlayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qprogressbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qprogressbar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qprogressdialog.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qprogressdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qproxystyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qproxystyle.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/QCommonStyle
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qpushbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qradiobutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qradiobutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qrubberband.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qrubberband.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollarea.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollarea.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractscrollarea.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollbar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -4362,7 +4374,7 @@ QtWidgets/qwidget.h
 QtWidgets/qabstractslider.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscroller.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscroller.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/QObject
@@ -4372,7 +4384,7 @@ QtCore/QPointF
 QtWidgets/QScrollerProperties
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qscrollerproperties.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/QScopedPointer
@@ -4382,7 +4394,7 @@ QtCore/QMetaType
 QtCore/QVariant
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qshortcut.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qshortcut.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -4390,13 +4402,13 @@ QtWidgets/qwidget.h
 QtGui/qkeysequence.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsizegrip.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsizegrip.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsizepolicy.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4404,19 +4416,19 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qslider.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qslider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractslider.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qspinbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qspinbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractspinbox.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsplashscreen.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsplashscreen.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qpixmap.h
@@ -4424,7 +4436,7 @@ QtGui/qpixmap.h
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsplitter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsplitter.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
@@ -4432,25 +4444,25 @@ QtWidgets/qframe.h
 QtWidgets/qsizepolicy.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstackedlayout.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstackedlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstackedwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstackedwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstatusbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstatusbar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyle.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyle.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4468,7 +4480,7 @@ QtGui/qpalette.h
 QtWidgets/qsizepolicy.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyleditemdelegate.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemdelegate.h
@@ -4480,13 +4492,13 @@ QtGui/qpixmap.h
 QtCore/qvariant.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstylefactory.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstylefactory.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qstringlist.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyleoption.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyleoption.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qlocale.h
@@ -4514,7 +4526,7 @@ QtWidgets/qframe.h
 QtCore/qabstractitemmodel.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstylepainter.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstylepainter.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qpainter.h
@@ -4524,7 +4536,7 @@ QtWidgets/qstyle.h
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qstyleplugin.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qstyleplugin.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qplugin.h
@@ -4532,7 +4544,7 @@ QtCore/qplugin.h
 QtCore/qfactoryinterface.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qsystemtrayicon.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4540,19 +4552,19 @@ QtCore/qobject.h
 QtGui/qicon.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtabbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtabbar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtableview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtableview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtablewidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtablewidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qtableview.h
@@ -4562,7 +4574,7 @@ QtCore/qvariant.h
 QtCore/qvector.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtabwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -4570,7 +4582,7 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtextbrowser.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtextbrowser.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qtextedit.h
@@ -4578,7 +4590,7 @@ QtWidgets/qtextedit.h
 QtCore/qurl.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtextedit.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtextedit.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractscrollarea.h
@@ -4592,7 +4604,7 @@ QtGui/qtextcursor.h
 QtGui/qtextformat.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbar.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtoolbar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qaction.h
@@ -4600,7 +4612,7 @@ QtWidgets/qaction.h
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbox.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtoolbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
@@ -4608,25 +4620,25 @@ QtWidgets/qframe.h
 QtGui/qicon.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtoolbutton.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtoolbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtooltip.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtooltip.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtreeview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtreeview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtreewidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qtreeview.h
@@ -4638,23 +4650,23 @@ QtCore/qvariant.h
 QtCore/qvector.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtreewidgetitemiterator.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qscopedpointer.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
 QtGui/qtguiglobal.h
 -
 QtWidgets/qtwidgets-config.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qtwidgetsversion.h
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qundogroup.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qundogroup.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4662,7 +4674,7 @@ QtCore/qobject.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qundostack.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qundostack.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4670,7 +4682,7 @@ QtCore/qobject.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qundoview.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qundoview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlistview.h
@@ -4678,7 +4690,7 @@ QtWidgets/qlistview.h
 QtCore/qstring.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwhatsthis.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwhatsthis.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -4686,7 +4698,7 @@ QtCore/qobject.h
 QtGui/qcursor.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwidget.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
@@ -4718,25 +4730,25 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwidgetaction.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwidgetaction.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qaction.h
 -
 
-/home/salabeta/anaconda3/include/qt/QtWidgets/qwizard.h
+/home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/include/qt/QtWidgets/qwizard.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
 -
 
-/home/salabeta/robocomp/classes/qlog/qlog.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp
 qlog.h
-/home/salabeta/robocomp/classes/qlog/qlog.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.h
 
-/home/salabeta/robocomp/classes/qlog/qlog.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.h
 config.h
-/home/salabeta/robocomp/classes/qlog/config.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/config.h
 QtCore
 -
 iostream
@@ -4748,11 +4760,11 @@ boost/format.hpp
 boost/format.hpp
 -
 
-/home/salabeta/robocomp/classes/rapplication/rapplication.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp
 rapplication.h
-/home/salabeta/robocomp/classes/rapplication/rapplication.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.h
 
-/home/salabeta/robocomp/classes/rapplication/rapplication.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.h
 Ice/Ice.h
 -
 Ice/Application.h
@@ -4762,7 +4774,7 @@ IceUtil/IceUtil.h
 QtCore
 -
 
-/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp
 sys/socket.h
 -
 unistd.h
@@ -4776,17 +4788,17 @@ QSocketNotifier
 QDebug
 -
 sigwatch.h
-/home/salabeta/robocomp/classes/sigwatch/sigwatch.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.h
 moc_sigwatch.cpp
-/home/salabeta/robocomp/classes/sigwatch/moc_sigwatch.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/moc_sigwatch.cpp
 
-/home/salabeta/robocomp/classes/sigwatch/sigwatch.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.h
 QObject
 -
 signal.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp
 CommonBehavior.h
 -
 IceUtil/PushDisableWarnings.h
@@ -4804,7 +4816,7 @@ Ice/OutputStream.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp
 DifferentialRobot.h
 -
 IceUtil/PushDisableWarnings.h
@@ -4824,7 +4836,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp
 GenericBase.h
 -
 IceUtil/PushDisableWarnings.h
@@ -4844,7 +4856,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/Laser.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/Laser.cpp
 Laser.h
 -
 IceUtil/PushDisableWarnings.h
@@ -4864,49 +4876,49 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericmonitor.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 ../../genericmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericworker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericworker.cpp
 ../../genericworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificmonitor.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificmonitor.cpp
 ../../specificmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificworker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificworker.cpp
 ../../specificworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_genericmonitor.cpp
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericmonitor.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 EWIEGA46WW/moc_genericworker.cpp
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericworker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_genericworker.cpp
 EWIEGA46WW/moc_specificmonitor.cpp
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificmonitor.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificmonitor.cpp
 EWIEGA46WW/moc_specificworker.cpp
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificworker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/EWIEGA46WW/moc_specificworker.cpp
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp
 RCISMousePicker.h
 -
 IceUtil/PushDisableWarnings.h
@@ -4924,11 +4936,11 @@ Ice/OutputStream.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp
 commonbehaviorI.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.h
 Ice/Ice.h
 -
 CommonBehavior.h
@@ -4936,37 +4948,37 @@ CommonBehavior.h
 config.h
 -
 genericworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 genericmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/config.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/config.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp
 genericmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
 Ice/Ice.h
 -
 QtCore
 -
 genericworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 config.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/config.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/config.h
 qlog/qlog.h
 -
 CommonBehavior.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.cpp
 genericworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 config.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/config.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/config.h
 stdint.h
 -
 qlog/qlog.h
@@ -4988,7 +5000,7 @@ Laser.h
 RCISMousePicker.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/main.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/main.cpp
 signal.h
 -
 QtCore
@@ -5008,27 +5020,27 @@ sigwatch/sigwatch.h
 qlog/qlog.h
 -
 config.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/config.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/config.h
 genericmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
 genericworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 specificworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.h
 specificmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
 commonbehaviorI.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.h
 rcismousepickerI.h
 -
 GenericBase.h
 -
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp
 rcismousepickerI.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.h
 Ice/Ice.h
 -
 RCISMousePicker.h
@@ -5036,24 +5048,34 @@ RCISMousePicker.h
 config.h
 -
 genericworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp
 specificmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.h
 genericmonitor.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.cpp
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.cpp
 specificworker.h
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.h
 
-/home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.h
+/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.h
+iostream
+-
+fstream
+-
 genericworker.h
 -
 innermodel/innermodel.h
+-
+QGraphicsScene
+-
+QGraphicsView
+-
+QGraphicsEllipseItem
 -
 
 /opt/robocomp/include/innermodel/innermodel.h

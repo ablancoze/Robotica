@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/Robotica/robotpicker
+CMAKE_SOURCE_DIR = /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robotica/robotpicker
+CMAKE_BINARY_DIR = /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles /home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

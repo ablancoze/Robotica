@@ -27,8 +27,14 @@
 #ifndef SPECIFICWORKER_H
 #define SPECIFICWORKER_H
 
+#include <iostream>
+#include <fstream>
 #include <genericworker.h>
 #include <innermodel/innermodel.h>
+
+#include <QGraphicsScene>
+#include <QGraphicsView>
+#include <QGraphicsEllipseItem>
 
 class SpecificWorker : public GenericWorker
 {
@@ -71,7 +77,9 @@ public slots:
 	void compute();
 	void initialize(int period);
 private:
-	std::shared_ptr<InnerModel> innerModel;
+	RoboCompGenericBase::TBaseState bState;
+	RoboCompLaser::TLaserData ldata;
+	std::shared_ptr<InnerModel> innermodel;
 	void obstaculo();
 	void goTo();
 	void idle();
