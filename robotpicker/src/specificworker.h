@@ -45,6 +45,7 @@ public:
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
 	float rot;
 	TBaseState initialBstate;
+	
 	struct Target
 	{
 		bool active;

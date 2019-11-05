@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "arraydispatchers": "cpp",
-        "graphicscontext": "cpp"
+        "graphicscontext": "cpp",
+        "random": "cpp",
+        "qgraphicsellipseitem": "cpp"
     }
 }

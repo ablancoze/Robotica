@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker
+CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/Robotica/robotpicker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker
+CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robotica/robotpicker
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/MyFirstComp.dir/depend.make
@@ -57,53 +57,53 @@ include src/CMakeFiles/MyFirstComp.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/MyFirstComp.dir/flags.make
 
-src/CommonBehavior.cpp: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/CommonBehavior.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp//interfaces/ -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/CommonBehavior.ice --output-dir .
+src/CommonBehavior.cpp: /home/salabeta/robocomp/interfaces/CommonBehavior.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/CommonBehavior.ice --output-dir .
 
 src/CommonBehavior.h: src/CommonBehavior.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonBehavior.h
 
-src/GenericBase.cpp: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/GenericBase.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp//interfaces/ -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/GenericBase.ice --output-dir .
+src/GenericBase.cpp: /home/salabeta/robocomp/interfaces/GenericBase.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/GenericBase.ice --output-dir .
 
 src/GenericBase.h: src/GenericBase.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GenericBase.h
 
-src/DifferentialRobot.cpp: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/DifferentialRobot.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp//interfaces/ -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/DifferentialRobot.ice --output-dir .
+src/DifferentialRobot.cpp: /home/salabeta/robocomp/interfaces/DifferentialRobot.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/DifferentialRobot.ice --output-dir .
 
 src/DifferentialRobot.h: src/DifferentialRobot.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/DifferentialRobot.h
 
-src/Laser.cpp: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/Laser.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Laser.cpp and Laser.h from Laser.ice"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp//interfaces/ -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/Laser.ice --output-dir .
+src/Laser.cpp: /home/salabeta/robocomp/interfaces/Laser.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Laser.cpp and Laser.h from Laser.ice"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/Laser.ice --output-dir .
 
 src/Laser.h: src/Laser.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/Laser.h
 
-src/RCISMousePicker.cpp: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/RCISMousePicker.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating RCISMousePicker.cpp and RCISMousePicker.h from RCISMousePicker.ice"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp//interfaces/ -I/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/interfaces/RCISMousePicker.ice --output-dir .
+src/RCISMousePicker.cpp: /home/salabeta/robocomp/interfaces/RCISMousePicker.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating RCISMousePicker.cpp and RCISMousePicker.h from RCISMousePicker.ice"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/RCISMousePicker.ice --output-dir .
 
 src/RCISMousePicker.h: src/RCISMousePicker.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/RCISMousePicker.h
 
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: src/specificworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/specificworker.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/specificworker.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.cpp
 
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/specificworker.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.cpp > CMakeFiles/MyFirstComp.dir/specificworker.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.cpp > CMakeFiles/MyFirstComp.dir/specificworker.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/specificworker.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificworker.cpp -o CMakeFiles/MyFirstComp.dir/specificworker.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/specificworker.cpp -o CMakeFiles/MyFirstComp.dir/specificworker.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o.requires:
 
@@ -118,16 +118,16 @@ src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o: src/specificmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp
 
 src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp > CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp > CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp -o CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/specificmonitor.cpp -o CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o.requires:
 
@@ -140,90 +140,90 @@ src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o.provides: src/CMakeFiles/My
 src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o
 
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o -c /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.i
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.s
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.requires:
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.requires
+.PHONY : src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.requires
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
-.PHONY : src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.provides
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
+.PHONY : src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.provides
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o
-
-
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp
-
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.i
-
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.s
-
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
-.PHONY : src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
-
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
 
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp > CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.i
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.s
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.requires:
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.requires
+.PHONY : src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.provides.build
-.PHONY : src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.provides
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
+.PHONY : src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
 
-src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o -c /home/salabeta/robocomp/classes/qlog/qlog.cpp
+
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/qlog/qlog.cpp > CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i
+
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s
+
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.requires
+
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.provides.build
+.PHONY : src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.provides
+
+src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
 
 
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/MyFirstComp.dir/main.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/main.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/MyFirstComp.dir/main.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/main.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/main.cpp
 
 src/CMakeFiles/MyFirstComp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/main.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/main.cpp > CMakeFiles/MyFirstComp.dir/main.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/main.cpp > CMakeFiles/MyFirstComp.dir/main.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/main.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/main.cpp -o CMakeFiles/MyFirstComp.dir/main.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/main.cpp -o CMakeFiles/MyFirstComp.dir/main.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o.requires:
 
@@ -238,16 +238,16 @@ src/CMakeFiles/MyFirstComp.dir/main.cpp.o.provides.build: src/CMakeFiles/MyFirst
 
 src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o: src/genericmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp
 
 src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp > CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp > CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp -o CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/genericmonitor.cpp -o CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o.requires:
 
@@ -262,16 +262,16 @@ src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp
 
 src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp > CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp > CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp -o CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/commonbehaviorI.cpp -o CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o.requires:
 
@@ -286,16 +286,16 @@ src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.o: src/genericworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/genericworker.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/genericworker.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.cpp
 
 src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/genericworker.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.cpp > CMakeFiles/MyFirstComp.dir/genericworker.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.cpp > CMakeFiles/MyFirstComp.dir/genericworker.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/genericworker.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/genericworker.cpp -o CMakeFiles/MyFirstComp.dir/genericworker.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/genericworker.cpp -o CMakeFiles/MyFirstComp.dir/genericworker.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.o.requires:
 
@@ -310,16 +310,16 @@ src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o: src/rcismousepickerI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp
 
 src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp > CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp > CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp -o CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/rcismousepickerI.cpp -o CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o.requires:
 
@@ -334,16 +334,16 @@ src/CMakeFiles/MyFirstComp.dir/rcismousepickerI.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp
 
 src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp > CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp > CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp -o CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/CommonBehavior.cpp -o CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o.requires:
 
@@ -358,16 +358,16 @@ src/CMakeFiles/MyFirstComp.dir/CommonBehavior.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o: src/GenericBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp
 
 src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/GenericBase.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp > CMakeFiles/MyFirstComp.dir/GenericBase.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp > CMakeFiles/MyFirstComp.dir/GenericBase.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/GenericBase.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp -o CMakeFiles/MyFirstComp.dir/GenericBase.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/GenericBase.cpp -o CMakeFiles/MyFirstComp.dir/GenericBase.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o.requires:
 
@@ -382,16 +382,16 @@ src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o: src/DifferentialRobot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp
 
 src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp > CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp > CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp -o CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/DifferentialRobot.cpp -o CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o.requires:
 
@@ -406,16 +406,16 @@ src/CMakeFiles/MyFirstComp.dir/DifferentialRobot.cpp.o.provides.build: src/CMake
 
 src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o: src/Laser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/Laser.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/Laser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/Laser.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/Laser.cpp
 
 src/CMakeFiles/MyFirstComp.dir/Laser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/Laser.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/Laser.cpp > CMakeFiles/MyFirstComp.dir/Laser.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/Laser.cpp > CMakeFiles/MyFirstComp.dir/Laser.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/Laser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/Laser.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/Laser.cpp -o CMakeFiles/MyFirstComp.dir/Laser.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/Laser.cpp -o CMakeFiles/MyFirstComp.dir/Laser.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o.requires:
 
@@ -430,16 +430,16 @@ src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o.provides.build: src/CMakeFiles/MyFirs
 
 src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o: src/RCISMousePicker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp
 
 src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp > CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp > CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp -o CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/RCISMousePicker.cpp -o CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o.requires:
 
@@ -454,16 +454,16 @@ src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: src/CMakeFiles/MyFirstComp.dir/flags.make
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: src/MyFirstComp_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o -c /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o -c /home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.i"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp > CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.i
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp > CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.i
 
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.s"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp -o CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.s
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/robotpicker/src/MyFirstComp_autogen/mocs_compilation.cpp -o CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.s
 
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o.requires:
 
@@ -480,9 +480,9 @@ src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o.provid
 MyFirstComp_OBJECTS = \
 "CMakeFiles/MyFirstComp.dir/specificworker.cpp.o" \
 "CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o" \
-"CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o" \
-"CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o" \
-"CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o" \
+"CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o" \
+"CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o" \
+"CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o" \
 "CMakeFiles/MyFirstComp.dir/main.cpp.o" \
 "CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o" \
 "CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o" \
@@ -500,9 +500,9 @@ MyFirstComp_EXTERNAL_OBJECTS =
 
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o
-bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o
-bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o
-bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o
+bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
+bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
+bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/main.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o
@@ -515,21 +515,21 @@ bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/Laser.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/RCISMousePicker.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/build.make
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5Sql.so.5.9.7
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5OpenGL.so.5.9.7
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5Xml.so.5.9.7
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5XmlPatterns.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5Sql.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5OpenGL.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5Xml.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5XmlPatterns.so.5.9.7
 bin/MyFirstComp: /usr/lib/x86_64-linux-gnu/libIce++11.so
 bin/MyFirstComp: /usr/lib/x86_64-linux-gnu/libIceStorm++11.so
 bin/MyFirstComp: /usr/lib/x86_64-linux-gnu/libIce.so
 bin/MyFirstComp: /usr/lib/x86_64-linux-gnu/libIceStorm.so
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5Widgets.so.5.9.7
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5Gui.so.5.9.7
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5Network.so.5.9.7
-bin/MyFirstComp: /home/alvaro/Escritorio/UNI/Clase/CompuBioInspirada/anaconda3/lib/libQt5Core.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5Widgets.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5Gui.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5Network.so.5.9.7
+bin/MyFirstComp: /home/salabeta/anaconda3/lib/libQt5Core.so.5.9.7
 bin/MyFirstComp: src/CMakeFiles/MyFirstComp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable ../bin/MyFirstComp"
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyFirstComp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/robotpicker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable ../bin/MyFirstComp"
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyFirstComp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/MyFirstComp.dir/build: bin/MyFirstComp
@@ -538,9 +538,9 @@ src/CMakeFiles/MyFirstComp.dir/build: bin/MyFirstComp
 
 src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o.requires
 src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/specificmonitor.cpp.o.requires
-src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/rapplication/rapplication.cpp.o.requires
-src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/classes/qlog/qlog.cpp.o.requires
+src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o.requires
+src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.requires
 src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/main.cpp.o.requires
 src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/genericmonitor.cpp.o.requires
 src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/commonbehaviorI.cpp.o.requires
@@ -556,7 +556,7 @@ src/CMakeFiles/MyFirstComp.dir/requires: src/CMakeFiles/MyFirstComp.dir/MyFirstC
 .PHONY : src/CMakeFiles/MyFirstComp.dir/requires
 
 src/CMakeFiles/MyFirstComp.dir/clean:
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src && $(CMAKE_COMMAND) -P CMakeFiles/MyFirstComp.dir/cmake_clean.cmake
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker/src && $(CMAKE_COMMAND) -P CMakeFiles/MyFirstComp.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/MyFirstComp.dir/clean
 
 src/CMakeFiles/MyFirstComp.dir/depend: src/CommonBehavior.cpp
@@ -569,6 +569,6 @@ src/CMakeFiles/MyFirstComp.dir/depend: src/Laser.cpp
 src/CMakeFiles/MyFirstComp.dir/depend: src/Laser.h
 src/CMakeFiles/MyFirstComp.dir/depend: src/RCISMousePicker.cpp
 src/CMakeFiles/MyFirstComp.dir/depend: src/RCISMousePicker.h
-	cd /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/CMakeFiles/MyFirstComp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/Robotica/robotpicker /home/salabeta/robocomp/components/Robotica/robotpicker/src /home/salabeta/robocomp/components/Robotica/robotpicker /home/salabeta/robocomp/components/Robotica/robotpicker/src /home/salabeta/robocomp/components/Robotica/robotpicker/src/CMakeFiles/MyFirstComp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/MyFirstComp.dir/depend
 

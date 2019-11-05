@@ -36,15 +36,15 @@ SpecificWorker::~SpecificWorker()
 
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
-//       THE FOLLOWING IS JUST AN EXAMPLE
-//	To use innerModelPath parameter you should uncomment specificmonitor.cpp readConfig method content
-//	try
-//	{
-//		RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
-//		std::string innermodel_path = par.value;
-//		innerModel = new InnerModel(innermodel_path);
-//	}
-//	catch(std::exception e) { qFatal("Error reading config params"); }
+    //THE FOLLOWING IS JUST AN EXAMPLE
+	//To use innerModelPath parameter you should uncomment specificmonitor.cpp readConfig method content
+	try
+	{
+		RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
+		std::string innermodel_path = par.value;
+		innermodel = std::make_shared<InnerModel>(innermodel_path);
+	}
+	catch(std::exception e) { qFatal("Error reading config params"); }
 
 
 
@@ -66,6 +66,7 @@ void SpecificWorker::compute()
 {
 	differentialrobot_proxy->getBaseState(bState);
 	ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
+	innermodel->updateTransformValues("base",bState.x,0,bState.z,0,bState.alpha,0);
 	switch (estado)
 	{
 		case IDLE:
@@ -92,13 +93,67 @@ void SpecificWorker::compute()
 	}
 }
 
+void SpecificWorker::idle()
+{
+	qDebug()<<"ESTADO IDLE";
+	differentialrobot_proxy->setSpeedBase(0,0);
+	if (target.active)
+	{
+		initialBstate=bState;
+		estado=TURN;
+		target.active = false;
+	}	
+}
 
+void SpecificWorker::turn()
+{
+	qDebug()<<"ESTADO TURN";
+	QVec tr;
+	float rot;
+	float distancia;
+	if (target.active)
+	{
+		estado = IDLE;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
+	rot = atan2(tr.x(), tr.z());
+	qDebug()<<"ROT= "<< rot;
+	distancia = tr.norm2(); //Devuelve el tamaño del vector
+	if (distancia<100)
+	{
+		estado = IDLE;
+		return;
+	}
+		
+	if (fabs(rot) < 0.1)
+	{
+		estado=GOTO;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	if (rot>1)
+		rot=1;
+		
+	if (rot<-1)
+		rot=-1;
+
+	differentialrobot_proxy->setSpeedBase(0,rot);
+	
+	
+}
 
 void SpecificWorker::goTo()
 {
 	float threshold = 200; // millimeters
 	qDebug()<<"ESTADO GOTO";
-	
+	if (target.active)
+	{
+		estado = IDLE;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
 	//El robot ya esta girado solo tenemos que avanzar hata que nos encontremos con un obstaculo
 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
 	if (ldata.front().dist < threshold)
@@ -112,50 +167,21 @@ void SpecificWorker::goTo()
 
 void SpecificWorker::obstaculo()
 {
+	
 	qDebug()<<"ESTADO OBSTACULO";
+	if (target.active)
+	{
+		estado = IDLE;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
 	// si el angulo es negativo es mas facil hacer mano izquierda, si el angulo es positivo es mas facil hacer mano derecha
 	float angulo = bState.alpha; // guardamos el angulo que forma el robot con el eje central del mapa??? o algo asi
 	float rot = angulo - 1.57;
 
 }
 
-void SpecificWorker::idle()
-{
-	qDebug()<<"ESTADO IDLE";
-	differentialrobot_proxy->setSpeedBase(0,0);
-	if (target.active)
-	{
-		initialBstate=bState;
-		estado=TURN;
-	}	
-}
 
-void SpecificWorker::turn()
-{
-	qDebug()<<"ESTADO TURN";
-	QVec tr = innermodel->transform("robot", QVec::vec3(target.x, 0, target.z), "world");
-	float rot = atan2(tr.x(), tr.z());
-	float distancia = tr.norm2();
-	if (distancia<100)
-	{
-		estado = IDLE;
-		return;
-	}
-	
-	if (fabs(rot) < 0.1)
-	{
-		estado=GOTO;
-		differentialrobot_proxy->setSpeedBase(0,0);
-		return;
-	}
-	if (rot>1)
-		rot=1;
-	
-	if (rot<-1)
-		rot=-1;
-
-	differentialrobot_proxy->setSpeedBase(0,rot);
-}
 
 
 /////////////////////////////////////////////////////////

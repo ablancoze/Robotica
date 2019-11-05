@@ -1,4 +1,4 @@
-# Install script for directory: /home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker
+# Install script for directory: /home/salabeta/robocomp/components/Robotica/robotpicker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,12 +46,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/robocomp/etc-default" TYPE FILE RENAME "MyFirstComp.conf" FILES "/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/etc/config")
+file(INSTALL DESTINATION "/opt/robocomp/etc-default" TYPE FILE RENAME "MyFirstComp.conf" FILES "/home/salabeta/robocomp/components/Robotica/robotpicker/etc/config")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/src/cmake_install.cmake")
+  include("/home/salabeta/robocomp/components/Robotica/robotpicker/src/cmake_install.cmake")
 
 endif()
 
@@ -63,5 +63,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alvaro/Escritorio/UNI/Clase/Robotica/Workspace/robocomp/components/Robotica/robotpicker/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/salabeta/robocomp/components/Robotica/robotpicker/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
