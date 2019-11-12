@@ -44,6 +44,7 @@ public:
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
 	float rot;
+	float threshold = 200; // millimeters
 	TBaseState initialBstate;
 	
 	struct Target
@@ -68,7 +69,8 @@ public:
 		IDLE,
 		TURN,
 		GOTO,
-		OBSTACULO
+		OBSTACULO,
+		RODEAR
 	};
 	Estados estado = IDLE;
 
@@ -85,6 +87,7 @@ private:
 	void goTo();
 	void idle();
 	void turn();
+	void rodear();
 };
 
 #endif

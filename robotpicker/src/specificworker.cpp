@@ -46,11 +46,6 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 	}
 	catch(std::exception e) { qFatal("Error reading config params"); }
 
-
-
-	
-
-
 	return true;
 }
 
@@ -90,6 +85,13 @@ void SpecificWorker::compute()
 			obstaculo();
 			break;
 		}
+
+		case RODEAR:
+		{
+			rodear();
+			break;
+		}
+
 	}
 }
 
@@ -121,13 +123,13 @@ void SpecificWorker::turn()
 	rot = atan2(tr.x(), tr.z());
 	qDebug()<<"ROT= "<< rot;
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
-	if (distancia<100)
+	if (distancia<120)
 	{
 		estado = IDLE;
 		return;
 	}
 		
-	if (fabs(rot) < 0.1)
+	if (fabs(rot) < 0.05)
 	{
 		estado=GOTO;
 		differentialrobot_proxy->setSpeedBase(0,0);
@@ -146,14 +148,25 @@ void SpecificWorker::turn()
 
 void SpecificWorker::goTo()
 {
-	float threshold = 200; // millimeters
+	QVec tr;
+	float distancia;
 	qDebug()<<"ESTADO GOTO";
+	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
+	distancia = tr.norm2(); //Devuelve el tamaño del vector
+	
+	if (distancia<120)
+	{
+		estado = IDLE;
+		return;
+	}
+	
 	if (target.active)
 	{
 		estado = IDLE;
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
 	}
+
 	//El robot ya esta girado solo tenemos que avanzar hata que nos encontremos con un obstaculo
 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
 	if (ldata.front().dist < threshold)
@@ -167,8 +180,19 @@ void SpecificWorker::goTo()
 
 void SpecificWorker::obstaculo()
 {
-	
 	qDebug()<<"ESTADO OBSTACULO";
+	QVec tr;
+	float distancia;
+	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
+	distancia = tr.norm2(); //Devuelve el tamaño del vector
+	
+	if (distancia<120)
+	{
+		estado = IDLE;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+
 	if (target.active)
 	{
 		estado = IDLE;
@@ -176,13 +200,50 @@ void SpecificWorker::obstaculo()
 		return;
 	}
 	// si el angulo es negativo es mas facil hacer mano izquierda, si el angulo es positivo es mas facil hacer mano derecha
-	float angulo = bState.alpha; // guardamos el angulo que forma el robot con el eje central del mapa??? o algo asi
-	float rot = angulo - 1.57;
+	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
+	if (ldata.front().dist > threshold)
+	{
+		estado = RODEAR;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	differentialrobot_proxy->setSpeedBase(0,0.3);
+	
+
 
 }
 
-
-
+void SpecificWorker::rodear()
+{
+	qDebug()<<"ESTADO RODEAR";	
+	QVec tr;
+	float distancia;
+	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
+	distancia = tr.norm2(); //Devuelve el tamaño del vector
+	if (distancia<120)
+	{
+		estado = IDLE;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	if (target.active)
+	{
+		estado = IDLE;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+	auto posicionVec = std::min_element(ldata.begin()+90,ldata.end(),[](auto &&la,auto &&lb){return la.dist < lb.dist};
+	//Compruebo que tengo obstaculo a la derecha
+	if (*posicionVec.dist < threshold)
+		differentialrobot_proxy->setSpeedBase(200,0.3);
+	else if (*posicionVec.dist > threshold)
+	{
+		differentialrobot_proxy->setSpeedBase(200,-0.3);
+	}
+	else 
+		differentialrobot_proxy->setSpeedBase(200,0);
+	
+}
 
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
