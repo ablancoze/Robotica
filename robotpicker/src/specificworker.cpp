@@ -220,6 +220,15 @@ void SpecificWorker::rodear()
 	float distancia;
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
+	rot = atan2(tr.x(), tr.z());
+	if (ldata[1].angle < rot && ldata[98] > rot) // target visible
+	{
+		auto repo=std::find_if(ldata.begin(),ldata.end()-1,[rot](auto &&la){return rot <= (*la).angle;});
+						 
+
+						 
+
+	}
 	if (distancia<120)
 	{
 		estado = IDLE;
@@ -232,8 +241,10 @@ void SpecificWorker::rodear()
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
 	}
+
 	
-	auto posicionVec = std::min(ldata.begin()+90,ldata.end()-1,[](auto &&la,auto &&lb){return (*la).dist < (*lb).dist;});
+
+	auto posicionVec = std::min(ldata.begin()+65,ldata.end()-1,[](auto &&la,auto &&lb){return (*la).dist < (*lb).dist;});
 	//Compruebo que tengo obstaculo a la derecha
 	if((*posicionVec).dist < threshold+100)
 		differentialrobot_proxy->setSpeedBase(100,0.3);
