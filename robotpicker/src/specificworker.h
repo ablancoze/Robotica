@@ -44,7 +44,7 @@ public:
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
 	float rot;
-	float threshold = 200; // millimeters
+	float threshold = 300; // millimeters
 	TBaseState initialBstate;
 	
 	struct Target

@@ -232,17 +232,17 @@ void SpecificWorker::rodear()
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
 	}
-	auto posicionVec = std::min_element(ldata.begin()+90,ldata.end(),[](auto &&la,auto &&lb){return la.dist < lb.dist};
-	//Compruebo que tengo obstaculo a la derecha
-	if (*posicionVec.dist < threshold)
-		differentialrobot_proxy->setSpeedBase(200,0.3);
-	else if (*posicionVec.dist > threshold)
-	{
-		differentialrobot_proxy->setSpeedBase(200,-0.3);
-	}
-	else 
-		differentialrobot_proxy->setSpeedBase(200,0);
 	
+	auto posicionVec = std::min(ldata.begin()+90,ldata.end()-1,[](auto &&la,auto &&lb){return (*la).dist < (*lb).dist;});
+	//Compruebo que tengo obstaculo a la derecha
+	if((*posicionVec).dist < threshold+100)
+		differentialrobot_proxy->setSpeedBase(100,0.3);
+	else if ((*posicionVec).dist > threshold+100)
+			differentialrobot_proxy->setSpeedBase(100,-0.3);
+	else	
+		differentialrobot_proxy->setSpeedBase(200,0);
+			
+	 	
 }
 
 /////////////////////////////////////////////////////////
