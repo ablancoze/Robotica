@@ -278,15 +278,16 @@ void SpecificWorker::RCISMousePicker_setPick(Pick myPick)
 bool SpecificWorker::distanciaRecta(float x, float z)
 {
 	auto [a,b,c] = target.get();
-	return fabs(a*x + b *z + c) < 50;
+	return fabs(a*x + b *z + c) < 75;
 }
 
 /*El invento es nuestro*/
 bool SpecificWorker::targetVisible()
 {
+	qDebug()<<"";
 	QPolygonF polygon;
 	auto laser = innermodel->getNode<InnerModelLaser>(std::string("laser"));
-	for (int i=1;i<49;i++)
+	for (int i=1;i<60;i++)
 	{
 		QVec lr = laser->laserTo(std::string("world"),ldata[i].dist,ldata[i].angle);
 		polygon << QPointF(lr.x(), lr.z());
