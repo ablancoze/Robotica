@@ -30,6 +30,7 @@ src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QString
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QStringList
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QVariant
+src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/Qt
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QtCore
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -217,6 +218,7 @@ src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPolygon
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QTransform
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
@@ -2374,6 +2376,7 @@ src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/Q
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QString
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QStringList
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QVariant
+src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/Qt
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QtCore
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -2561,6 +2564,7 @@ src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/Q
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPolygon
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QTransform
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QVector3D
@@ -3809,6 +3813,7 @@ src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/in
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QString
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QStringList
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QVariant
+src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/Qt
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QtCore
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QtCoreDepends
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/qabstractanimation.h
@@ -3996,6 +4001,7 @@ src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/in
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QOpenGLContext
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPaintDevice
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
+src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QPolygon
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QTransform
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtGui/QVector3D

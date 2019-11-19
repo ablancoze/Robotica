@@ -84,6 +84,10 @@ qstringlist.h
 qvariant.h
 /home/salabeta/anaconda3/include/qt/QtCore/qvariant.h
 
+/home/salabeta/anaconda3/include/qt/QtCore/Qt
+qnamespace.h
+/home/salabeta/anaconda3/include/qt/QtCore/qnamespace.h
+
 /home/salabeta/anaconda3/include/qt/QtCore/QtCore
 QtCore/QtCoreDepends
 -
@@ -1831,6 +1835,10 @@ qpaintdevice.h
 /home/salabeta/anaconda3/include/qt/QtGui/QPaintDeviceWindow
 qpaintdevicewindow.h
 /home/salabeta/anaconda3/include/qt/QtGui/qpaintdevicewindow.h
+
+/home/salabeta/anaconda3/include/qt/QtGui/QPolygon
+qpolygon.h
+/home/salabeta/anaconda3/include/qt/QtGui/qpolygon.h
 
 /home/salabeta/anaconda3/include/qt/QtGui/QSurfaceFormat
 qsurfaceformat.h
@@ -5069,7 +5077,11 @@ fstream
 -
 genericworker.h
 -
+Qt
+-
 innermodel/innermodel.h
+-
+QPolygon
 -
 QGraphicsScene
 -

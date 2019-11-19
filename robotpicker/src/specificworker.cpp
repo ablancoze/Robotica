@@ -221,20 +221,28 @@ void SpecificWorker::rodear()
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
 	rot = atan2(tr.x(), tr.z());
-	if (ldata[1].angle < rot && ldata[98] > rot) // target visible
+	
+	if (targetVisible()) // target visible
 	{
-		auto repo=std::find_if(ldata.begin(),ldata.end()-1,[rot](auto &&la){return rot <= (*la).angle;});
-						 
-
-						 
-
+		estado = TURN;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
 	}
+
+	if (distanciaRecta(bState.x,bState.z))
+	{
+		estado = TURN;
+		differentialrobot_proxy->setSpeedBase(0,0);
+		return;
+	}
+
 	if (distancia<120)
 	{
 		estado = IDLE;
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
 	}
+	
 	if (target.active)
 	{
 		estado = IDLE;
@@ -243,7 +251,7 @@ void SpecificWorker::rodear()
 	}
 
 	
-
+	//Obtenemos el lado derecho del laser + 65 para conseguir margen de choque
 	auto posicionVec = std::min(ldata.begin()+65,ldata.end()-1,[](auto &&la,auto &&lb){return (*la).dist < (*lb).dist;});
 	//Compruebo que tengo obstaculo a la derecha
 	if((*posicionVec).dist < threshold+100)
@@ -256,16 +264,36 @@ void SpecificWorker::rodear()
 	 	
 }
 
+
+
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 void SpecificWorker::RCISMousePicker_setPick(Pick myPick)
 {
 	qDebug()<<"x="<<myPick.x<<"z="<<myPick.z;
-	target.x = myPick.x;
-	target.z = myPick.z;
-	target.active = true;
+	target.set(myPick.x,myPick.z);
+}
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+bool SpecificWorker::distanciaRecta(float x, float z)
+{
+	auto [a,b,c] = target.get();
+	return fabs(a*x + b *z + c) < 50;
 }
 
+/*El invento es nuestro*/
+bool SpecificWorker::targetVisible()
+{
+	QPolygonF polygon;
+	auto laser = innermodel->getNode<InnerModelLaser>(std::string("laser"));
+	for (int i=1;i<49;i++)
+	{
+		QVec lr = laser->laserTo(std::string("world"),ldata[i].dist,ldata[i].angle);
+		polygon << QPointF(lr.x(), lr.z());
+	}
+	QVec t = QVec::vec3(target.x, 0, target.z);
+	return  polygon.containsPoint(QPointF(t.x(),t.z()), Qt::WindingFill); 
+}
 
 
 

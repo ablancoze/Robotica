@@ -30,8 +30,9 @@
 #include <iostream>
 #include <fstream>
 #include <genericworker.h>
+#include <Qt>
 #include <innermodel/innermodel.h>
-
+#include <QPolygon>
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QGraphicsEllipseItem>
@@ -46,20 +47,45 @@ public:
 	float rot;
 	float threshold = 300; // millimeters
 	TBaseState initialBstate;
-	
+
+
 	struct Target
 	{
 		bool active;
 		float x;
 		float z;
-
+		float a;
+		float b;
+		float c;
+		float initX;
+		float initY;
+		
 		Target()
 		{
 			active=false;
 			x=0.0;
 			z=0.0;
 		}
+		void setInitialPosition(float x, float z)
+		{
+			initX=x;
+			initY=z;
+		}
+		void set(float x_, float z_)
+		{
+			active=true;
+			x=x_;
+			z=z_;
+			a=z-initY;
+			b=-(x-initX);
+			c=(-b*initX)-(a*initY);
+		}
 
+		std::tuple<float,float,float> get() const
+		{
+			return std::make_tuple(a,b,c);
+		}
+	
 	};
 
 	Target target;
@@ -88,6 +114,9 @@ private:
 	void idle();
 	void turn();
 	void rodear();
+	bool targetVisible();
+	bool distanciaRecta(float x, float z);
+
 };
 
 #endif
