@@ -59,6 +59,7 @@ public:
 		float c;
 		float initX;
 		float initY;
+		float modVectorRecta;
 		
 		Target()
 		{
@@ -81,9 +82,19 @@ public:
 			c=(-b*initX)-(a*initY);
 		}
 
+		void setModVectorRecta(float mod)
+		{
+			modVectorRecta=mod;
+		}
+
 		std::tuple<float,float,float> get() const
 		{
 			return std::make_tuple(a,b,c);
+		}
+
+		float getModVectorRecta()
+		{
+			return modVectorRecta;
 		}
 	
 	};

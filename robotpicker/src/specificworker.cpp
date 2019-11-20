@@ -203,6 +203,7 @@ void SpecificWorker::obstaculo()
 	std::sort(ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) { return a.dist < b.dist; }); // Ordeno el laser para moverme hacia la posicion mas lejana
 	if (ldata.front().dist > threshold)
 	{
+		target.setModVectorRecta(distancia);
 		estado = RODEAR;
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
@@ -224,6 +225,7 @@ void SpecificWorker::rodear()
 	
 	if (targetVisible()) // target visible
 	{
+		qDebug()<<"Target VISIBLE";
 		estado = TURN;
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
@@ -231,12 +233,16 @@ void SpecificWorker::rodear()
 
 	if (distanciaRecta(bState.x,bState.z))
 	{
-		estado = TURN;
-		differentialrobot_proxy->setSpeedBase(0,0);
-		return;
+		qDebug()<<"En linea con el target";
+		if (distancia<target.getModVectorRecta())
+		{
+			estado = TURN;
+			differentialrobot_proxy->setSpeedBase(0,0);
+			return;
+		}
 	}
 
-	if (distancia<120)
+	if (distancia<150)
 	{
 		estado = IDLE;
 		differentialrobot_proxy->setSpeedBase(0,0);
@@ -249,7 +255,6 @@ void SpecificWorker::rodear()
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
 	}
-
 	
 	//Obtenemos el lado derecho del laser + 65 para conseguir margen de choque
 	auto posicionVec = std::min(ldata.begin()+65,ldata.end()-1,[](auto &&la,auto &&lb){return (*la).dist < (*lb).dist;});
@@ -278,7 +283,8 @@ void SpecificWorker::RCISMousePicker_setPick(Pick myPick)
 bool SpecificWorker::distanciaRecta(float x, float z)
 {
 	auto [a,b,c] = target.get();
-	return fabs(a*x + b *z + c) < 75;
+	float resultado = (fabs(a*x + b *z + c))/sqrt(a*a+b*b+c*c);
+	return resultado < 10;
 }
 
 /*El invento es nuestro*/

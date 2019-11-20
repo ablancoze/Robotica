@@ -9,7 +9,7 @@ sleep 1
 qdbus org.kde.yakuake /yakuake/sessions org.kde.yakuake.addSession
 sess=`qdbus org.kde.yakuake /yakuake/sessions org.kde.yakuake.activeSessionId`
 qdbus org.kde.yakuake /yakuake/sessions org.kde.yakuake.runCommand 'cd ~/robocomp/files/innermodel/'
-qdbus org.kde.yakuake /yakuake/sessions org.kde.yakuake.runCommand 'rcis simpleworld.xml'
+qdbus org.kde.yakuake /yakuake/sessions org.kde.yakuake.runCommand 'rcis mimapa.xml'
 qdbus org.kde.yakuake /yakuake/tabs org.kde.yakuake.setTabTitle $sess 'rcis'
 sleep 1
 
