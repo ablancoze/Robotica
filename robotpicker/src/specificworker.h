@@ -36,6 +36,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QGraphicsEllipseItem>
+#include <QMutexLocker>
 
 class SpecificWorker : public GenericWorker
 {
@@ -51,6 +52,7 @@ public:
 
 	struct Target
 	{
+		mutable QMutex mutex;
 		bool active;
 		float x;
 		float z;
@@ -60,20 +62,25 @@ public:
 		float initX;
 		float initY;
 		float modVectorRecta;
+		float bandera;
 		
 		Target()
 		{
 			active=false;
 			x=0.0;
 			z=0.0;
+			bandera = false;
 		}
+
 		void setInitialPosition(float x, float z)
 		{
+			QMutexLocker locker(&mutex);
 			initX=x;
 			initY=z;
 		}
 		void set(float x_, float z_)
 		{
+			QMutexLocker locker(&mutex);
 			active=true;
 			x=x_;
 			z=z_;
@@ -84,16 +91,24 @@ public:
 
 		void setModVectorRecta(float mod)
 		{
+			QMutexLocker locker(&mutex);
 			modVectorRecta=mod;
 		}
 
 		std::tuple<float,float,float> get() const
 		{
+			QMutexLocker locker(&mutex);
 			return std::make_tuple(a,b,c);
+		}
+
+		void setBandera(bool _bandera)
+		{
+			bandera = _bandera;
 		}
 
 		float getModVectorRecta()
 		{
+			QMutexLocker locker(&mutex);
 			return modVectorRecta;
 		}
 	

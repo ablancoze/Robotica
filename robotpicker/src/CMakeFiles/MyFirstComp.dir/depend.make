@@ -20,6 +20,7 @@ src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QList
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMargins
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QObject
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QPointF
 src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QRect
@@ -2366,6 +2367,7 @@ src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/Q
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QList
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMargins
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QObject
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QPointF
 src/CMakeFiles/MyFirstComp.dir/main.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QRect
@@ -3803,6 +3805,7 @@ src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/in
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QList
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMargins
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QObject
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QPointF
 src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o: /home/salabeta/anaconda3/include/qt/QtCore/QRect

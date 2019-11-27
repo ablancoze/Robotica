@@ -40,6 +40,10 @@ qmargins.h
 qmetatype.h
 /home/salabeta/anaconda3/include/qt/QtCore/qmetatype.h
 
+/home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
+qmutex.h
+/home/salabeta/anaconda3/include/qt/QtCore/qmutex.h
+
 /home/salabeta/anaconda3/include/qt/QtCore/QObject
 qobject.h
 /home/salabeta/anaconda3/include/qt/QtCore/qobject.h
@@ -5088,6 +5092,8 @@ QGraphicsScene
 QGraphicsView
 -
 QGraphicsEllipseItem
+-
+QMutexLocker
 -
 
 /opt/robocomp/include/innermodel/innermodel.h

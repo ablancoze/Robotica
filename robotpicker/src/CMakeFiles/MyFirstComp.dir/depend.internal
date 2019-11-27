@@ -21,6 +21,7 @@ src/CMakeFiles/MyFirstComp.dir/MyFirstComp_autogen/mocs_compilation.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/QList
  /home/salabeta/anaconda3/include/qt/QtCore/QMargins
  /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+ /home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
  /home/salabeta/anaconda3/include/qt/QtCore/QPointF
  /home/salabeta/anaconda3/include/qt/QtCore/QRect
@@ -2367,6 +2368,7 @@ src/CMakeFiles/MyFirstComp.dir/main.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/QList
  /home/salabeta/anaconda3/include/qt/QtCore/QMargins
  /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+ /home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
  /home/salabeta/anaconda3/include/qt/QtCore/QPointF
  /home/salabeta/anaconda3/include/qt/QtCore/QRect
@@ -3804,6 +3806,7 @@ src/CMakeFiles/MyFirstComp.dir/specificworker.cpp.o
  /home/salabeta/anaconda3/include/qt/QtCore/QList
  /home/salabeta/anaconda3/include/qt/QtCore/QMargins
  /home/salabeta/anaconda3/include/qt/QtCore/QMetaType
+ /home/salabeta/anaconda3/include/qt/QtCore/QMutexLocker
  /home/salabeta/anaconda3/include/qt/QtCore/QObject
  /home/salabeta/anaconda3/include/qt/QtCore/QPointF
  /home/salabeta/anaconda3/include/qt/QtCore/QRect

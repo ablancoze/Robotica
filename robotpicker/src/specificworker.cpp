@@ -204,6 +204,7 @@ void SpecificWorker::obstaculo()
 	if (ldata.front().dist > threshold)
 	{
 		target.setModVectorRecta(distancia);
+		target.setBandera(true);
 		estado = RODEAR;
 		differentialrobot_proxy->setSpeedBase(0,0);
 		return;
@@ -213,7 +214,9 @@ void SpecificWorker::obstaculo()
 
 
 }
-
+/**
+ *	Metodo encargado de rodear un obstaculo encontrado 
+ */
 void SpecificWorker::rodear()
 {
 	qDebug()<<"ESTADO RODEAR";	
@@ -231,9 +234,9 @@ void SpecificWorker::rodear()
 		return;
 	}
 
-	if (distanciaRecta(bState.x,bState.z))
+	if (distanciaRecta(bState.x,bState.z) && !target.bandera)
 	{
-		qDebug()<<"En linea con el target";
+		qDebug()<<"+++ En linea con el target";
 		if (distancia<target.getModVectorRecta())
 		{
 			estado = TURN;
@@ -241,7 +244,7 @@ void SpecificWorker::rodear()
 			return;
 		}
 	}
-
+	target.setBandera(false);
 	if (distancia<150)
 	{
 		estado = IDLE;
@@ -262,24 +265,36 @@ void SpecificWorker::rodear()
 	if((*posicionVec).dist < threshold+100)
 		differentialrobot_proxy->setSpeedBase(100,0.3);
 	else if ((*posicionVec).dist > threshold+100)
+		{
+			if ((*posicionVec).dist > threshold+1000)
+			{
+				qDebug()<<"Evitando choque";
+				qDebug()<<"Evitando choque";
+				qDebug()<<"Evitando choque";
+				qDebug()<<"Evitando choque";
+				
+				usleep(700000);
+			}
 			differentialrobot_proxy->setSpeedBase(100,-0.3);
+		}
 	else	
 		differentialrobot_proxy->setSpeedBase(200,0);
 			
-	 	
 }
 
 
 
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
+/**
+ * Metodo encargado de seleccionar un punto del mapa 
+ * */
 void SpecificWorker::RCISMousePicker_setPick(Pick myPick)
 {
 	qDebug()<<"x="<<myPick.x<<"z="<<myPick.z;
 	target.set(myPick.x,myPick.z);
 }
-/////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////
+
 bool SpecificWorker::distanciaRecta(float x, float z)
 {
 	auto [a,b,c] = target.get();
