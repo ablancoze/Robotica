@@ -1,0 +1,15 @@
+import "GotoPoint.idsl";
+import "AprilTags.idsl";
+
+Component mission
+{
+    Communications
+    {
+        requires GotoPoint;
+        subscribesTo AprilTags;
+    };
+	language Cpp11;
+	gui Qt(QWidget);
+	statemachine "statemachine.smdsl";
+};
+
