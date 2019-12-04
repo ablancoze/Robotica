@@ -1,12 +1,14 @@
 import "DifferentialRobot.idsl";
 import "Laser.idsl";
 import "RCISMousePicker.idsl";
+import "GotoPoint.idsl";
 Component MyFirstComp
 {
   Communications
   {
     requires DifferentialRobot, Laser;
     subscribesTo RCISMousePicker;
+    implements GotoPoint;
   };
   language Cpp11; // or language Python;
   gui Qt(QWidget);

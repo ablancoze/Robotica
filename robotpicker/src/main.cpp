@@ -81,6 +81,7 @@
 #include "specificmonitor.h"
 #include "commonbehaviorI.h"
 
+#include <gotopointI.h>
 #include <rcismousepickerI.h>
 
 #include <GenericBase.h>
@@ -221,6 +222,24 @@ int ::MyFirstComp::run(int argc, char* argv[])
 
 		}
 
+
+
+		try
+		{
+			// Server adapter creation and publication
+			if (not GenericMonitor::configGetString(communicator(), prefix, "GotoPoint.Endpoints", tmp, ""))
+			{
+				cout << "[" << PROGRAM_NAME << "]: Can't read configuration for proxy GotoPoint";
+			}
+			Ice::ObjectAdapterPtr adapterGotoPoint = communicator()->createObjectAdapterWithEndpoints("GotoPoint", tmp);
+			auto gotopoint = std::make_shared<GotoPointI>(worker);
+			adapterGotoPoint->add(gotopoint, Ice::stringToIdentity("gotopoint"));
+			adapterGotoPoint->activate();
+			cout << "[" << PROGRAM_NAME << "]: GotoPoint adapter created in port " << tmp << endl;
+			}
+			catch (const IceStorm::TopicExists&){
+				cout << "[" << PROGRAM_NAME << "]: ERROR creating or activating adapter for GotoPoint\n";
+			}
 
 
 

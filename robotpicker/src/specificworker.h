@@ -49,7 +49,11 @@ public:
 	float threshold = 300; // millimeters
 	TBaseState initialBstate;
 
-
+	void GotoPoint_go(string nodo, float x, float y, float alpha);
+	void GotoPoint_turn(float speed);
+	bool GotoPoint_atTarget();
+	void GotoPoint_stop();
+	
 	struct Target
 	{
 		mutable QMutex mutex;

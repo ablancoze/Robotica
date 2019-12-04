@@ -3,5 +3,6 @@ ba961feeec0708a2dbaf54d1938a1e52 src/CMakeFiles/MyFirstComp_autogen
 1c1924efa3fa3ec24079b6b031da9aec src/CommonBehavior.cpp
 98a174ff03d44155716f8a0f962ce505 src/DifferentialRobot.cpp
 07399047e8513bca3fb4919ed20108ea src/GenericBase.cpp
+974943b1aec9a1bbfb5efcc0a24943e7 src/GotoPoint.cpp
 f405b2912babe7e0eb1a6a1088982c13 src/Laser.cpp
 a7d2e31c6262cbf10938de383108b827 src/RCISMousePicker.cpp

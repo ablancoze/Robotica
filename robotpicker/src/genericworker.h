@@ -32,6 +32,7 @@
 #include <CommonBehavior.h>
 
 #include <GenericBase.h>
+#include <GotoPoint.h>
 #include <DifferentialRobot.h>
 #include <Laser.h>
 #include <RCISMousePicker.h>
@@ -41,6 +42,7 @@
 
 using namespace std;
 using namespace RoboCompGenericBase;
+using namespace RoboCompGotoPoint;
 using namespace RoboCompDifferentialRobot;
 using namespace RoboCompLaser;
 using namespace RoboCompRCISMousePicker;
@@ -69,6 +71,10 @@ public:
 	DifferentialRobotPrxPtr differentialrobot_proxy;
 	LaserPrxPtr laser_proxy;
 
+	virtual void GotoPoint_go(string nodo, float x, float y, float alpha) = 0;
+	virtual void GotoPoint_turn(float speed) = 0;
+	virtual bool GotoPoint_atTarget() = 0;
+	virtual void GotoPoint_stop() = 0;
 	virtual void RCISMousePicker_setPick(Pick myPick) = 0;
 
 protected:

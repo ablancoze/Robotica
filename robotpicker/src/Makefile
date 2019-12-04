@@ -267,6 +267,33 @@ GenericBase.cpp.s:
 	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/GenericBase.cpp.s
 .PHONY : GenericBase.cpp.s
 
+GotoPoint.o: GotoPoint.cpp.o
+
+.PHONY : GotoPoint.o
+
+# target to build an object file
+GotoPoint.cpp.o:
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/GotoPoint.cpp.o
+.PHONY : GotoPoint.cpp.o
+
+GotoPoint.i: GotoPoint.cpp.i
+
+.PHONY : GotoPoint.i
+
+# target to preprocess a source file
+GotoPoint.cpp.i:
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/GotoPoint.cpp.i
+.PHONY : GotoPoint.cpp.i
+
+GotoPoint.s: GotoPoint.cpp.s
+
+.PHONY : GotoPoint.s
+
+# target to generate assembly for a file
+GotoPoint.cpp.s:
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/GotoPoint.cpp.s
+.PHONY : GotoPoint.cpp.s
+
 Laser.o: Laser.cpp.o
 
 .PHONY : Laser.o
@@ -428,6 +455,33 @@ genericworker.s: genericworker.cpp.s
 genericworker.cpp.s:
 	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/genericworker.cpp.s
 .PHONY : genericworker.cpp.s
+
+gotopointI.o: gotopointI.cpp.o
+
+.PHONY : gotopointI.o
+
+# target to build an object file
+gotopointI.cpp.o:
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/gotopointI.cpp.o
+.PHONY : gotopointI.cpp.o
+
+gotopointI.i: gotopointI.cpp.i
+
+.PHONY : gotopointI.i
+
+# target to preprocess a source file
+gotopointI.cpp.i:
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/gotopointI.cpp.i
+.PHONY : gotopointI.cpp.i
+
+gotopointI.s: gotopointI.cpp.s
+
+.PHONY : gotopointI.s
+
+# target to generate assembly for a file
+gotopointI.cpp.s:
+	cd /home/salabeta/robocomp/components/Robotica/robotpicker && $(MAKE) -f src/CMakeFiles/MyFirstComp.dir/build.make src/CMakeFiles/MyFirstComp.dir/gotopointI.cpp.s
+.PHONY : gotopointI.cpp.s
 
 home/salabeta/robocomp/classes/qlog/qlog.o: home/salabeta/robocomp/classes/qlog/qlog.cpp.o
 
@@ -641,6 +695,9 @@ help:
 	@echo "... GenericBase.o"
 	@echo "... GenericBase.i"
 	@echo "... GenericBase.s"
+	@echo "... GotoPoint.o"
+	@echo "... GotoPoint.i"
+	@echo "... GotoPoint.s"
 	@echo "... Laser.o"
 	@echo "... Laser.i"
 	@echo "... Laser.s"
@@ -659,6 +716,9 @@ help:
 	@echo "... genericworker.o"
 	@echo "... genericworker.i"
 	@echo "... genericworker.s"
+	@echo "... gotopointI.o"
+	@echo "... gotopointI.i"
+	@echo "... gotopointI.s"
 	@echo "... home/salabeta/robocomp/classes/qlog/qlog.o"
 	@echo "... home/salabeta/robocomp/classes/qlog/qlog.i"
 	@echo "... home/salabeta/robocomp/classes/qlog/qlog.s"

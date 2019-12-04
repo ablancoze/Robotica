@@ -99,6 +99,8 @@
         "vec4us": "cpp",
         "observer_ptr": "cpp",
         "ref_ptr": "cpp",
-        "graphicscontext": "cpp"
+        "graphicscontext": "cpp",
+        "viewport": "cpp",
+        "arraydispatchers": "cpp"
     }
 }

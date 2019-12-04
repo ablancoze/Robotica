@@ -59,6 +59,18 @@ void SpecificWorker::initialize(int period)
 
 void SpecificWorker::compute()
 {
+	// QMutexLocker locker(mutex);
+	// try
+	// {
+	// 	camera_proxy->getYImage(0,img, cState, bState);
+	// 	memcpy(image_gray.data, &img[0], m_width*m_height*sizeof(uchar));
+	// 	searchTags(image_gray);
+	// }
+	// catch(const Ice::Exception &e)
+	// {
+	// 	std::cout << "Error reading from Camera" << e << std::endl;
+	// }
+
 	differentialrobot_proxy->getBaseState(bState);
 	ldata = laser_proxy->getLaserData(); //El laser devuelve 100 medidas
 	innermodel->updateTransformValues("base",bState.x,0,bState.z,0,bState.alpha,0);
@@ -317,6 +329,38 @@ bool SpecificWorker::targetVisible()
 	return  polygon.containsPoint(QPointF(t.x(),t.z()), Qt::WindingFill); 
 }
 
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+///////////////////INTERFACE/////////////////////////////
+/////////////////////////////////////////////////////////
+void SpecificWorker::GotoPoint_go(string nodo, float x, float y, float alpha)
+{
+	target.set(x,y);
+}
 
+void SpecificWorker::GotoPoint_turn(float speed)
+{
+	
+}
 
+bool SpecificWorker::GotoPoint_atTarget()
+{
+	float distancia;
+	QVec tr;
+	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
+	distancia = tr.norm2(); //Devuelve el tamaño del vector
+	
+	if (distancia < 120)
+		return true;
+	
+	return false;
+}
 
+void SpecificWorker::GotoPoint_stop()
+{
+	differentialrobot_proxy->setSpeedBase(0,0);
+}
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+///////////////////INTERFACE/////////////////////////////
+/////////////////////////////////////////////////////////
