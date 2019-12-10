@@ -4,7 +4,7 @@ CommonBehavior.Endpoints=tcp -p 10000
 GotoPoint.Endpoints=tcp -p 14000
 
 # Endpoints for subscriptions
-RCISMousePickerTopic.Endpoints=tcp -p 0
+RCISMousePickerTopic.Endpoints=tcp -p 21000
 
 
 # Proxies for required interfaces
@@ -15,7 +15,7 @@ LaserProxy = laser:tcp -h localhost -p 10003
 # This property is used by the clients to connect to IceStorm.
 TopicManager.Proxy=IceStorm/TopicManager:default -p 9999
 
-InnerModelPath = /home/robocomp/robocomp/files/innermodel/mimapa.xml 
+InnerModelPath = /home/robocomp/robocomp/files/innermodel/betaWorldArm.xml
 
 Ice.Warn.Connections=0
 Ice.Trace.Network=0

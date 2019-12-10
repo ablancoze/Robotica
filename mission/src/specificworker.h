@@ -34,6 +34,10 @@ class SpecificWorker : public GenericWorker
 {
 Q_OBJECT
 public:
+
+	enum class Estados{IDLE,TURN,CHECKTAG};
+	Estados estado = Estados::IDLE;
+
 	SpecificWorker(TuplePrx tprx);
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
@@ -44,6 +48,9 @@ public:
 public slots:
 	void compute();
 	void initialize(int period);
+	void idle();
+	void turn();
+	void checkTag();
 //Specification slot methods State Machine
 	void sm_compute();
 	void sm_initialize();

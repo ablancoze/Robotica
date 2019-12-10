@@ -79,9 +79,51 @@ void SpecificWorker::compute()
 //	{
 //		std::cout << "Error reading from Camera" << e << std::endl;
 //	}
+
+	switch (estado)
+	{
+		case Estados::IDLE:
+		{
+			idle();
+			break;
+		}
+		case Estados::TURN:
+		{
+			turn();	
+			break;
+		}
+		case Estados::CHECKTAG:
+		{
+			checkTag();
+			break;
+		}
+	}
 }
 
 
+void SpecificWorker::idle()
+{
+	estado = Estados::TURN;
+}
+void SpecificWorker::turn()
+{
+	try
+	{
+		gotopoint_proxy->turn(0.5);
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+	}
+	
+}
+void SpecificWorker::checkTag()
+{
+
+}
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 void SpecificWorker::sm_compute()
 {
 	std::cout<<"Entered state compute"<<std::endl;
@@ -98,20 +140,18 @@ void SpecificWorker::sm_finalize()
 	std::cout<<"Entered final state finalize"<<std::endl;
 }
 
-
-
-
-
 void SpecificWorker::AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState)
 {
-//subscribesToCODE
-
+	
 }
 
 void SpecificWorker::AprilTags_newAprilTag(tagsList tags)
 {
-//subscribesToCODE
+
+
 
 }
-
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 

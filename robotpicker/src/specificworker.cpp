@@ -338,9 +338,18 @@ void SpecificWorker::GotoPoint_go(string nodo, float x, float y, float alpha)
 	target.set(x,y);
 }
 
-void SpecificWorker::GotoPoint_turn(float speed)
+void SpecificWorker::GotoPoint_turn(float rot)
 {
-	
+	qDebug()<<"ESTADO TURN";
+
+
+	if (rot>1)
+		rot=1;
+		
+	if (rot<-1)
+		rot=-1;
+
+	differentialrobot_proxy->setSpeedBase(0,rot);
 }
 
 bool SpecificWorker::GotoPoint_atTarget()
