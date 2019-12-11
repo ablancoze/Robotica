@@ -340,8 +340,6 @@ void SpecificWorker::GotoPoint_go(string nodo, float x, float y, float alpha)
 
 void SpecificWorker::GotoPoint_turn(float rot)
 {
-	qDebug()<<"ESTADO TURN";
-
 
 	if (rot>1)
 		rot=1;

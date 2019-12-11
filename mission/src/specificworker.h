@@ -35,7 +35,7 @@ class SpecificWorker : public GenericWorker
 Q_OBJECT
 public:
 
-	enum class Estados{IDLE,TURN,CHECKTAG};
+	enum class Estados{IDLE,TURN,CHECKTAG,GOTO};
 	Estados estado = Estados::IDLE;
 
 	SpecificWorker(TuplePrx tprx);
@@ -44,6 +44,47 @@ public:
 
 	void AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState);
 	void AprilTags_newAprilTag(tagsList tags);
+	using Tp = std::tuple<int,float,float,float>;
+	
+	struct Tag
+	{
+		mutable QMutex mutex;
+		std::atomic_bool active;
+		int id;
+		float tx;
+		float ty;
+		float tz;
+		float rx;
+		float ry;
+		float rz;
+		string cameraId;
+		std::vector<Tp> datos;
+		Tag()
+		{
+
+		}
+
+		void write(std::vector<Tp> &d)
+		{
+			QMutexLocker locker(&mutex);
+			active.store(true);
+			datos.swap(d);
+		}
+
+		std::vector<Tp> read()
+		{
+			QMutexLocker locker(&mutex);
+			return datos;
+		}
+
+		bool isEmpty()
+		{
+			return active.load();	
+		}
+	};
+
+Tag tag; 
+
 
 public slots:
 	void compute();
@@ -51,6 +92,7 @@ public slots:
 	void idle();
 	void turn();
 	void checkTag();
+	void goTo();
 //Specification slot methods State Machine
 	void sm_compute();
 	void sm_initialize();

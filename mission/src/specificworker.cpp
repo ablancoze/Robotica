@@ -97,6 +97,12 @@ void SpecificWorker::compute()
 			checkTag();
 			break;
 		}
+
+		case Estados::GOTO:
+		{
+			goTo();
+			break;
+		}
 	}
 }
 
@@ -109,7 +115,13 @@ void SpecificWorker::turn()
 {
 	try
 	{
+		if(tag.read().empty() == false)
+		{
+
+			estado = Estados::GOTO;
+		}
 		gotopoint_proxy->turn(0.5);
+
 	}
 	catch(const std::exception& e)
 	{
@@ -121,12 +133,18 @@ void SpecificWorker::checkTag()
 {
 
 }
+
+void SpecificWorker::goTo()
+{
+	// std::vector<Tp> tp = tag.read() 		
+	// gotopoint_proxy->go(tp[0]);
+	gotopoint_proxy->stop();
+}
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 void SpecificWorker::sm_compute()
 {
-	std::cout<<"Entered state compute"<<std::endl;
 	compute();
 }
 
@@ -153,7 +171,12 @@ void SpecificWorker::AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGeneric
 
 void SpecificWorker::AprilTags_newAprilTag(tagsList tags)
 {
+	std::vector<Tp> tps;
 	for(const auto &t : tags)
-	 qDebug() << t.id;
+	{
+		tps.push_back(std::make_tuple(t.id,t.tx,t.tz,t.ry));
+	}
+	tag.write(tps);
+
 }
 
