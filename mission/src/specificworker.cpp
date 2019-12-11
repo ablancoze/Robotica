@@ -103,6 +103,12 @@ void SpecificWorker::compute()
 			goTo();
 			break;
 		}
+
+		case Estados::WAITING:
+		{
+			waiting();
+			break;
+		}
 	}
 }
 
@@ -117,7 +123,6 @@ void SpecificWorker::turn()
 	{
 		if(tag.read().empty() == false)
 		{
-
 			estado = Estados::GOTO;
 		}
 		gotopoint_proxy->turn(0.5);
@@ -135,10 +140,33 @@ void SpecificWorker::checkTag()
 }
 
 void SpecificWorker::goTo()
-{
-	// std::vector<Tp> tp = tag.read() 		
-	// gotopoint_proxy->go(tp[0]);
-	gotopoint_proxy->stop();
+{ 	
+	[id,x,y,alpha]=tag.read()	
+	
+	try
+	{
+		gotopoint_proxy->go("",x,y,0);
+		Estados::WAITING;
+	}
+	catch (const std::exception& e) 
+	{
+		std::cerr << e.what() << '\n';
+	}
+	
+}
+
+void SpecificWorker::waiting()
+{ 		
+	try
+	{
+		if (gotopoint_proxy->atTarget())
+			gotopoint_proxy->stop();
+	}	
+	catch (const std::exception& e) 
+	{
+		std::cerr << e.what() << '\n';
+	}
+	
 }
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////

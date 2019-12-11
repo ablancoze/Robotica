@@ -35,7 +35,7 @@ class SpecificWorker : public GenericWorker
 Q_OBJECT
 public:
 
-	enum class Estados{IDLE,TURN,CHECKTAG,GOTO};
+	enum class Estados{IDLE,TURN,CHECKTAG,GOTO,WAITING};
 	Estados estado = Estados::IDLE;
 
 	SpecificWorker(TuplePrx tprx);
