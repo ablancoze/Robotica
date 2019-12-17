@@ -39,13 +39,13 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
 //       THE FOLLOWING IS JUST AN EXAMPLE
 //	To use innerModelPath parameter you should uncomment specificmonitor.cpp readConfig method content
-//	try
-//	{
-//		RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
-//		std::string innermodel_path = par.value;
-//		innerModel = new InnerModel(innermodel_path);
-//	}
-//	catch(std::exception e) { qFatal("Error reading config params"); }
+	// try
+	// {
+	// 	RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
+	// 	std::string innermodel_path = par.value;
+	// 	innerModel = std::make_shared<InnerModel>(innermodel_path);
+	// }
+	// catch(std::exception e) { qFatal("Error reading config params"); }
 
 
 
@@ -62,7 +62,7 @@ void SpecificWorker::initialize(int period)
 	this->Period = period;
 	timer.start(Period);
 	emit this->initializetocompute();
-
+	
 }
 
 void SpecificWorker::compute()
@@ -114,16 +114,19 @@ void SpecificWorker::compute()
 
 
 void SpecificWorker::idle()
-{
+{	
+	
 	estado = Estados::TURN;
 }
 void SpecificWorker::turn()
 {
 	try
 	{
-		if(tag.read().empty() == false)
+		qDebug()<<"Mission turn";
+		if(tag.isEmpty())
 		{
 			estado = Estados::GOTO;
+			gotopoint_proxy->stop();
 		}
 		gotopoint_proxy->turn(0.5);
 
@@ -141,12 +144,14 @@ void SpecificWorker::checkTag()
 
 void SpecificWorker::goTo()
 { 	
-	[id,x,y,alpha]=tag.read()	
+
+	auto [id,x,y,alpha] = tag.read()[0];	
 	
 	try
 	{
+		qDebug()<<"Mission goTo";
 		gotopoint_proxy->go("",x,y,0);
-		Estados::WAITING;
+		estado = Estados::WAITING;
 	}
 	catch (const std::exception& e) 
 	{
@@ -159,6 +164,7 @@ void SpecificWorker::waiting()
 { 		
 	try
 	{
+		qDebug()<<"Mission waiting";
 		if (gotopoint_proxy->atTarget())
 			gotopoint_proxy->stop();
 	}	

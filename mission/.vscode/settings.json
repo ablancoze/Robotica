@@ -60,6 +60,11 @@
         "random": "cpp",
         "set": "cpp",
         "string": "cpp",
-        "texture": "cpp"
+        "texture": "cpp",
+        "arraydispatchers": "cpp",
+        "light": "cpp",
+        "boundingbox": "cpp",
+        "boundingsphere": "cpp",
+        "timer": "cpp"
     }
 }

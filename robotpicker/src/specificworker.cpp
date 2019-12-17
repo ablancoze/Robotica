@@ -133,9 +133,8 @@ void SpecificWorker::turn()
 	}
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	rot = atan2(tr.x(), tr.z());
-	qDebug()<<"ROT= "<< rot;
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
-	if (distancia<120)
+	if (distancia<200)
 	{
 		estado = IDLE;
 		return;
@@ -166,7 +165,7 @@ void SpecificWorker::goTo()
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
 	
-	if (distancia<120)
+	if (distancia<200)
 	{
 		estado = IDLE;
 		return;
@@ -198,7 +197,7 @@ void SpecificWorker::obstaculo()
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
 	
-	if (distancia<120)
+	if (distancia<200)
 	{
 		estado = IDLE;
 		differentialrobot_proxy->setSpeedBase(0,0);
@@ -335,12 +334,13 @@ bool SpecificWorker::targetVisible()
 /////////////////////////////////////////////////////////
 void SpecificWorker::GotoPoint_go(string nodo, float x, float y, float alpha)
 {
-	target.set(x,y);
+	auto r = innermodel->transform("world", QVec::vec3(x, 0, y), "rgbd");
+	target.set(r.x(),r.z());
+	qDebug()<<"Nuevo Targer "<<target.x << " " << target.z ;
 }
 
 void SpecificWorker::GotoPoint_turn(float rot)
 {
-
 	if (rot>1)
 		rot=1;
 		

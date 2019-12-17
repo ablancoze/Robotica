@@ -59,6 +59,7 @@ public:
 		float rz;
 		string cameraId;
 		std::vector<Tp> datos;
+
 		Tag()
 		{
 
@@ -93,6 +94,7 @@ public slots:
 	void turn();
 	void checkTag();
 	void goTo();
+	void waiting();
 //Specification slot methods State Machine
 	void sm_compute();
 	void sm_initialize();
