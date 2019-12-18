@@ -1,0 +1,13 @@
+import "RGBD.idsl";
+import "HumanTracker.idsl";
+import "HumanTrackerJointsAndRGB.idsl";
+
+Component astraRGBD
+{
+	Communications{
+			implements RGBD, HumanTracker;
+			publishes HumanTrackerJointsAndRGB;
+	};
+	language Cpp;
+};
+

@@ -1,0 +1,37 @@
+#
+# This property is used to configure the endpoints of the subscriber adapter.
+#
+DifferentialRobot.Endpoints=tcp -p 10004
+GenericBase.Endpoints= tcp -p 10001
+CommonBehavior.Endpoints=tcp -p 11004
+JoystickAdapter.Endpoints=tcp -p 10104
+
+# Remote servers proxies example
+
+#RemoteProxy = remote:tcp -h remotehost -p 10001
+
+# User config parameters
+#Gazebo configuration
+#DRobot.Device= robot::position_iface_0 
+#DRobot.Handler= Gazebo
+
+#Player configuracion
+#DRobot.Device= localhost:6665
+#DRobot.Handler= Player
+
+#Robex configuration
+#DRobot.Device=/dev/ttyUSB0
+#DRobot.Handler = Robex
+
+DRobot.Logger = local
+DRobot.maxVelAdv = 200
+DRobot.maxVelRot = 0.3
+
+#Pulguita usa Maxon
+#Speedy usa Faulhaber
+
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+

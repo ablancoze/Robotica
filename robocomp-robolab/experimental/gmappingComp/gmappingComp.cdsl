@@ -1,0 +1,16 @@
+import "/robocomp/interfaces/IDSLs/Laser.idsl";
+import "/robocomp/interfaces/IDSLs/SlamLaser.idsl";
+import "/robocomp/interfaces/IDSLs/CGR.idsl";
+
+Component gmappingComp
+{
+	Communications
+	{
+		implements SlamLaser;
+		requires GenericBase, Laser;
+		publishes CGRTopic;
+	};
+	language Cpp;
+	gui Qt(QWidget);
+};
+

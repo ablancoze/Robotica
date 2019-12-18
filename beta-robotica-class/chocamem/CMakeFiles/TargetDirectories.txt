@@ -1,0 +1,14 @@
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/CMakeFiles/install/strip.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/CMakeFiles/install.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/CMakeFiles/install/local.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/CMakeFiles/list_install_components.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/CMakeFiles/edit_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/install/strip.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/edit_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/ChocaMem.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/list_install_components.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/install/local.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/install.dir
+/home/salabeta/robocomp/components/beta-robotica-class/chocamem/src/CMakeFiles/ChocaMem_autogen.dir
