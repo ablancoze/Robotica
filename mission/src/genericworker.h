@@ -37,6 +37,7 @@
 #include <JointMotor.h>
 #include <GotoPoint.h>
 #include <AprilTags.h>
+#include <simplearmI.h>
 
 #define CHECK_PERIOD 5000
 #define BASIC_PERIOD 100
@@ -69,6 +70,7 @@ public:
 
 
 	GotoPointPrxPtr gotopoint_proxy;
+	SimpleArmPrx gotopoint_proxy;
 
 	virtual void AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState) = 0;
 	virtual void AprilTags_newAprilTag(tagsList tags) = 0;

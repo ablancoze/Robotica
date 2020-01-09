@@ -109,6 +109,12 @@ void SpecificWorker::compute()
 			waiting();
 			break;
 		}
+
+		case Estados::GETITEM:
+		{
+			getItem();
+			break;
+		}
 	}
 }
 
@@ -149,7 +155,11 @@ void SpecificWorker::goTo()
 	
 	try
 	{
-		qDebug()<<"Mission goTo";
+		qDebug()<<"Mission goTo id: "<<id;
+		qDebug()<<"Mission goTo id: "<<id;
+		qDebug()<<"Mission goTo id: "<<id;
+		qDebug()<<"Mission goTo id: "<<id;
+		qDebug()<<"Mission goTo id: "<<id;
 		gotopoint_proxy->go("",x,y,0);
 		estado = Estados::WAITING;
 	}
@@ -166,7 +176,26 @@ void SpecificWorker::waiting()
 	{
 		qDebug()<<"Mission waiting";
 		if (gotopoint_proxy->atTarget())
-			gotopoint_proxy->stop();
+		{
+			SimpleArmPrx->moveTo(/*poseD6*/); // deberia mover el brazo
+			estado = Estados::GETITEM;
+		}
+			
+
+	}	
+	catch (const std::exception& e) 
+	{
+		std::cerr << e.what() << '\n';
+	}
+	
+}
+
+void SpecificWorker::getItem()
+{ 		
+	try
+	{
+		qDebug()<<"Mission geting Box";	
+		gotopoint_proxy->
 	}	
 	catch (const std::exception& e) 
 	{

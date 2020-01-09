@@ -35,7 +35,7 @@ class SpecificWorker : public GenericWorker
 Q_OBJECT
 public:
 
-	enum class Estados{IDLE,TURN,CHECKTAG,GOTO,WAITING};
+	enum class Estados{IDLE,TURN,CHECKTAG,GOTO,WAITING,GETITEM};
 	Estados estado = Estados::IDLE;
 
 	SpecificWorker(TuplePrx tprx);
@@ -57,7 +57,7 @@ public:
 		float rx;
 		float ry;
 		float rz;
-		string cameraId;
+		::std::string cameraId;
 		std::vector<Tp> datos;
 
 		Tag()
@@ -95,6 +95,7 @@ public slots:
 	void checkTag();
 	void goTo();
 	void waiting();
+	void getItem();
 //Specification slot methods State Machine
 	void sm_compute();
 	void sm_initialize();

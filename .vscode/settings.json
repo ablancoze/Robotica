@@ -95,6 +95,8 @@
         "vec2ub": "cpp",
         "vec2ui": "cpp",
         "vec2us": "cpp",
-        "viewport": "cpp"
+        "viewport": "cpp",
+        "fast_back_stack": "cpp",
+        "valarray": "cpp"
     }
 }
