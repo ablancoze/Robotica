@@ -1,11 +1,12 @@
 import "GotoPoint.idsl";
 import "AprilTags.idsl";
+import "SimpleArm.idsl";
 
 Component mission
 {
     Communications
     {
-        requires GotoPoint;
+        requires GotoPoint,SimpleArm;
         subscribesTo AprilTags;
     };
 	language Cpp11;

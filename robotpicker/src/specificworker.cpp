@@ -357,7 +357,7 @@ bool SpecificWorker::GotoPoint_atTarget()
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
 	
-	if (distancia < 120)
+	if (distancia < 300)
 		return true;
 	
 	return false;

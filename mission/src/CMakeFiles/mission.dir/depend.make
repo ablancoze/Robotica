@@ -18,6 +18,9 @@ src/CMakeFiles/mission.dir/GotoPoint.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/JointMotor.cpp.o: src/JointMotor.cpp
 src/CMakeFiles/mission.dir/JointMotor.cpp.o: src/JointMotor.h
 
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o: src/SimpleArm.cpp
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o: src/SimpleArm.h
+
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/apriltagsI.cpp
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/apriltagsI.h
@@ -481,6 +484,7 @@ src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/config.h
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
@@ -948,6 +952,7 @@ src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/config.h
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
@@ -1415,6 +1420,7 @@ src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
 src/CMakeFiles/mission.dir/genericworker.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -1880,6 +1886,7 @@ src/CMakeFiles/mission.dir/genericworker.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/genericworker.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/genericworker.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/genericworker.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/genericworker.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/genericworker.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.cpp
@@ -2827,6 +2834,7 @@ src/CMakeFiles/mission.dir/main.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/main.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/main.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/main.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/main.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/main.cpp.o: src/apriltagsI.h
 src/CMakeFiles/mission.dir/main.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
@@ -3333,6 +3341,7 @@ src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/CommonBeh
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -3800,6 +3809,7 @@ src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/mission_autogen/include/ui_mainUI.h
 
 src/CMakeFiles/mission.dir/specificworker.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.h
@@ -4297,6 +4307,7 @@ src/CMakeFiles/mission.dir/specificworker.cpp.o: src/CommonBehavior.h
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/GenericBase.h
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/GotoPoint.h
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/JointMotor.h
+src/CMakeFiles/mission.dir/specificworker.cpp.o: src/SimpleArm.h
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/config.h
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/genericworker.h
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/mission_autogen/include/ui_mainUI.h

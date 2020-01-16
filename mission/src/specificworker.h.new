@@ -16,30 +16,42 @@
  *    You should have received a copy of the GNU General Public License
  *    along with RoboComp.  If not, see <http://www.gnu.org/licenses/>.
  */
-#ifndef APRILTAGS_H
-#define APRILTAGS_H
 
-// Ice includes
-#include <Ice/Ice.h>
-#include <AprilTags.h>
+/**
+       \brief
+       @author authorname
+*/
 
-#include <config.h>
-#include "genericworker.h"
 
-using namespace RoboCompAprilTags;
 
-class AprilTagsI : public virtual RoboCompAprilTags::AprilTags
+#ifndef SPECIFICWORKER_H
+#define SPECIFICWORKER_H
+
+#include <genericworker.h>
+#include <innermodel/innermodel.h>
+
+class SpecificWorker : public GenericWorker
 {
+Q_OBJECT
 public:
-AprilTagsI(GenericWorker *_worker);
-	~AprilTagsI();
+	SpecificWorker(TuplePrx tprx);
+	~SpecificWorker();
+	bool setParams(RoboCompCommonBehavior::ParameterList params);
 
-	void newAprilTag(tagsList tags, const Ice::Current&);
-	void newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState, const Ice::Current&);
+	void AprilTags_newAprilTag(tagsList tags);
+	void AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState);
 
+public slots:
+	void compute();
+	void initialize(int period);
+//Specification slot methods State Machine
+	void sm_compute();
+	void sm_initialize();
+	void sm_finalize();
+
+//--------------------
 private:
-
-	GenericWorker *worker;
+	std::shared_ptr<InnerModel> innerModel;
 
 };
 

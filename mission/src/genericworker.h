@@ -1,5 +1,5 @@
 /*
- *    Copyright (C)2019 by YOUR NAME HERE
+ *    Copyright (C)2020 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -36,8 +36,8 @@
 #include <GenericBase.h>
 #include <JointMotor.h>
 #include <GotoPoint.h>
+#include <SimpleArm.h>
 #include <AprilTags.h>
-#include <simplearmI.h>
 
 #define CHECK_PERIOD 5000
 #define BASIC_PERIOD 100
@@ -46,9 +46,10 @@ using namespace std;
 using namespace RoboCompGenericBase;
 using namespace RoboCompJointMotor;
 using namespace RoboCompGotoPoint;
+using namespace RoboCompSimpleArm;
 using namespace RoboCompAprilTags;
 
-using TuplePrx = std::tuple<RoboCompGotoPoint::GotoPointPrxPtr>;
+using TuplePrx = std::tuple<RoboCompGotoPoint::GotoPointPrxPtr,RoboCompSimpleArm::SimpleArmPrxPtr>;
 
 
 class GenericWorker :
@@ -70,18 +71,18 @@ public:
 
 
 	GotoPointPrxPtr gotopoint_proxy;
-	SimpleArmPrx gotopoint_proxy;
+	SimpleArmPrxPtr simplearm_proxy;
 
-	virtual void AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState) = 0;
 	virtual void AprilTags_newAprilTag(tagsList tags) = 0;
+	virtual void AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState) = 0;
 
 protected:
 //State Machine
 	QStateMachine defaultMachine;
 
-	QState *computeState = new QState();
-	QState *initializeState = new QState();
-	QFinalState *finalizeState = new QFinalState();
+	QState *computeState;
+	QState *initializeState;
+	QFinalState *finalizeState;
 
 //-------------------------
 
@@ -104,9 +105,9 @@ public slots:
 signals:
 	void kill();
 //Signals for State Machine
-	void initializetocompute();
-	void computetocompute();
-	void computetofinalize();
+	void t_initialize_to_compute();
+	void t_compute_to_compute();
+	void t_compute_to_finalize();
 
 //-------------------------
 };

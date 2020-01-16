@@ -85,8 +85,15 @@ src/GotoPoint.cpp: /home/salabeta/robocomp/interfaces/GotoPoint.ice
 src/GotoPoint.h: src/GotoPoint.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GotoPoint.h
 
+src/SimpleArm.cpp: /home/salabeta/robocomp/interfaces/SimpleArm.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating SimpleArm.cpp and SimpleArm.h from SimpleArm.ice"
+	cd /home/salabeta/robocomp/components/Robotica/mission/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/SimpleArm.ice --output-dir .
+
+src/SimpleArm.h: src/SimpleArm.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/SimpleArm.h
+
 src/AprilTags.cpp: /home/salabeta/robocomp/interfaces/AprilTags.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && slice2cpp --underscore -I/home/salabeta/robocomp//interfaces/ -I/home/salabeta/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/salabeta/robocomp/interfaces/AprilTags.ice --output-dir .
 
 src/AprilTags.h: src/AprilTags.cpp
@@ -94,7 +101,7 @@ src/AprilTags.h: src/AprilTags.cpp
 
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/specificworker.cpp.o: src/specificworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mission.dir/specificworker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mission.dir/specificworker.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/specificworker.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/specificworker.cpp
 
 src/CMakeFiles/mission.dir/specificworker.cpp.i: cmake_force
@@ -118,7 +125,7 @@ src/CMakeFiles/mission.dir/specificworker.cpp.o.provides.build: src/CMakeFiles/m
 
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/specificmonitor.cpp.o: src/specificmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mission.dir/specificmonitor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mission.dir/specificmonitor.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/specificmonitor.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/specificmonitor.cpp
 
 src/CMakeFiles/mission.dir/specificmonitor.cpp.i: cmake_force
@@ -142,7 +149,7 @@ src/CMakeFiles/mission.dir/specificmonitor.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o -c /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
@@ -166,7 +173,7 @@ src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/rapplication/rapplicat
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
@@ -190,7 +197,7 @@ src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o -c /home/salabeta/robocomp/classes/qlog/qlog.cpp
 
 src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i: cmake_force
@@ -214,7 +221,7 @@ src/CMakeFiles/mission.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o.provid
 
 src/CMakeFiles/mission.dir/main.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/mission.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/mission.dir/main.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/main.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/main.cpp
 
 src/CMakeFiles/mission.dir/main.cpp.i: cmake_force
@@ -238,7 +245,7 @@ src/CMakeFiles/mission.dir/main.cpp.o.provides.build: src/CMakeFiles/mission.dir
 
 src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/genericmonitor.cpp.o: src/genericmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/mission.dir/genericmonitor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/mission.dir/genericmonitor.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/genericmonitor.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/genericmonitor.cpp
 
 src/CMakeFiles/mission.dir/genericmonitor.cpp.i: cmake_force
@@ -262,7 +269,7 @@ src/CMakeFiles/mission.dir/genericmonitor.cpp.o.provides.build: src/CMakeFiles/m
 
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/commonbehaviorI.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/commonbehaviorI.cpp
 
 src/CMakeFiles/mission.dir/commonbehaviorI.cpp.i: cmake_force
@@ -286,7 +293,7 @@ src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/mission.dir/genericworker.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/genericworker.cpp.o: src/genericworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/mission.dir/genericworker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/mission.dir/genericworker.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/genericworker.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/genericworker.cpp
 
 src/CMakeFiles/mission.dir/genericworker.cpp.i: cmake_force
@@ -310,7 +317,7 @@ src/CMakeFiles/mission.dir/genericworker.cpp.o.provides.build: src/CMakeFiles/mi
 
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/apriltagsI.cpp.o: src/apriltagsI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/mission.dir/apriltagsI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/mission.dir/apriltagsI.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/apriltagsI.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/apriltagsI.cpp
 
 src/CMakeFiles/mission.dir/apriltagsI.cpp.i: cmake_force
@@ -334,7 +341,7 @@ src/CMakeFiles/mission.dir/apriltagsI.cpp.o.provides.build: src/CMakeFiles/missi
 
 src/CMakeFiles/mission.dir/CommonBehavior.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/mission.dir/CommonBehavior.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/mission.dir/CommonBehavior.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/CommonBehavior.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/CommonBehavior.cpp
 
 src/CMakeFiles/mission.dir/CommonBehavior.cpp.i: cmake_force
@@ -358,7 +365,7 @@ src/CMakeFiles/mission.dir/CommonBehavior.cpp.o.provides.build: src/CMakeFiles/m
 
 src/CMakeFiles/mission.dir/GenericBase.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/GenericBase.cpp.o: src/GenericBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/mission.dir/GenericBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/mission.dir/GenericBase.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/GenericBase.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/GenericBase.cpp
 
 src/CMakeFiles/mission.dir/GenericBase.cpp.i: cmake_force
@@ -382,7 +389,7 @@ src/CMakeFiles/mission.dir/GenericBase.cpp.o.provides.build: src/CMakeFiles/miss
 
 src/CMakeFiles/mission.dir/JointMotor.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/JointMotor.cpp.o: src/JointMotor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/mission.dir/JointMotor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/mission.dir/JointMotor.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/JointMotor.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/JointMotor.cpp
 
 src/CMakeFiles/mission.dir/JointMotor.cpp.i: cmake_force
@@ -406,7 +413,7 @@ src/CMakeFiles/mission.dir/JointMotor.cpp.o.provides.build: src/CMakeFiles/missi
 
 src/CMakeFiles/mission.dir/GotoPoint.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/GotoPoint.cpp.o: src/GotoPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/mission.dir/GotoPoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/mission.dir/GotoPoint.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/GotoPoint.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/GotoPoint.cpp
 
 src/CMakeFiles/mission.dir/GotoPoint.cpp.i: cmake_force
@@ -428,9 +435,33 @@ src/CMakeFiles/mission.dir/GotoPoint.cpp.o.provides: src/CMakeFiles/mission.dir/
 src/CMakeFiles/mission.dir/GotoPoint.cpp.o.provides.build: src/CMakeFiles/mission.dir/GotoPoint.cpp.o
 
 
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o: src/CMakeFiles/mission.dir/flags.make
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o: src/SimpleArm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/mission.dir/SimpleArm.cpp.o"
+	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/SimpleArm.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/SimpleArm.cpp
+
+src/CMakeFiles/mission.dir/SimpleArm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mission.dir/SimpleArm.cpp.i"
+	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robotica/mission/src/SimpleArm.cpp > CMakeFiles/mission.dir/SimpleArm.cpp.i
+
+src/CMakeFiles/mission.dir/SimpleArm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mission.dir/SimpleArm.cpp.s"
+	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robotica/mission/src/SimpleArm.cpp -o CMakeFiles/mission.dir/SimpleArm.cpp.s
+
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mission.dir/SimpleArm.cpp.o.requires
+
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o.provides: src/CMakeFiles/mission.dir/SimpleArm.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mission.dir/build.make src/CMakeFiles/mission.dir/SimpleArm.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mission.dir/SimpleArm.cpp.o.provides
+
+src/CMakeFiles/mission.dir/SimpleArm.cpp.o.provides.build: src/CMakeFiles/mission.dir/SimpleArm.cpp.o
+
+
 src/CMakeFiles/mission.dir/AprilTags.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/AprilTags.cpp.o: src/AprilTags.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/mission.dir/AprilTags.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/mission.dir/AprilTags.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/AprilTags.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/AprilTags.cpp
 
 src/CMakeFiles/mission.dir/AprilTags.cpp.i: cmake_force
@@ -454,7 +485,7 @@ src/CMakeFiles/mission.dir/AprilTags.cpp.o.provides.build: src/CMakeFiles/missio
 
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/CMakeFiles/mission.dir/flags.make
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o: src/mission_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o -c /home/salabeta/robocomp/components/Robotica/mission/src/mission_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.i: cmake_force
@@ -492,6 +523,7 @@ mission_OBJECTS = \
 "CMakeFiles/mission.dir/GenericBase.cpp.o" \
 "CMakeFiles/mission.dir/JointMotor.cpp.o" \
 "CMakeFiles/mission.dir/GotoPoint.cpp.o" \
+"CMakeFiles/mission.dir/SimpleArm.cpp.o" \
 "CMakeFiles/mission.dir/AprilTags.cpp.o" \
 "CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o"
 
@@ -512,6 +544,7 @@ bin/mission: src/CMakeFiles/mission.dir/CommonBehavior.cpp.o
 bin/mission: src/CMakeFiles/mission.dir/GenericBase.cpp.o
 bin/mission: src/CMakeFiles/mission.dir/JointMotor.cpp.o
 bin/mission: src/CMakeFiles/mission.dir/GotoPoint.cpp.o
+bin/mission: src/CMakeFiles/mission.dir/SimpleArm.cpp.o
 bin/mission: src/CMakeFiles/mission.dir/AprilTags.cpp.o
 bin/mission: src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o
 bin/mission: src/CMakeFiles/mission.dir/build.make
@@ -528,7 +561,7 @@ bin/mission: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 bin/mission: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.9.5
 bin/mission: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 bin/mission: src/CMakeFiles/mission.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable ../bin/mission"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/salabeta/robocomp/components/Robotica/mission/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable ../bin/mission"
 	cd /home/salabeta/robocomp/components/Robotica/mission/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mission.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -550,6 +583,7 @@ src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/CommonBehavior.c
 src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/GenericBase.cpp.o.requires
 src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/JointMotor.cpp.o.requires
 src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/GotoPoint.cpp.o.requires
+src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/SimpleArm.cpp.o.requires
 src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/AprilTags.cpp.o.requires
 src/CMakeFiles/mission.dir/requires: src/CMakeFiles/mission.dir/mission_autogen/mocs_compilation.cpp.o.requires
 
@@ -567,6 +601,8 @@ src/CMakeFiles/mission.dir/depend: src/JointMotor.cpp
 src/CMakeFiles/mission.dir/depend: src/JointMotor.h
 src/CMakeFiles/mission.dir/depend: src/GotoPoint.cpp
 src/CMakeFiles/mission.dir/depend: src/GotoPoint.h
+src/CMakeFiles/mission.dir/depend: src/SimpleArm.cpp
+src/CMakeFiles/mission.dir/depend: src/SimpleArm.h
 src/CMakeFiles/mission.dir/depend: src/AprilTags.cpp
 src/CMakeFiles/mission.dir/depend: src/AprilTags.h
 	cd /home/salabeta/robocomp/components/Robotica/mission && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/Robotica/mission /home/salabeta/robocomp/components/Robotica/mission/src /home/salabeta/robocomp/components/Robotica/mission /home/salabeta/robocomp/components/Robotica/mission/src /home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/DependInfo.cmake --color=$(COLOR)

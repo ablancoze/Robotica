@@ -5,3 +5,4 @@
 8919d17b8ccb2a47493cf426d54ac363 src/GenericBase.cpp
 727295950d38d2c687337d6b5cf82cb9 src/GotoPoint.cpp
 146ed5da6feba5808a8520d31282c133 src/JointMotor.cpp
+986667743159a2f87a6cbae059dbe302 src/SimpleArm.cpp

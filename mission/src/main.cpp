@@ -1,5 +1,5 @@
 /*
- *    Copyright (C) 2019 by YOUR NAME HERE
+ *    Copyright (C) 2020 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -137,6 +137,7 @@ int ::mission::run(int argc, char* argv[])
 	int status=EXIT_SUCCESS;
 
 	GotoPointPrxPtr gotopoint_proxy;
+	SimpleArmPrxPtr simplearm_proxy;
 
 	string proxy, tmp;
 	initialize();
@@ -157,6 +158,22 @@ int ::mission::run(int argc, char* argv[])
 	}
 	rInfo("GotoPointProxy initialized Ok!");
 
+
+	try
+	{
+		if (not GenericMonitor::configGetString(communicator(), prefix, "SimpleArmProxy", proxy, ""))
+		{
+			cout << "[" << PROGRAM_NAME << "]: Can't read configuration for proxy SimpleArmProxy\n";
+		}
+		simplearm_proxy = Ice::uncheckedCast<SimpleArmPrx>( communicator()->stringToProxy( proxy ) );
+	}
+	catch(const Ice::Exception& ex)
+	{
+		cout << "[" << PROGRAM_NAME << "]: Exception creating proxy SimpleArm: " << ex;
+		return EXIT_FAILURE;
+	}
+	rInfo("SimpleArmProxy initialized Ok!");
+
 	IceStorm::TopicManagerPrxPtr topicManager;
 	try
 	{
@@ -168,7 +185,7 @@ int ::mission::run(int argc, char* argv[])
 		return EXIT_FAILURE;
 	}
 
-	tprx = std::make_tuple(gotopoint_proxy);
+	tprx = std::make_tuple(gotopoint_proxy,simplearm_proxy);
 	SpecificWorker *worker = new SpecificWorker(tprx);
 	//Monitor thread
 	SpecificMonitor *monitor = new SpecificMonitor(worker,communicator());

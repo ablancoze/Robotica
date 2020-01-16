@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/salabeta/robocomp/components/Robotica/mission/src/GenericBase.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/GenericBase.cpp.o"
   "/home/salabeta/robocomp/components/Robotica/mission/src/GotoPoint.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/GotoPoint.cpp.o"
   "/home/salabeta/robocomp/components/Robotica/mission/src/JointMotor.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/JointMotor.cpp.o"
+  "/home/salabeta/robocomp/components/Robotica/mission/src/SimpleArm.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/SimpleArm.cpp.o"
   "/home/salabeta/robocomp/components/Robotica/mission/src/apriltagsI.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/apriltagsI.cpp.o"
   "/home/salabeta/robocomp/components/Robotica/mission/src/commonbehaviorI.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/commonbehaviorI.cpp.o"
   "/home/salabeta/robocomp/components/Robotica/mission/src/genericmonitor.cpp" "/home/salabeta/robocomp/components/Robotica/mission/src/CMakeFiles/mission.dir/genericmonitor.cpp.o"
@@ -68,6 +69,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/salabeta/robocomp/components/Robotica/mission/src/GenericBase.h" "/home/salabeta/robocomp/components/Robotica/mission/src/GenericBase.cpp"
   "/home/salabeta/robocomp/components/Robotica/mission/src/GotoPoint.h" "/home/salabeta/robocomp/components/Robotica/mission/src/GotoPoint.cpp"
   "/home/salabeta/robocomp/components/Robotica/mission/src/JointMotor.h" "/home/salabeta/robocomp/components/Robotica/mission/src/JointMotor.cpp"
+  "/home/salabeta/robocomp/components/Robotica/mission/src/SimpleArm.h" "/home/salabeta/robocomp/components/Robotica/mission/src/SimpleArm.cpp"
   )
 
 

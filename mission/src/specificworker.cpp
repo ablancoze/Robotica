@@ -32,7 +32,7 @@ SpecificWorker::SpecificWorker(TuplePrx tprx) : GenericWorker(tprx)
 SpecificWorker::~SpecificWorker()
 {
 	std::cout << "Destroying SpecificWorker" << std::endl;
-	emit computetofinalize();
+	emit t_compute_to_finalize();
 }
 
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
@@ -61,7 +61,7 @@ void SpecificWorker::initialize(int period)
 	std::cout << "Initialize worker" << std::endl;
 	this->Period = period;
 	timer.start(Period);
-	emit this->initializetocompute();
+	emit this->t_initialize_to_compute();
 	
 }
 
@@ -151,7 +151,7 @@ void SpecificWorker::checkTag()
 void SpecificWorker::goTo()
 { 	
 
-	auto [id,x,y,alpha] = tag.read()[0];	
+	auto [id,x,y,alpha,camara] = tag.read()[0];	
 	
 	try
 	{
@@ -177,8 +177,21 @@ void SpecificWorker::waiting()
 		qDebug()<<"Mission waiting";
 		if (gotopoint_proxy->atTarget())
 		{
-			SimpleArmPrx->moveTo(/*poseD6*/); // deberia mover el brazo
-			estado = Estados::GETITEM;
+			qDebug()<<"Mission waiting DONE";
+			qDebug()<<"Mission waiting DONE";
+			qDebug()<<"Mission waiting DONE";
+			qDebug()<<"Mission waiting DONE";
+			for (int i = 0; i<5; i++)
+			{
+				simplearm_proxy->moveTo({0,-1,0,0,0,0}); // deberia mover el brazo
+			}
+
+			for (int i = 0; i<5; i++)
+			{
+				simplearm_proxy->moveTo({0,1,0,0,0,0}); // deberia mover el brazo
+			}
+			
+			estado = Estados::IDLE;
 		}
 			
 
@@ -195,7 +208,7 @@ void SpecificWorker::getItem()
 	try
 	{
 		qDebug()<<"Mission geting Box";	
-		gotopoint_proxy->
+		//gotopoint_proxy->
 	}	
 	catch (const std::exception& e) 
 	{
@@ -237,7 +250,7 @@ void SpecificWorker::AprilTags_newAprilTag(tagsList tags)
 	std::vector<Tp> tps;
 	for(const auto &t : tags)
 	{
-		tps.push_back(std::make_tuple(t.id,t.tx,t.tz,t.ry));
+		tps.push_back(std::make_tuple(t.id,t.tx,t.tz,t.ry,t.cameraId));
 	}
 	tag.write(tps);
 

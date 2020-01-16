@@ -35,7 +35,7 @@ class SpecificWorker : public GenericWorker
 Q_OBJECT
 public:
 
-	enum class Estados{IDLE,TURN,CHECKTAG,GOTO,WAITING,GETITEM};
+	enum class Estados{IDLE,TURN,CHECKTAG,GOTO,WAITING,GETITEM,GOCENTER};
 	Estados estado = Estados::IDLE;
 
 	SpecificWorker(TuplePrx tprx);
@@ -44,7 +44,7 @@ public:
 
 	void AprilTags_newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState);
 	void AprilTags_newAprilTag(tagsList tags);
-	using Tp = std::tuple<int,float,float,float>;
+	using Tp = std::tuple<int,float,float,float,std::string>;
 	
 	struct Tag
 	{

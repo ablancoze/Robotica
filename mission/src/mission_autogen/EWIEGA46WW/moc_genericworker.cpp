@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_GenericWorker_t {
     QByteArrayData data[12];
-    char stringdata0[138];
+    char stringdata0[150];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,19 +34,19 @@ static const qt_meta_stringdata_GenericWorker_t qt_meta_stringdata_GenericWorker
 QT_MOC_LITERAL(0, 0, 13), // "GenericWorker"
 QT_MOC_LITERAL(1, 14, 4), // "kill"
 QT_MOC_LITERAL(2, 19, 0), // ""
-QT_MOC_LITERAL(3, 20, 19), // "initializetocompute"
-QT_MOC_LITERAL(4, 40, 16), // "computetocompute"
-QT_MOC_LITERAL(5, 57, 17), // "computetofinalize"
-QT_MOC_LITERAL(6, 75, 10), // "sm_compute"
-QT_MOC_LITERAL(7, 86, 13), // "sm_initialize"
-QT_MOC_LITERAL(8, 100, 11), // "sm_finalize"
-QT_MOC_LITERAL(9, 112, 7), // "compute"
-QT_MOC_LITERAL(10, 120, 10), // "initialize"
-QT_MOC_LITERAL(11, 131, 6) // "period"
+QT_MOC_LITERAL(3, 20, 23), // "t_initialize_to_compute"
+QT_MOC_LITERAL(4, 44, 20), // "t_compute_to_compute"
+QT_MOC_LITERAL(5, 65, 21), // "t_compute_to_finalize"
+QT_MOC_LITERAL(6, 87, 10), // "sm_compute"
+QT_MOC_LITERAL(7, 98, 13), // "sm_initialize"
+QT_MOC_LITERAL(8, 112, 11), // "sm_finalize"
+QT_MOC_LITERAL(9, 124, 7), // "compute"
+QT_MOC_LITERAL(10, 132, 10), // "initialize"
+QT_MOC_LITERAL(11, 143, 6) // "period"
 
     },
-    "GenericWorker\0kill\0\0initializetocompute\0"
-    "computetocompute\0computetofinalize\0"
+    "GenericWorker\0kill\0\0t_initialize_to_compute\0"
+    "t_compute_to_compute\0t_compute_to_finalize\0"
     "sm_compute\0sm_initialize\0sm_finalize\0"
     "compute\0initialize\0period"
 };
@@ -101,9 +101,9 @@ void GenericWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->kill(); break;
-        case 1: _t->initializetocompute(); break;
-        case 2: _t->computetocompute(); break;
-        case 3: _t->computetofinalize(); break;
+        case 1: _t->t_initialize_to_compute(); break;
+        case 2: _t->t_compute_to_compute(); break;
+        case 3: _t->t_compute_to_finalize(); break;
         case 4: _t->sm_compute(); break;
         case 5: _t->sm_initialize(); break;
         case 6: _t->sm_finalize(); break;
@@ -122,21 +122,21 @@ void GenericWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         }
         {
             typedef void (GenericWorker::*_t)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GenericWorker::initializetocompute)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GenericWorker::t_initialize_to_compute)) {
                 *result = 1;
                 return;
             }
         }
         {
             typedef void (GenericWorker::*_t)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GenericWorker::computetocompute)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GenericWorker::t_compute_to_compute)) {
                 *result = 2;
                 return;
             }
         }
         {
             typedef void (GenericWorker::*_t)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GenericWorker::computetofinalize)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GenericWorker::t_compute_to_finalize)) {
                 *result = 3;
                 return;
             }
@@ -189,19 +189,19 @@ void GenericWorker::kill()
 }
 
 // SIGNAL 1
-void GenericWorker::initializetocompute()
+void GenericWorker::t_initialize_to_compute()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
-void GenericWorker::computetocompute()
+void GenericWorker::t_compute_to_compute()
 {
     QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 
 // SIGNAL 3
-void GenericWorker::computetofinalize()
+void GenericWorker::t_compute_to_finalize()
 {
     QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
 }

@@ -321,6 +321,33 @@ JointMotor.cpp.s:
 	cd /home/salabeta/robocomp/components/Robotica/mission && $(MAKE) -f src/CMakeFiles/mission.dir/build.make src/CMakeFiles/mission.dir/JointMotor.cpp.s
 .PHONY : JointMotor.cpp.s
 
+SimpleArm.o: SimpleArm.cpp.o
+
+.PHONY : SimpleArm.o
+
+# target to build an object file
+SimpleArm.cpp.o:
+	cd /home/salabeta/robocomp/components/Robotica/mission && $(MAKE) -f src/CMakeFiles/mission.dir/build.make src/CMakeFiles/mission.dir/SimpleArm.cpp.o
+.PHONY : SimpleArm.cpp.o
+
+SimpleArm.i: SimpleArm.cpp.i
+
+.PHONY : SimpleArm.i
+
+# target to preprocess a source file
+SimpleArm.cpp.i:
+	cd /home/salabeta/robocomp/components/Robotica/mission && $(MAKE) -f src/CMakeFiles/mission.dir/build.make src/CMakeFiles/mission.dir/SimpleArm.cpp.i
+.PHONY : SimpleArm.cpp.i
+
+SimpleArm.s: SimpleArm.cpp.s
+
+.PHONY : SimpleArm.s
+
+# target to generate assembly for a file
+SimpleArm.cpp.s:
+	cd /home/salabeta/robocomp/components/Robotica/mission && $(MAKE) -f src/CMakeFiles/mission.dir/build.make src/CMakeFiles/mission.dir/SimpleArm.cpp.s
+.PHONY : SimpleArm.cpp.s
+
 apriltagsI.o: apriltagsI.cpp.o
 
 .PHONY : apriltagsI.o
@@ -647,6 +674,9 @@ help:
 	@echo "... JointMotor.o"
 	@echo "... JointMotor.i"
 	@echo "... JointMotor.s"
+	@echo "... SimpleArm.o"
+	@echo "... SimpleArm.i"
+	@echo "... SimpleArm.s"
 	@echo "... apriltagsI.o"
 	@echo "... apriltagsI.i"
 	@echo "... apriltagsI.s"

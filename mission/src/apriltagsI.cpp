@@ -1,5 +1,5 @@
 /*
- *    Copyright (C) 2019 by YOUR NAME HERE
+ *    Copyright (C) 2020 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -28,13 +28,13 @@ AprilTagsI::~AprilTagsI()
 {
 }
 
-void AprilTagsI::newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState, const Ice::Current&)
-{
-	worker->AprilTags_newAprilTagAndPose(tags, bState, hState);
-}
-
 void AprilTagsI::newAprilTag(tagsList tags, const Ice::Current&)
 {
 	worker->AprilTags_newAprilTag(tags);
+}
+
+void AprilTagsI::newAprilTagAndPose(tagsList tags, RoboCompGenericBase::TBaseState bState, RoboCompJointMotor::MotorStateMap hState, const Ice::Current&)
+{
+	worker->AprilTags_newAprilTagAndPose(tags, bState, hState);
 }
 
