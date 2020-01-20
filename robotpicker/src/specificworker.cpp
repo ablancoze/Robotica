@@ -256,7 +256,7 @@ void SpecificWorker::rodear()
 		}
 	}
 	target.setBandera(false);
-	if (distancia<150)
+	if (distancia<200)
 	{
 		estado = IDLE;
 		differentialrobot_proxy->setSpeedBase(0,0);
@@ -356,8 +356,9 @@ bool SpecificWorker::GotoPoint_atTarget()
 	QVec tr;
 	tr = innermodel->transform("base", QVec::vec3(target.x, 0, target.z), "world");
 	distancia = tr.norm2(); //Devuelve el tamaño del vector
-	
-	if (distancia < 300)
+
+	qDebug()<<"distancia: "<< distancia;
+	if (distancia < 200)
 		return true;
 	
 	return false;

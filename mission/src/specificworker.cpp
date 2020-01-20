@@ -129,7 +129,7 @@ void SpecificWorker::turn()
 	try
 	{
 		qDebug()<<"Mission turn";
-		if(tag.isEmpty())
+		if(tag.isEmpty() == false)
 		{
 			estado = Estados::GOTO;
 			gotopoint_proxy->stop();
@@ -137,7 +137,7 @@ void SpecificWorker::turn()
 		gotopoint_proxy->turn(0.5);
 
 	}
-	catch(const std::exception& e)
+	catch(const Ice::Exception& e)
 	{
 		std::cerr << e.what() << '\n';
 	}
@@ -150,9 +150,7 @@ void SpecificWorker::checkTag()
 
 void SpecificWorker::goTo()
 { 	
-
 	auto [id,x,y,alpha,camara] = tag.read()[0];	
-	
 	try
 	{
 		qDebug()<<"Mission goTo id: "<<id;
@@ -177,21 +175,17 @@ void SpecificWorker::waiting()
 		qDebug()<<"Mission waiting";
 		if (gotopoint_proxy->atTarget())
 		{
-			qDebug()<<"Mission waiting DONE";
-			qDebug()<<"Mission waiting DONE";
-			qDebug()<<"Mission waiting DONE";
-			qDebug()<<"Mission waiting DONE";
-			for (int i = 0; i<5; i++)
+			for (int i = 0; i<25; i++)
 			{
-				simplearm_proxy->moveTo({0,-1,0,0,0,0}); // deberia mover el brazo
+				simplearm_proxy->moveTo({0,-5,0,0,0,0}); // deberia mover el brazo
 			}
 
-			for (int i = 0; i<5; i++)
+			for (int i = 0; i<25; i++)
 			{
-				simplearm_proxy->moveTo({0,1,0,0,0,0}); // deberia mover el brazo
+				simplearm_proxy->moveTo({0,5,0,0,0,0}); // deberia mover el brazo
 			}
 			
-			estado = Estados::IDLE;
+			estado = Estados::GETITEM;
 		}
 			
 
@@ -208,7 +202,7 @@ void SpecificWorker::getItem()
 	try
 	{
 		qDebug()<<"Mission geting Box";	
-		//gotopoint_proxy->
+		gotopoint_proxy->stop();
 	}	
 	catch (const std::exception& e) 
 	{

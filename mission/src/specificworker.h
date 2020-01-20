@@ -62,13 +62,14 @@ public:
 
 		Tag()
 		{
-
+			QMutexLocker locker(&mutex);
+			active.store(true);
 		}
 
 		void write(std::vector<Tp> &d)
 		{
 			QMutexLocker locker(&mutex);
-			active.store(true);
+			active.store(false);
 			datos.swap(d);
 		}
 
